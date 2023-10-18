@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.DoubleSymmetry:KotlinAudio:v1.2.4@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/32eb84cc465483a173c3c20742287ad8/transformed/jetified-KotlinAudio-v1.2.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/32eb84cc465483a173c3c20742287ad8/transformed/jetified-KotlinAudio-v1.2.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/32eb84cc465483a173c3c20742287ad8/transformed/jetified-KotlinAudio-v1.2.4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.DoubleSymmetry/KotlinAudio/v1.2.4/2ebeda52ff10cd76f9d56b8cbc5ee0d5252b9ce/KotlinAudio-v1.2.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

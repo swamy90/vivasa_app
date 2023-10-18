@@ -1,0 +1,13 @@
+export const dialogflowConfig = {
+    type: "service_account",
+    project_id: "owlystore-7bf6e",
+    private_key_id: "cdb73735f2715b8022238dfec931cc4b7119c34e",
+    private_key: "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwRGJih00liIZh\nMajo13GuAl2ErGsTaR7ZxbclnehOlLyydYnK5gWFgHaflhH7wNtjH7opDvVMph+P\n/zhbw8p79RspkpA3zisnK51+UYvMkZSjk9VXcAH0rcd+uXK1HS6+ORwF74g7Cxtb\nPEaBjiueSDSRtxBMnN8XxPBbbf4+VqupAmsv7QNqgBy1pSVB3XcCN6Ra1reriL9R\nta9qLlJbXWMUYV0K9hMIcRCTSfdLHBT+sHyjn1JsvVg8qwbAt2xlFnEML9LuGi9L\ntaBYDKMyKFWCvaP+9wa5eXgmwefZ0pCbOEzjPDCY1nU4jkr0XkGa9Kz/T/HThdy4\nlU4WhDIbAgMBAAECggEAHbiiKD/tK69+DSRs+TneorsmXqkd8utuNsUmURLzqVBe\nEu9LuSkY9D5JgjYxORR3SZr/bk3l4bM/Li4YKCz21vjoyBU8+RPr5dJuX27LlkZT\n3FMgjXpG8iVdNop5g310tMF3bq7Jdz8zsSoUL2M0Cp/dMVa/SlPHMEBWUOxWitcV\nbk4R75LsLXesJ5k4boreDnwEU5rFPoTG1YbOKw06cQQ+v+O9pVnIqmx9V8fxFoDB\nmk7rwFVmVhKYcp+ZTp6L7cDrhBYkxPDsxf41dIBj3uyPWB/ez37hkjPemQz27xB6\nW4wDAXqiIiNeWLTpV4P5t0xZiCTNJeh0ngL2vJm4fQKBgQDpRXWnT10oyeZd5M0x\nVCk8QHoR1wf0mJzof7/C5+IfQhpl6fLhb+Bt+myx9/5YhCjnKoMneQH32oJGh/b8\nQmgtdxznhA0Mx2fzRH5iVfv1Xh0ad4EncbTRxNOIEsLAcc4xMrkTdlnV4EreDG6z\nl8P+Mqifj0gyHAPnYfWvUWferwKBgQDBcQ5LWc5xl/OO/n7sfGzUFjz39SWayt+T\ncgCWZCwUX9hk77d0wg1Q6OC12Ewk/iiz1UzTc7lngqE4hxN3At71EXgZuBkd8yKN\nOmzrfwQ926Ho+/zif57qyVz63SkS50WiWMsO51aiqGL95uJ9I5sgbnI8D2JPohCU\n39YIQa1eVQKBgC2WrY+tKv+1tZfUB2YElKp5z2F9LMjYqpGlpcxplP+W46HXPuhf\n/PSBZIzDcqnJ6lSDMm6cb44I3jz6hYJ3V/TKupNkc0h0EBSy5iBBvaQOaJGrmUok\nJrp4RP7q67TAiROEXjc3ggcSdo8+zsO6fUtIizvjvLBOWVT3CBTjS/FxAoGBAKVy\nAHvJz5uwDovadsvkj1/FtVeNwB/oK9h7xKzb+Cdk4jtSG2ItJh5xTt+4o0dwaXeF\nkzO24nf5bdJfFPLQ7chErKeyoSjQbljEA6xW8lXFp3ERNHS0GkNM/c1BooOcch4s\nO1//1EVCJ4hpFIVbEq5mSCW+MqNRRUVPPEvLgHARAoGBAI94jqP9XHQKLLBdaF4g\nJ6KMLXxD6g6/okdUaEJiAEZZUDQHlW/lC0pZ/YeOqRejuLfWiLKR84r2/lT7TjlZ\nMulludApFyp5OvQy2jGmiNVK4NS6kQ4BLuYxbqYzmRu5332qYZoX3JrkNYT49m5r\nrkWlsikxYA6pgn0DFfW2DCRy\n-----END PRIVATE KEY-----\n",
+    client_email: "owlystore@owlystore-7bf6e.iam.gserviceaccount.com",
+    client_id: "107942191409984526775",
+    auth_uri: "https://accounts.google.com/o/oauth2/auth",
+    token_uri: "https://oauth2.googleapis.com/token",
+    auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs",
+    client_x509_cert_url: "https://www.googleapis.com/robot/v1/metadata/x509/owlystore%40owlystore-7bf6e.iam.gserviceaccount.com",
+    universe_domain: "googleapis.com"
+}; // npm install --save react-native-gifted-chat react-native-dialogflow react-native-voice

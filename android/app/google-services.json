@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "269878865465",
+    "project_id": "owlystore-7bf6e",
+    "storage_bucket": "owlystore-7bf6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269878865465:android:f0f57609676d7adcb0e7e8",
+        "android_client_info": {
+          "package_name": "com.createdinam.vivasa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269878865465-3dd6kflu03o6pjjaafl02lpj5cipuo84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.createdinam.vivasa",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "269878865465-aq2g6d0gphvs6h7p5vla6fn0dpgmor15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyq2nGfmBJbU4e3ufZO71gPWQXtL_ywI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269878865465-aq2g6d0gphvs6h7p5vla6fn0dpgmor15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

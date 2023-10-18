@@ -1,0 +1,1154 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.createdinam.vivasa"
+4    android:versionCode="13"
+5    android:versionName="1.2.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:5:22-64
+12    <!-- Define ACCESS_FINE_LOCATION if you will use enableHighAccuracy=true -->
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:7:5-78
+13-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:8:5-80
+14-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:9:5-10:40
+15-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:11:5-65
+16-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:11:22-62
+17
+18    <uses-feature android:name="android.hardware.camera" />
+18-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:12:5-60
+18-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:12:19-57
+19    <uses-feature android:name="android.hardware.camera.autofocus" />
+19-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:13:5-70
+19-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:13:19-67
+20    <!-- Define ACCESS_COARSE_LOCATION if you will use enableHighAccuracy=false -->
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:15:5-80
+21-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:15:22-78
+22    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+22-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:16:5-81
+22-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:16:22-78
+23    <uses-permission android:name="android.permission.VIBRATE" />
+23-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:17:5-66
+23-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:17:22-63
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+24-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:18:5-77
+24-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:18:22-74
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:19:5-68
+25-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:19:22-65
+26    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+26-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:20:5-75
+26-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:20:22-72
+27
+28    <uses-feature
+28-->[:react-native-scan-barcode] /Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:5-16:36
+29        android:name="android.hardware.camera.front"
+29-->[:react-native-scan-barcode] /Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-53
+30        android:required="false" />
+30-->[:react-native-scan-barcode] /Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-33
+31
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+32-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+33
+34    <queries>
+34-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
+35        <intent>
+35-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+36            <action android:name="android.media.action.IMAGE_CAPTURE" />
+36-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-73
+36-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-70
+37        </intent>
+38        <intent>
+38-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:18:9-20:18
+39            <action android:name="android.speech.RecognitionService" />
+39-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:19:13-72
+39-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:19:21-69
+40        </intent>
+41
+42        <package android:name="androidx.test.orchestrator" />
+42-->[androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-3/576c088c8fb10fed8ab09777b8455141/transformed/runner-1.4.0/AndroidManifest.xml:25:9-62
+42-->[androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-3/576c088c8fb10fed8ab09777b8455141/transformed/runner-1.4.0/AndroidManifest.xml:25:18-59
+43        <package android:name="androidx.test.services" />
+43-->[androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-3/576c088c8fb10fed8ab09777b8455141/transformed/runner-1.4.0/AndroidManifest.xml:26:9-58
+43-->[androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-3/576c088c8fb10fed8ab09777b8455141/transformed/runner-1.4.0/AndroidManifest.xml:26:18-55
+44        <package android:name="com.google.android.apps.common.testing.services" />
+44-->[androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-3/576c088c8fb10fed8ab09777b8455141/transformed/runner-1.4.0/AndroidManifest.xml:27:9-83
+44-->[androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-3/576c088c8fb10fed8ab09777b8455141/transformed/runner-1.4.0/AndroidManifest.xml:27:18-80
+45
+46        <intent>
+46-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:11:9-17:18
+47            <action android:name="android.intent.action.VIEW" />
+47-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:12:13-65
+47-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:12:21-62
+48
+49            <data
+49-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:14:13-16:38
+50                android:mimeType="*/*"
+50-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:15:17-39
+51                android:scheme="*" />
+51-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:16:17-35
+52        </intent>
+53        <intent>
+53-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:18:9-27:18
+54            <action android:name="android.intent.action.VIEW" />
+54-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:12:13-65
+54-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:12:21-62
+55
+56            <category android:name="android.intent.category.BROWSABLE" />
+56-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:21:13-74
+56-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:21:23-71
+57
+58            <data
+58-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:14:13-16:38
+59                android:host="pay"
+60                android:mimeType="*/*"
+60-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:15:17-39
+61                android:scheme="upi" />
+61-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:16:17-35
+62        </intent>
+63        <intent>
+63-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:28:9-30:18
+64            <action android:name="android.intent.action.MAIN" />
+64-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:44:13-65
+64-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:44:21-62
+65        </intent>
+66        <intent>
+66-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:31:9-35:18
+67            <action android:name="android.intent.action.SEND" />
+67-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:32:13-65
+67-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:32:21-62
+68
+69            <data android:mimeType="*/*" />
+69-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:14:13-16:38
+69-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:15:17-39
+70        </intent>
+71        <intent>
+71-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:36:9-38:18
+72            <action android:name="rzp.device_token.share" />
+72-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:37:13-61
+72-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:37:21-58
+73        </intent>
+74    </queries>
+75
+76    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+76-->[:react-native-voice] /Users/pooja/Documents/Vivasa/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-71
+76-->[:react-native-voice] /Users/pooja/Documents/Vivasa/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-68
+77    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+77-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:5-77
+77-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:22-74
+78    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+78-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:5-82
+78-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:22-79
+79    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+79-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/pooja/.gradle/caches/transforms-3/808bdafa0d0af7c6f99eb4c25ca1f507/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:25:5-79
+79-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/pooja/.gradle/caches/transforms-3/808bdafa0d0af7c6f99eb4c25ca1f507/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:25:22-76
+80    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+80-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:22:5-24:30
+80-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:23:9-65
+81
+82    <uses-feature
+82-->[com.google.android.gms:play-services-maps:17.0.0] /Users/pooja/.gradle/caches/transforms-3/b0bedba31ccd9257f3af288e61cb4fb6/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+83        android:glEsVersion="0x00020000"
+83-->[com.google.android.gms:play-services-maps:17.0.0] /Users/pooja/.gradle/caches/transforms-3/b0bedba31ccd9257f3af288e61cb4fb6/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+84        android:required="true" />
+84-->[com.google.android.gms:play-services-maps:17.0.0] /Users/pooja/.gradle/caches/transforms-3/b0bedba31ccd9257f3af288e61cb4fb6/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+85
+86    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+86-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/pooja/.gradle/caches/transforms-3/05d4df7d76178df7380a9983c680f423/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:26:5-110
+86-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/pooja/.gradle/caches/transforms-3/05d4df7d76178df7380a9983c680f423/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:26:22-107
+87
+88    <permission
+88-->[androidx.core:core:1.9.0] /Users/pooja/.gradle/caches/transforms-3/91e5ae0e30bfc9e5e66a0fa550b98906/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+89        android:name="com.createdinam.vivasa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+89-->[androidx.core:core:1.9.0] /Users/pooja/.gradle/caches/transforms-3/91e5ae0e30bfc9e5e66a0fa550b98906/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+90        android:protectionLevel="signature" />
+90-->[androidx.core:core:1.9.0] /Users/pooja/.gradle/caches/transforms-3/91e5ae0e30bfc9e5e66a0fa550b98906/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+91
+92    <uses-permission android:name="com.createdinam.vivasa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
+92-->[androidx.core:core:1.9.0] /Users/pooja/.gradle/caches/transforms-3/91e5ae0e30bfc9e5e66a0fa550b98906/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+92-->[androidx.core:core:1.9.0] /Users/pooja/.gradle/caches/transforms-3/91e5ae0e30bfc9e5e66a0fa550b98906/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+93    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+94    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+95    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+96    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+97    <!-- for Samsung -->
+98    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+98-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+98-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+99    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+99-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+99-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+100    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+100-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+100-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+101    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+101-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+101-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+102    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+102-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+102-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+103    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+103-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+103-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+104    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+104-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+104-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+105    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+105-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+105-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+106    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+106-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+106-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+107    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+107-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+107-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+108    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+108-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+108-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+109    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+109-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+109-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+110    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+110-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+110-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+111    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+111-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+111-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+112    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+112-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+112-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+113    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+113-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+113-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+114
+115    <application
+115-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:22:5-106:19
+116        android:name="com.createdinam.vivasa.MainApplication"
+116-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:23:7-38
+117        android:allowBackup="true"
+117-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:27:7-33
+118        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+118-->[androidx.core:core:1.9.0] /Users/pooja/.gradle/caches/transforms-3/91e5ae0e30bfc9e5e66a0fa550b98906/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+119        android:dataExtractionRules="@xml/data_extraction_rules"
+119-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:29:7-63
+120        android:icon="@mipmap/ic_launcher"
+120-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:25:7-41
+121        android:label="@string/app_name"
+121-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:24:7-39
+122        android:roundIcon="@mipmap/ic_launcher"
+122-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:26:7-46
+123        android:supportsRtl="true"
+123-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:26:9-35
+124        android:theme="@style/AppTheme" >
+124-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:28:7-38
+125        <meta-data
+125-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:32:9-34:36
+126            android:name="com.google.android.gms.wallet.api.enabled"
+126-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:33:13-69
+127            android:value="true" />
+127-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:34:13-33
+128
+129        <activity
+129-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:35:7-47:18
+130            android:name="com.createdinam.vivasa.MainActivity"
+130-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:36:9-37
+131            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+131-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:38:9-118
+132            android:exported="true"
+132-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:41:9-32
+133            android:label="@string/app_name"
+133-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:37:9-41
+134            android:launchMode="singleTask"
+134-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:39:9-40
+135            android:windowSoftInputMode="adjustResize" >
+135-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:40:9-51
+136            <meta-data
+136-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:42:9-155
+137                android:name="com.google.firebase.messaging.default_notification_channel_id"
+137-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:42:20-96
+138                android:value="@string/default_notification_channel_id" />
+138-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:42:97-152
+139
+140            <intent-filter>
+140-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:43:9-46:25
+141                <action android:name="android.intent.action.MAIN" />
+141-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:44:13-65
+141-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:44:21-62
+142
+143                <category android:name="android.intent.category.LAUNCHER" />
+143-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:45:13-73
+143-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:45:23-70
+144            </intent-filter>
+145        </activity>
+146
+147        <meta-data
+147-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:48:9-49:41
+148            android:name="com.dieam.reactnativepushnotification.notification_channel_name"
+148-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:48:21-99
+149            android:value="my-channel" />
+149-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:49:13-39
+150        <meta-data
+150-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:50:9-51:41
+151            android:name="com.dieam.reactnativepushnotification.notification_channel_description"
+151-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:50:21-106
+152            android:value="my channel" />
+152-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:51:13-39
+153
+154        <!-- Change the value to true to enable pop-up for in foreground (remote-only, for local use ignoreInForeground) -->
+155        <meta-data
+155-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:54:9-55:36
+156            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+156-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:54:21-97
+157            android:value="false" />
+157-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:55:13-34
+158        <!-- Change the value to false if you don't want the creation of the default channel -->
+159        <meta-data
+159-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:57:9-58:36
+160            android:name="com.dieam.reactnativepushnotification.channel_create_default"
+160-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:57:21-96
+161            android:value="true " />
+161-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:58:13-34
+162        <!-- Change the resource name to your App's accent color - or any other color you want -->
+163        <meta-data
+163-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:60:9-61:46
+164            android:name="com.dieam.reactnativepushnotification.notification_color"
+164-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:60:21-92
+165            android:resource="@color/white" />
+165-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:61:13-44
+166        <!-- or @android:color/{name} to use a standard color -->
+167
+168        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+168-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:64:9-108
+168-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:64:19-105
+169        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+169-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:65:9-110
+169-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:65:19-107
+170        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+170-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:64:9-108
+170-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:64:19-105
+171        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+171-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:65:9-110
+171-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:65:19-107
+172        <receiver
+172-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:68:9-74:20
+173            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
+173-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:69:13-109
+174            android:exported="true" >
+174-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:70:13-36
+175            <intent-filter>
+175-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:71:13-73:29
+176                <action android:name="android.intent.action.BOOT_COMPLETED" />
+176-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:72:17-79
+176-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:72:25-76
+177            </intent-filter>
+178        </receiver>
+179
+180        <service
+180-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:75:9-81:19
+181            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+181-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:76:13-107
+182            android:exported="false" >
+182-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:77:13-37
+183            <intent-filter>
+183-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:78:13-80:29
+184                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+184-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:17-78
+184-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:25-75
+185            </intent-filter>
+186        </service>
+187
+188        <activity
+188-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:82:9-90:15
+189            android:name="com.reactnativefullscreennotificationincomingcall.IncomingCallActivity"
+189-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:83:13-98
+190            android:excludeFromRecents="true"
+190-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:86:13-46
+191            android:exported="true"
+191-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:87:13-36
+192            android:launchMode="singleTask"
+192-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:85:13-44
+193            android:showWhenLocked="true"
+193-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:88:13-42
+194            android:theme="@style/incomingCall"
+194-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:84:13-48
+195            android:turnScreenOn="true" />
+195-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:89:13-40
+196        <activity
+196-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:91:9-99:15
+197            android:name="com.reactnativefullscreennotificationincomingcall.NotificationReceiverActivity"
+197-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:92:13-106
+198            android:excludeFromRecents="true"
+198-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:95:13-46
+199            android:exported="true"
+199-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:96:13-36
+200            android:launchMode="singleTask"
+200-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:94:13-44
+201            android:showWhenLocked="true"
+201-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:97:13-42
+202            android:theme="@style/incomingCall"
+202-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:93:13-48
+203            android:turnScreenOn="true" />
+203-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:98:13-40
+204
+205        <service
+205-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:100:9-105:11
+206            android:name="com.reactnativefullscreennotificationincomingcall.IncomingCallService"
+206-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:101:13-97
+207            android:enabled="true"
+207-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:102:13-35
+208            android:exported="true"
+208-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:104:13-36
+209            android:stopWithTask="false" />
+209-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:103:13-41
+210
+211        <meta-data
+211-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:36
+212            android:name="firebase_analytics_collection_enabled"
+212-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-65
+213            android:value="true" />
+213-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-33
+214        <meta-data
+214-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-19:37
+215            android:name="firebase_analytics_collection_deactivated"
+215-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-69
+216            android:value="false" />
+216-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-34
+217        <meta-data
+217-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-22:36
+218            android:name="google_analytics_adid_collection_enabled"
+218-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-68
+219            android:value="true" />
+219-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-33
+220        <meta-data
+220-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-25:36
+221            android:name="google_analytics_ssaid_collection_enabled"
+221-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-69
+222            android:value="true" />
+222-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-33
+223        <meta-data
+223-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:9-28:36
+224            android:name="google_analytics_default_allow_ad_personalization_signals"
+224-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-85
+225            android:value="true" />
+225-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-33
+226        <meta-data
+226-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-31:36
+227            android:name="google_analytics_automatic_screen_reporting_enabled"
+227-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-79
+228            android:value="true" /> <!-- Disable crashlytics by default so we can custom init with CrashlyticsNdk support -->
+228-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-33
+229        <meta-data
+229-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-14:37
+230            android:name="firebase_crashlytics_collection_enabled"
+230-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-67
+231            android:value="false" />
+231-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-34
+232
+233        <provider
+233-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:38
+234            android:name="io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider"
+234-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-104
+235            android:authorities="com.createdinam.vivasa.reactnativefirebasecrashlyticsinitprovider"
+235-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-94
+236            android:exported="false"
+236-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+237            android:initOrder="98" />
+237-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-35
+238
+239        <service
+239-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:40
+240            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+240-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-103
+241            android:exported="false" />
+241-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+242        <service
+242-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-23:19
+243            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+243-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-95
+244            android:exported="false" >
+244-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+245            <intent-filter>
+245-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:78:13-80:29
+246                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+246-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:17-78
+246-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:25-75
+247            </intent-filter>
+248        </service>
+249
+250        <receiver
+250-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-32:20
+251            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+251-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-96
+252            android:exported="true"
+252-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+253            android:permission="com.google.android.c2dm.permission.SEND" >
+253-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-73
+254            <intent-filter>
+254-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
+255                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+255-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
+255-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
+256            </intent-filter>
+257        </receiver>
+258
+259        <meta-data
+259-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-36:36
+260            android:name="firebase_messaging_auto_init_enabled"
+260-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-64
+261            android:value="true" />
+261-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-33
+262        <meta-data
+262-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:42:9-155
+263            android:name="com.google.firebase.messaging.default_notification_channel_id"
+263-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:42:20-96
+264            android:value="" />
+264-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:42:97-152
+265        <meta-data
+265-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-42:47
+266            android:name="com.google.firebase.messaging.default_notification_color"
+266-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-84
+267            android:resource="@color/white" />
+267-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-44
+268        <meta-data
+268-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:36
+269            android:name="app_data_collection_default_enabled"
+269-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-63
+270            android:value="true" />
+270-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-33
+271
+272        <service
+272-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:19
+273            android:name="com.google.firebase.components.ComponentDiscoveryService"
+273-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-84
+274            android:directBootAware="true"
+274-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-43
+275            android:exported="false" >
+275-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+276            <meta-data
+276-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:85
+277                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+277-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-120
+278                android:value="com.google.firebase.components.ComponentRegistrar" />
+278-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
+279            <meta-data
+279-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
+280                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+280-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
+281                android:value="com.google.firebase.components.ComponentRegistrar" />
+281-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
+282            <meta-data
+282-->[com.google.firebase:firebase-crashlytics-ndk:18.3.6] /Users/pooja/.gradle/caches/transforms-3/e1e6d8ed585ca0c0fe72b34dd85891eb/transformed/jetified-firebase-crashlytics-ndk-18.3.6/AndroidManifest.xml:34:13-36:85
+283                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+283-->[com.google.firebase:firebase-crashlytics-ndk:18.3.6] /Users/pooja/.gradle/caches/transforms-3/e1e6d8ed585ca0c0fe72b34dd85891eb/transformed/jetified-firebase-crashlytics-ndk-18.3.6/AndroidManifest.xml:35:17-122
+284                android:value="com.google.firebase.components.ComponentRegistrar" />
+284-->[com.google.firebase:firebase-crashlytics-ndk:18.3.6] /Users/pooja/.gradle/caches/transforms-3/e1e6d8ed585ca0c0fe72b34dd85891eb/transformed/jetified-firebase-crashlytics-ndk-18.3.6/AndroidManifest.xml:36:17-82
+285            <meta-data
+285-->[com.google.firebase:firebase-crashlytics:18.3.6] /Users/pooja/.gradle/caches/transforms-3/a3ec5fd4b4b66bd9c814f85ca82eefc5/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:17:13-19:85
+286                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+286-->[com.google.firebase:firebase-crashlytics:18.3.6] /Users/pooja/.gradle/caches/transforms-3/a3ec5fd4b4b66bd9c814f85ca82eefc5/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:18:17-115
+287                android:value="com.google.firebase.components.ComponentRegistrar" />
+287-->[com.google.firebase:firebase-crashlytics:18.3.6] /Users/pooja/.gradle/caches/transforms-3/a3ec5fd4b4b66bd9c814f85ca82eefc5/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:19:17-82
+288            <meta-data
+288-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/pooja/.gradle/caches/transforms-3/0a7c500c64c86d8ffa6999f3aa64aa5d/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+289                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+289-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/pooja/.gradle/caches/transforms-3/0a7c500c64c86d8ffa6999f3aa64aa5d/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+290                android:value="com.google.firebase.components.ComponentRegistrar" />
+290-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/pooja/.gradle/caches/transforms-3/0a7c500c64c86d8ffa6999f3aa64aa5d/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+291            <meta-data
+291-->[com.google.firebase:firebase-dynamic-links:21.1.0] /Users/pooja/.gradle/caches/transforms-3/331832ff9f543ca6524bb1f8e90f5cd0/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:26:13-28:85
+292                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+292-->[com.google.firebase:firebase-dynamic-links:21.1.0] /Users/pooja/.gradle/caches/transforms-3/331832ff9f543ca6524bb1f8e90f5cd0/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:27:17-133
+293                android:value="com.google.firebase.components.ComponentRegistrar" />
+293-->[com.google.firebase:firebase-dynamic-links:21.1.0] /Users/pooja/.gradle/caches/transforms-3/331832ff9f543ca6524bb1f8e90f5cd0/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:28:17-82
+294            <meta-data
+294-->[com.google.firebase:firebase-database:20.1.0] /Users/pooja/.gradle/caches/transforms-3/9972d2cb54baf62da66c67a8817ec1e6/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+295                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+295-->[com.google.firebase:firebase-database:20.1.0] /Users/pooja/.gradle/caches/transforms-3/9972d2cb54baf62da66c67a8817ec1e6/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+296                android:value="com.google.firebase.components.ComponentRegistrar" />
+296-->[com.google.firebase:firebase-database:20.1.0] /Users/pooja/.gradle/caches/transforms-3/9972d2cb54baf62da66c67a8817ec1e6/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+297            <meta-data
+297-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/pooja/.gradle/caches/transforms-3/808bdafa0d0af7c6f99eb4c25ca1f507/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:31:13-33:85
+298                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+298-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/pooja/.gradle/caches/transforms-3/808bdafa0d0af7c6f99eb4c25ca1f507/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:32:17-139
+299                android:value="com.google.firebase.components.ComponentRegistrar" />
+299-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/pooja/.gradle/caches/transforms-3/808bdafa0d0af7c6f99eb4c25ca1f507/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:33:17-82
+300            <meta-data
+300-->[com.google.firebase:firebase-installations:17.1.3] /Users/pooja/.gradle/caches/transforms-3/c418cc6869518447fcc03f8b04f9b20c/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+301                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+301-->[com.google.firebase:firebase-installations:17.1.3] /Users/pooja/.gradle/caches/transforms-3/c418cc6869518447fcc03f8b04f9b20c/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+302                android:value="com.google.firebase.components.ComponentRegistrar" />
+302-->[com.google.firebase:firebase-installations:17.1.3] /Users/pooja/.gradle/caches/transforms-3/c418cc6869518447fcc03f8b04f9b20c/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+303        </service>
+304
+305        <provider
+305-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-29:38
+306            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+306-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-88
+307            android:authorities="com.createdinam.vivasa.reactnativefirebaseappinitprovider"
+307-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-86
+308            android:exported="false"
+308-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
+309            android:initOrder="99" />
+309-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-35
+310        <provider
+310-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-26:20
+311            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+311-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-94
+312            android:authorities="com.createdinam.vivasa.provider"
+312-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-60
+313            android:exported="false"
+313-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+314            android:grantUriPermissions="true" >
+314-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-47
+315            <meta-data
+315-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:78
+316                android:name="android.support.FILE_PROVIDER_PATHS"
+316-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-67
+317                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+317-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-75
+318        </provider>
+319
+320        <activity
+320-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-30:72
+321            android:name="com.yalantis.ucrop.UCropActivity"
+321-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-60
+322            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+322-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-69
+323
+324        <receiver
+324-->[:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-17:20
+325            android:name="com.reactnativeotpautofill.OtpBroadcastReceiver"
+325-->[:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-75
+326            android:exported="true"
+326-->[:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-36
+327            android:permission="com.google.android.gms.auth.api.phone.permission.SEND" >
+327-->[:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-87
+328            <intent-filter>
+328-->[:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-16:29
+329                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
+329-->[:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-94
+329-->[:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:25-91
+330            </intent-filter>
+331        </receiver>
+332
+333        <activity
+333-->[:react-native-razorpay] /Users/pooja/Documents/Vivasa/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:86
+334            android:name="com.razorpay.CheckoutActivity"
+334-->[:react-native-razorpay] /Users/pooja/Documents/Vivasa/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-57
+335            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+335-->[:react-native-razorpay] /Users/pooja/Documents/Vivasa/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-83
+336            android:exported="false"
+336-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:54:13-37
+337            android:theme="@style/CheckoutTheme" >
+337-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:55:13-49
+338            <intent-filter>
+338-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:56:13-58:29
+339                <action android:name="android.intent.action.MAIN" />
+339-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:44:13-65
+339-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:44:21-62
+340            </intent-filter>
+341        </activity> <!-- The main service, handles playback, playlists and media buttons -->
+342        <service
+342-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-22:19
+343            android:name="com.doublesymmetry.trackplayer.service.MusicService"
+343-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-79
+344            android:enabled="true"
+344-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-35
+345            android:exported="false" >
+345-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+346            <intent-filter>
+346-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-21:29
+347                <action android:name="android.intent.action.MEDIA_BUTTON" />
+347-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-77
+347-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:25-74
+348            </intent-filter>
+349        </service> <!-- A receiver that will receive media buttons. Required on pre-lollipop devices -->
+350        <receiver
+350-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-31:20
+351            android:name="androidx.media.session.MediaButtonReceiver"
+351-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-70
+352            android:exported="true" >
+352-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+353            <intent-filter>
+353-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-21:29
+354                <action android:name="android.intent.action.MEDIA_BUTTON" />
+354-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-77
+354-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:25-74
+355            </intent-filter>
+356        </receiver>
+357
+358        <provider
+358-->[:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+359            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+359-->[:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-83
+360            android:authorities="com.createdinam.vivasa.fileprovider"
+360-->[:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+361            android:exported="false"
+361-->[:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+362            android:grantUriPermissions="true" >
+362-->[:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+363            <meta-data
+363-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:78
+364                android:name="android.support.FILE_PROVIDER_PATHS"
+364-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-67
+365                android:resource="@xml/file_provider_paths" />
+365-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-75
+366        </provider>
+367        <provider
+367-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:27:9-36:20
+368            android:name="com.applozic.mobicomkit.uiwidgets.KmFileProvider"
+368-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:28:13-76
+369            android:authorities="com.createdinam.vivasa.provider"
+369-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:29:13-60
+370            android:exported="false"
+370-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:30:13-37
+371            android:grantUriPermissions="true" >
+371-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:31:13-47
+372            <meta-data
+372-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:78
+373                android:name="android.support.FILE_PROVIDER_PATHS"
+373-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-67
+374                android:resource="@xml/km_provider_paths" />
+374-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-75
+375        </provider>
+376
+377        <service
+377-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:38:9-45:19
+378            android:name="com.applozic.mobicomkit.uiwidgets.KmFirebaseMessagingService"
+378-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:39:13-88
+379            android:exported="true"
+379-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:40:13-36
+380            android:stopWithTask="false" >
+380-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:41:13-41
+381            <intent-filter>
+381-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:78:13-80:29
+382                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+382-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:17-78
+382-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:25-75
+383            </intent-filter>
+384        </service>
+385
+386        <activity
+386-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:47:9-53:34
+387            android:name="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity"
+387-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:48:13-104
+388            android:configChanges="keyboardHidden|screenSize|locale|smallestScreenSize|screenLayout|orientation"
+388-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:49:13-113
+389            android:label="@string/app_name"
+389-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:50:13-45
+390            android:launchMode="singleTask"
+390-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:51:13-44
+391            android:theme="@style/ApplozicTheme" />
+391-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:52:13-49
+392        <activity
+392-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:54:9-59:58
+393            android:name="com.applozic.mobicomkit.uiwidgets.conversation.activity.MobicomLocationActivity"
+393-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:55:13-107
+394            android:configChanges="keyboardHidden|screenSize|smallestScreenSize|screenLayout|orientation"
+394-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:56:13-106
+395            android:parentActivityName="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity"
+395-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:57:13-118
+396            android:theme="@style/ApplozicTheme"
+396-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:58:13-49
+397            android:windowSoftInputMode="adjustResize" />
+397-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:59:13-55
+398        <activity
+398-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:60:9-72:20
+399            android:name="com.applozic.mobicomkit.uiwidgets.conversation.activity.FullScreenImageActivity"
+399-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:61:13-107
+400            android:configChanges="keyboardHidden|orientation|screenSize"
+400-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:62:13-74
+401            android:label="Image"
+401-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:63:13-34
+402            android:parentActivityName="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity"
+402-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:64:13-118
+403            android:theme="@style/Applozic_FullScreen_Theme" >
+403-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:65:13-61
+404
+405            <!-- Parent activity meta-data to support API level 7+ -->
+406            <meta-data
+406-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:69:13-71:112
+407                android:name="android.support.PARENT_ACTIVITY"
+407-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:70:17-63
+408                android:value="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity" />
+408-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:71:17-109
+409        </activity>
+410        <activity
+410-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:73:9-80:34
+411            android:name="com.applozic.mobicomkit.uiwidgets.conversation.richmessaging.webview.KmWebViewActivity"
+411-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:74:13-114
+412            android:configChanges="keyboardHidden|orientation|screenSize"
+412-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:75:13-74
+413            android:label="Image"
+413-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:76:13-34
+414            android:launchMode="singleTop"
+414-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:77:13-43
+415            android:parentActivityName="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity"
+415-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:78:13-118
+416            android:theme="@style/ApplozicTheme" />
+416-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:79:13-49
+417        <activity
+417-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:81:9-85:34
+418            android:name="com.applozic.mobicomkit.uiwidgets.kommunicate.activities.LeadCollectionActivity"
+418-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:82:13-107
+419            android:configChanges="keyboardHidden|orientation|screenSize"
+419-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:83:13-74
+420            android:theme="@style/ApplozicTheme" />
+420-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:84:13-49
+421        <activity
+421-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:86:9-96:20
+422            android:name="com.applozic.mobicomkit.uiwidgets.conversation.activity.MobiComAttachmentSelectorActivity"
+422-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:87:13-117
+423            android:configChanges="keyboardHidden|screenSize|smallestScreenSize|screenLayout|orientation"
+423-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:88:13-106
+424            android:launchMode="singleTop"
+424-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:89:13-43
+425            android:parentActivityName="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity"
+425-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:90:13-118
+426            android:theme="@style/ApplozicTheme"
+426-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:91:13-49
+427            android:windowSoftInputMode="stateHidden|adjustResize" >
+427-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:92:13-67
+428            <meta-data
+428-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:69:13-71:112
+429                android:name="android.support.PARENT_ACTIVITY"
+429-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:70:17-63
+430                android:value="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity" />
+430-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:71:17-109
+431        </activity>
+432
+433        <receiver
+433-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
+434            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+434-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
+435            android:exported="true"
+435-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
+436            android:permission="com.google.android.c2dm.permission.SEND" >
+436-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
+437            <intent-filter>
+437-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
+438                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+438-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
+438-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
+439            </intent-filter>
+440        </receiver>
+441        <!--
+442             FirebaseMessagingService performs security checks at runtime,
+443             but set to not exported to explicitly avoid allowing another app to call it.
+444        -->
+445        <service
+445-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
+446            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+446-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
+447            android:directBootAware="true"
+447-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
+448            android:exported="false" >
+448-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
+449            <intent-filter android:priority="-500" >
+449-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:78:13-80:29
+450                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+450-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:17-78
+450-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:25-75
+451            </intent-filter>
+452        </service>
+453        <service
+453-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/pooja/.gradle/caches/transforms-3/2bf3581aaf525f2a6a46dc4b511b5e33/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+454            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+454-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/pooja/.gradle/caches/transforms-3/2bf3581aaf525f2a6a46dc4b511b5e33/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+455            android:exported="false" >
+455-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/pooja/.gradle/caches/transforms-3/2bf3581aaf525f2a6a46dc4b511b5e33/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+456            <meta-data
+456-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/pooja/.gradle/caches/transforms-3/2bf3581aaf525f2a6a46dc4b511b5e33/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+457                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+457-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/pooja/.gradle/caches/transforms-3/2bf3581aaf525f2a6a46dc4b511b5e33/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+458                android:value="cct" />
+458-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/pooja/.gradle/caches/transforms-3/2bf3581aaf525f2a6a46dc4b511b5e33/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+459        </service>
+460        <service
+460-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/pooja/.gradle/caches/transforms-3/f07c60f838ed7d9b8b8713851922e4e6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+461            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+461-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/pooja/.gradle/caches/transforms-3/f07c60f838ed7d9b8b8713851922e4e6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+462            android:exported="false"
+462-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/pooja/.gradle/caches/transforms-3/f07c60f838ed7d9b8b8713851922e4e6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+463            android:permission="android.permission.BIND_JOB_SERVICE" >
+463-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/pooja/.gradle/caches/transforms-3/f07c60f838ed7d9b8b8713851922e4e6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+464        </service>
+465
+466        <receiver
+466-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/pooja/.gradle/caches/transforms-3/f07c60f838ed7d9b8b8713851922e4e6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+467            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+467-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/pooja/.gradle/caches/transforms-3/f07c60f838ed7d9b8b8713851922e4e6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+468            android:exported="false" />
+468-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/pooja/.gradle/caches/transforms-3/f07c60f838ed7d9b8b8713851922e4e6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+469
+470        <provider
+470-->[com.google.firebase:firebase-common:20.3.2] /Users/pooja/.gradle/caches/transforms-3/2e7fc86748c14f72c8afd36fdad0f047/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+471            android:name="com.google.firebase.provider.FirebaseInitProvider"
+471-->[com.google.firebase:firebase-common:20.3.2] /Users/pooja/.gradle/caches/transforms-3/2e7fc86748c14f72c8afd36fdad0f047/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+472            android:authorities="com.createdinam.vivasa.firebaseinitprovider"
+472-->[com.google.firebase:firebase-common:20.3.2] /Users/pooja/.gradle/caches/transforms-3/2e7fc86748c14f72c8afd36fdad0f047/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+473            android:directBootAware="true"
+473-->[com.google.firebase:firebase-common:20.3.2] /Users/pooja/.gradle/caches/transforms-3/2e7fc86748c14f72c8afd36fdad0f047/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+474            android:exported="false"
+474-->[com.google.firebase:firebase-common:20.3.2] /Users/pooja/.gradle/caches/transforms-3/2e7fc86748c14f72c8afd36fdad0f047/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+475            android:initOrder="100" />
+475-->[com.google.firebase:firebase-common:20.3.2] /Users/pooja/.gradle/caches/transforms-3/2e7fc86748c14f72c8afd36fdad0f047/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+476
+477        <meta-data
+477-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:30:9-33:34
+478            android:name="main_folder_name"
+478-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:31:13-44
+479            android:value="Kommunicate" />
+479-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:32:13-40
+480
+481        <service
+481-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:35:9-39:34
+482            android:name="com.applozic.mobicomkit.api.conversation.MessageIntentService"
+482-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:36:13-89
+483            android:exported="false"
+483-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:37:13-37
+484            android:permission="android.permission.BIND_JOB_SERVICE" />
+484-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:38:13-69
+485        <service
+485-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:40:9-44:34
+486            android:name="com.applozic.mobicomkit.api.conversation.ApplozicIntentService"
+486-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:41:13-90
+487            android:exported="false"
+487-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:42:13-37
+488            android:permission="android.permission.BIND_JOB_SERVICE" />
+488-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:43:13-69
+489        <service
+489-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:45:9-49:34
+490            android:name="com.applozic.mobicomkit.api.conversation.ApplozicMqttIntentService"
+490-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:46:13-94
+491            android:exported="false"
+491-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:47:13-37
+492            android:permission="android.permission.BIND_JOB_SERVICE" />
+492-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:48:13-69
+493        <service
+493-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:50:9-54:34
+494            android:name="com.applozic.mobicomkit.api.people.UserIntentService"
+494-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:51:13-80
+495            android:exported="false"
+495-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:52:13-37
+496            android:permission="android.permission.BIND_JOB_SERVICE" />
+496-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:53:13-69
+497        <service
+497-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:55:9-59:34
+498            android:name="com.applozic.mobicomkit.api.conversation.ConversationIntentService"
+498-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:56:13-94
+499            android:exported="false"
+499-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:57:13-37
+500            android:permission="android.permission.BIND_JOB_SERVICE" />
+500-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:58:13-69
+501
+502        <receiver
+502-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:61:9-69:20
+503            android:name="com.applozic.mobicomkit.broadcast.TimeChangeBroadcastReceiver"
+503-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:62:13-89
+504            android:exported="true" >
+504-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:63:13-36
+505            <intent-filter>
+505-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:65:13-68:29
+506                <action android:name="android.intent.action.TIME_SET" />
+506-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:66:17-73
+506-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:66:25-70
+507                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+507-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:67:17-81
+507-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:67:25-78
+508            </intent-filter>
+509        </receiver>
+510        <receiver
+510-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:70:9-79:20
+511            android:name="com.applozic.mobicomkit.broadcast.ConnectivityReceiver"
+511-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:71:13-82
+512            android:enabled="true"
+512-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:72:13-35
+513            android:exported="true" >
+513-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:73:13-36
+514            <intent-filter>
+514-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:75:13-78:29
+515                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+515-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:76:17-82
+515-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:76:25-79
+516                <action android:name="android.intent.action.BOOT_COMPLETED" />
+516-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:72:17-79
+516-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:72:25-76
+517            </intent-filter>
+518        </receiver>
+519
+520        <meta-data
+520-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:81:9-83:108
+521            android:name="activity.open.on.notification"
+521-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:82:13-57
+522            android:value="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity" />
+522-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:83:13-105
+523        <meta-data
+523-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:84:9-86:48
+524            android:name="com.package.name"
+524-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:85:13-44
+525            android:value="com.createdinam.vivasa" />
+525-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:86:13-45
+526        <meta-data
+526-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:87:9-89:59
+527            android:name="com.applozic.server.url"
+527-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:88:13-51
+528            android:value="https://chat.kommunicate.io" />
+528-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:89:13-56
+529        <meta-data
+529-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:90:9-92:62
+530            android:name="com.applozic.mqtt.server.url"
+530-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:91:13-56
+531            android:value="tcp://socket.applozic.com:8080" />
+531-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:92:13-59
+532        <meta-data
+532-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:93:9-95:42
+533            android:name="com.applozic.mobicomkit.notification.tone"
+533-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:94:13-69
+534            android:value="eventually" />
+534-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:95:13-39
+535
+536        <provider
+536-->[com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+537            android:name="com.squareup.picasso.PicassoProvider"
+537-->[com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+538            android:authorities="com.createdinam.vivasa.com.squareup.picasso"
+538-->[com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+539            android:exported="false" />
+539-->[com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+540
+541        <receiver
+541-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:42:9-49:20
+542            android:name="com.razorpay.RzpTokenReceiver"
+542-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:43:13-57
+543            android:exported="true" >
+543-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:44:13-36
+544            <intent-filter>
+544-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:46:13-48:29
+545                <action android:name="rzp.device_token.share" />
+545-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:37:13-61
+545-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:37:21-58
+546            </intent-filter>
+547        </receiver>
+548
+549        <meta-data
+549-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:61:9-63:58
+550            android:name="com.razorpay.plugin.googlepay_all"
+550-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:62:13-61
+551            android:value="com.razorpay.RzpGpayMerged" />
+551-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:63:13-55
+552
+553        <activity
+553-->[com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+554            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+554-->[com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+555            android:excludeFromRecents="true"
+555-->[com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+556            android:exported="false"
+556-->[com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+557            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+557-->[com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+558        <!--
+559            Service handling Google Sign-In user revocation. For apps that do not integrate with
+560            Google Sign-In, this service will never be started.
+561        -->
+562        <service
+562-->[com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+563            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+563-->[com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+564            android:exported="true"
+564-->[com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+565            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+565-->[com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+566            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+566-->[com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+567        <uses-library
+567-->[com.google.android.gms:play-services-maps:17.0.0] /Users/pooja/.gradle/caches/transforms-3/b0bedba31ccd9257f3af288e61cb4fb6/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+568            android:name="org.apache.http.legacy"
+568-->[com.google.android.gms:play-services-maps:17.0.0] /Users/pooja/.gradle/caches/transforms-3/b0bedba31ccd9257f3af288e61cb4fb6/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+569            android:required="false" />
+569-->[com.google.android.gms:play-services-maps:17.0.0] /Users/pooja/.gradle/caches/transforms-3/b0bedba31ccd9257f3af288e61cb4fb6/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+570
+571        <activity
+571-->[com.google.android.gms:play-services-base:18.0.1] /Users/pooja/.gradle/caches/transforms-3/d86a54e1a08238599862128c191f91f7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+572            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+572-->[com.google.android.gms:play-services-base:18.0.1] /Users/pooja/.gradle/caches/transforms-3/d86a54e1a08238599862128c191f91f7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+573            android:exported="false"
+573-->[com.google.android.gms:play-services-base:18.0.1] /Users/pooja/.gradle/caches/transforms-3/d86a54e1a08238599862128c191f91f7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+574            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+574-->[com.google.android.gms:play-services-base:18.0.1] /Users/pooja/.gradle/caches/transforms-3/d86a54e1a08238599862128c191f91f7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+575
+576        <receiver
+576-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/pooja/.gradle/caches/transforms-3/05d4df7d76178df7380a9983c680f423/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:29:9-33:20
+577            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+577-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/pooja/.gradle/caches/transforms-3/05d4df7d76178df7380a9983c680f423/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:30:13-85
+578            android:enabled="true"
+578-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/pooja/.gradle/caches/transforms-3/05d4df7d76178df7380a9983c680f423/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:31:13-35
+579            android:exported="false" >
+579-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/pooja/.gradle/caches/transforms-3/05d4df7d76178df7380a9983c680f423/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:32:13-37
+580        </receiver>
+581
+582        <service
+582-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/pooja/.gradle/caches/transforms-3/05d4df7d76178df7380a9983c680f423/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:35:9-38:40
+583            android:name="com.google.android.gms.measurement.AppMeasurementService"
+583-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/pooja/.gradle/caches/transforms-3/05d4df7d76178df7380a9983c680f423/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:36:13-84
+584            android:enabled="true"
+584-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/pooja/.gradle/caches/transforms-3/05d4df7d76178df7380a9983c680f423/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:37:13-35
+585            android:exported="false" />
+585-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/pooja/.gradle/caches/transforms-3/05d4df7d76178df7380a9983c680f423/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:38:13-37
+586        <service
+586-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/pooja/.gradle/caches/transforms-3/05d4df7d76178df7380a9983c680f423/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:39:9-43:72
+587            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+587-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/pooja/.gradle/caches/transforms-3/05d4df7d76178df7380a9983c680f423/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:40:13-87
+588            android:enabled="true"
+588-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/pooja/.gradle/caches/transforms-3/05d4df7d76178df7380a9983c680f423/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:41:13-35
+589            android:exported="false"
+589-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/pooja/.gradle/caches/transforms-3/05d4df7d76178df7380a9983c680f423/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:42:13-37
+590            android:permission="android.permission.BIND_JOB_SERVICE" />
+590-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/pooja/.gradle/caches/transforms-3/05d4df7d76178df7380a9983c680f423/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:43:13-69
+591
+592        <meta-data
+592-->[com.google.android.gms:play-services-basement:18.1.0] /Users/pooja/.gradle/caches/transforms-3/5a1f44aad097ea63d81f136bec95f647/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+593            android:name="com.google.android.gms.version"
+593-->[com.google.android.gms:play-services-basement:18.1.0] /Users/pooja/.gradle/caches/transforms-3/5a1f44aad097ea63d81f136bec95f647/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+594            android:value="@integer/google_play_services_version" />
+594-->[com.google.android.gms:play-services-basement:18.1.0] /Users/pooja/.gradle/caches/transforms-3/5a1f44aad097ea63d81f136bec95f647/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+595
+596        <provider
+596-->[androidx.emoji2:emoji2:1.0.0] /Users/pooja/.gradle/caches/transforms-3/b0fa4aeac8ccb644b31186bf7c559132/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+597            android:name="androidx.startup.InitializationProvider"
+597-->[androidx.emoji2:emoji2:1.0.0] /Users/pooja/.gradle/caches/transforms-3/b0fa4aeac8ccb644b31186bf7c559132/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+598            android:authorities="com.createdinam.vivasa.androidx-startup"
+598-->[androidx.emoji2:emoji2:1.0.0] /Users/pooja/.gradle/caches/transforms-3/b0fa4aeac8ccb644b31186bf7c559132/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+599            android:exported="false" >
+599-->[androidx.emoji2:emoji2:1.0.0] /Users/pooja/.gradle/caches/transforms-3/b0fa4aeac8ccb644b31186bf7c559132/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+600            <meta-data
+600-->[androidx.emoji2:emoji2:1.0.0] /Users/pooja/.gradle/caches/transforms-3/b0fa4aeac8ccb644b31186bf7c559132/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+601                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+601-->[androidx.emoji2:emoji2:1.0.0] /Users/pooja/.gradle/caches/transforms-3/b0fa4aeac8ccb644b31186bf7c559132/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+602                android:value="androidx.startup" />
+602-->[androidx.emoji2:emoji2:1.0.0] /Users/pooja/.gradle/caches/transforms-3/b0fa4aeac8ccb644b31186bf7c559132/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+603            <meta-data
+603-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/pooja/.gradle/caches/transforms-3/aea9f7e0d1897e520bda3c53692fcd7a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+604                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+604-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/pooja/.gradle/caches/transforms-3/aea9f7e0d1897e520bda3c53692fcd7a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+605                android:value="androidx.startup" />
+605-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/pooja/.gradle/caches/transforms-3/aea9f7e0d1897e520bda3c53692fcd7a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+606        </provider>
+607    </application>
+608
+609</manifest>

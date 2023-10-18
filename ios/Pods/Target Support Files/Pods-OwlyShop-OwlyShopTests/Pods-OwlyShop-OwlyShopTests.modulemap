@@ -1,0 +1,6 @@
+module Pods_OwlyShop_OwlyShopTests {
+  umbrella header "Pods-OwlyShop-OwlyShopTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

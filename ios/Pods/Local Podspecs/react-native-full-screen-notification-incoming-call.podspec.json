@@ -1,0 +1,21 @@
+{
+  "name": "react-native-full-screen-notification-incoming-call",
+  "version": "0.1.12",
+  "summary": "Android full screen notification incoming call for React Native",
+  "homepage": "https://github.com/linhvovan29546/react-native-full-screen-notification-incoming-call#readme",
+  "license": "MIT",
+  "authors": "Linh Võ <vovanlinh29546@gmail.com> (https://github.com/linhvovan29546)",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/linhvovan29546/react-native-full-screen-notification-incoming-call.git",
+    "tag": "0.1.12"
+  },
+  "source_files": "ios/**/*.{h,m,mm}",
+  "dependencies": {
+    "React-Core": [
+
+    ]
+  }
+}

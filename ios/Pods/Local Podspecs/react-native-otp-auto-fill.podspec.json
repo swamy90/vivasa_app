@@ -1,0 +1,21 @@
+{
+  "name": "react-native-otp-auto-fill",
+  "version": "0.1.17",
+  "summary": "Auto fill OTP library for React Native",
+  "homepage": "https://github.com/hiranpeiris/react-native-otp-auto-fill#readme",
+  "license": "MIT",
+  "authors": "Hiran Peiris <hiranpeiris.sl@gmail.com> (https://github.com/hiranpeiris)",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "https://github.com/hiranpeiris/react-native-otp-auto-fill.git",
+    "tag": "0.1.17"
+  },
+  "source_files": "ios/**/*.{h,m,mm,swift}",
+  "dependencies": {
+    "React-Core": [
+
+    ]
+  }
+}

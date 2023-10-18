@@ -1,0 +1,6 @@
+module react_native_otp_auto_fill {
+  umbrella header "react-native-otp-auto-fill-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Vivasa</string>
+    <string name="default_notification_channel_id">alaram_notification</string>
+</resources>
