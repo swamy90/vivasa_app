@@ -1,8 +1,19 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/pooja/Documents/Vivasa/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
+                {
+                    "source": "/Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/datetimepicker/android/build/intermediates/packaged_res/debug/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,200",
+                        "endLines": "4,7",
+                        "endColumns": "9,9",
+                        "endOffsets": "195,340"
+                    }
+                },
                 {
                     "source": "/Users/pooja/.gradle/caches/transforms-3/186fe003bd45540dcda27eee06b61006/transformed/material-1.3.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
@@ -18,17 +29,6 @@
                         "startOffsets": "977,1065,1189,1291,1393,1509,1611,1725,1853,1969,2091,2227,2347,2481,2601,2713,2928,3066,3190,3320,3442,3580,3696",
                         "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,137,123,129,121,137,115,119",
                         "endOffsets": "1060,1184,1286,1388,1504,1606,1720,1848,1964,2086,2222,2342,2476,2596,2708,2834,3061,3185,3315,3437,3575,3691,3811"
-                    }
-                },
-                {
-                    "source": "/Users/pooja/Documents/Vivasa/node_modules/@react-native-community/datetimepicker/android/build/intermediates/packaged_res/debug/values-night-v8/values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,5",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,200",
-                        "endLines": "4,7",
-                        "endColumns": "9,9",
-                        "endOffsets": "195,340"
                     }
                 },
                 {

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/pooja/Documents/Vivasa/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/Users/pooja/.gradle/caches/transforms-3/8ffd1cd2262d6d07e1f02e33c6168b04/transformed/jetified-exoplayer-ui-2.18.1/res/values-v21/values-v21.xml",
+                    "source": "/Users/pooja/.gradle/caches/transforms-3/ec6d5966875cab23dd32651b986b554e/transformed/jetified-exoplayer-ui-2.18.1/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

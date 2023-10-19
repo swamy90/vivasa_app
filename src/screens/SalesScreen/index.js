@@ -428,7 +428,7 @@ const SalesScreen = () => {
                                         onChangeText={(text) => setPromoCode(text)}
                                     />
                                     <TouchableOpacity disabled={promocodeApply} onPress={() => applyPromocode()} style={{ position: 'absolute', top: 10, right: 16, alignItems: 'center', backgroundColor: promocodeApply === true ? 'grey' : '#222222', paddingVertical: 11, paddingHorizontal: 20, borderRadius: 10 }}>
-                                        <Text style={{ color: '#fff', fontWeight: 'bold', textTransform: 'uppercase' }}>Apply</Text>
+                                        <Text style={{ color: '#fff', fontWeight: 'bold', textTransform: 'uppercase' }}>Coming Soon</Text>
                                     </TouchableOpacity>
                                 </View>
                                 <View style={{ margin: 2, borderRadius: 5, backgroundColor: '#f1f1f1', padding: 15 }}>
@@ -476,7 +476,7 @@ const SalesScreen = () => {
                                 </View>
                                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                                     <View style={{ flex: 1, marginLeft: 2, marginRight: 2, marginBottom: 2 }}>
-                                        <TouchableOpacity onPress={() => payMeMoney()} style={{ alignItems: 'center', backgroundColor: 'green', paddingHorizontal: 15, paddingVertical: 16, borderRadius: 5, elevation: 5 }}>
+                                        <TouchableOpacity onPress={() => navigation.navigate('NewAddressScreen')} style={{ alignItems: 'center', backgroundColor: 'green', paddingHorizontal: 15, paddingVertical: 16, borderRadius: 5, elevation: 5 }}>
                                             {isOrderLoading === true ?
                                                 <ActivityIndicator color={'#ffffff'} style={{ alignSelf: 'center' }} />
                                                 :

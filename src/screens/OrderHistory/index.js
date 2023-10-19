@@ -24,17 +24,18 @@ const OrderHistoryScreen = () => {
         const user = JSON.parse(value);
         setIsLoading(true);
         const formData = new FormData();
-        const URLs = MY_BASE_URL + "api/my-order-list";
-        formData.append("user_id", user?.user?.id);
+        const URLs = MY_BASE_URL + `api/my_order_list?user_id=${user?.user?.id}`;
+        // formData.append("user_id", user?.user?.id);
+        console.log("URL", `api/my-order-list?user_id=${user?.user?.id}`)
         const response = await fetch(URLs, {
-            method: 'POST',
-            body: formData
+            method: 'GET',
+            // body: formData
         });
         setIsLoading(false);
         const submitCustomer = await response.json();
-        console.log('OrderHistoryData', JSON.stringify(submitCustomer?.order));
+        console.log('OrderHistoryData', submitCustomer);
         if (submitCustomer?.status) {
-            setOrderHistory(submitCustomer?.order);
+            setOrderHistory(submitCustomer?.data);
         } else {
 
         }
@@ -56,13 +57,13 @@ const OrderHistoryScreen = () => {
                 <Text style={{ fontWeight: 'bold', color: '#ffffff', fontSize: 16 }}>Order History</Text>
             </View>
             <View style={{ flex: 1 }}>
-                {orderHistory.length === 0 ?
+                {orderHistory?.length === 0 ?
                     <View style={{ flex: 1 }}>
                         <Text style={{ textAlign: 'center', fontWeight: 'bold', fontSize: 35 }}>No Order Found</Text>
                     </View>
                     :
                     <FlatList
-                        style={{ marginTop: 5 }}
+                        style={{ marginTop: 5,flex:1}}
                         data={orderHistory}
                         keyExtractor={(items) => items.id}
                         renderItem={(items) => {

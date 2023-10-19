@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/pooja/Documents/Vivasa/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml",
+            "outputFile": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml",
             "map": [
                 {
                     "source": "/Users/pooja/.gradle/caches/transforms-3/d86a54e1a08238599862128c191f91f7/transformed/jetified-play-services-base-18.0.1/res/values-as/values.xml",

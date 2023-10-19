@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/pooja/Documents/Vivasa/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml",
+            "outputFile": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml",
             "map": [
                 {
                     "source": "/Users/pooja/.gradle/caches/transforms-3/c57bbb0c90c3cb460f503655cde2d0b0/transformed/jetified-exoplayer-core-2.18.1/res/values-sr/values-sr.xml",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/pooja/.gradle/caches/transforms-3/91e5ae0e30bfc9e5e66a0fa550b98906/transformed/core-1.9.0/res/values-sr/values-sr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "180",
-                        "startColumns": "4",
-                        "startOffsets": "14410",
-                        "endColumns": "100",
-                        "endOffsets": "14506"
-                    }
-                },
-                {
-                    "source": "/Users/pooja/.gradle/caches/transforms-3/8ffd1cd2262d6d07e1f02e33c6168b04/transformed/jetified-exoplayer-ui-2.18.1/res/values-sr/values-sr.xml",
+                    "source": "/Users/pooja/.gradle/caches/transforms-3/ec6d5966875cab23dd32651b986b554e/transformed/jetified-exoplayer-ui-2.18.1/res/values-sr/values-sr.xml",
                     "from": {
                         "startLines": "2,11,16,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -54,6 +37,23 @@
                         "endLines": "10,15,20,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,109,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129",
                         "endColumns": "17,12,12,80,81,81,88,90,69,65,92,93,67,63,62,71,106,109,108,75,86,72,70,90,91,66,64,52,57,47,60,65,63,62,64,63,60,65,64,65,51,61,75,75,55",
                         "endOffsets": "332,601,862,6514,6596,6678,6767,6858,6928,6994,7087,7181,7249,7313,7376,7448,7555,7665,7774,7850,7937,8010,8081,8172,8264,8331,8396,9113,9419,9467,9528,9594,9658,9721,9786,9850,9911,9977,10042,10108,10160,10222,10298,10374,10430"
+                    }
+                },
+                {
+                    "source": "/Users/pooja/.gradle/caches/transforms-3/91e5ae0e30bfc9e5e66a0fa550b98906/transformed/core-1.9.0/res/values-sr/values-sr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "180",
+                        "startColumns": "4",
+                        "startOffsets": "14410",
+                        "endColumns": "100",
+                        "endOffsets": "14506"
                     }
                 },
                 {

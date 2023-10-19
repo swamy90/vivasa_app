@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Image, TouchableOpacity, ImageBackground, Activ
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useFocusEffect, useNavigation, useRoute } from '@react-navigation/native';
 import { showMessage, hideMessage } from "react-native-flash-message";
-import { MY_BASE_URL, MY_STORAGE_URL } from '../../global/index';
+import { Image_Files_URL, MY_BASE_URL, MY_STORAGE_URL } from '../../global/index';
 import { QRCodeView } from "react-native-id-qrcodeview";
 import ImagePicker from 'react-native-image-crop-picker';
 import RNExitApp from 'react-native-exit-app';
@@ -25,7 +25,7 @@ const ProfileScreen = () => {
 
     React.useEffect(() => {
         navigation.addListener('focus', () => {
-             console.log('getProfileData');
+            console.log('getProfileData');
             getProfileData();
         });
     }, [false]);
@@ -33,40 +33,32 @@ const ProfileScreen = () => {
     const getProfileData = async () => {
         const value = await AsyncStorage.getItem('@storage_Key')
         const user = JSON.parse(value);
-         console.log('getProfileDataa',user?.token);
+        console.log('getProfileDataa', user?.token);
         setIsLoading(true);
         const formData = new FormData();
-        const URLs = MY_BASE_URL + "api/get_user";
-        formData.append("token", user?.token);
+        const URLs = MY_BASE_URL + `api/get_user?user_id=${user?.user?.id}`;
+        // formData.append("token", user?.token);
+        // formData.append("user", user?.user?.id);
         // const response = await fetch(URLs, {
         //     method: 'GET',
         //     body: formData
         // });
-        console.log("in profile",URLs , user?.token)
-        axios.get(URLs, {
-           token: user?.token
-
-        })
+        console.log("in profile", URLs, user?.token, user?.user?.id)
+        axios.get(URLs)
             .then((response) => {
-                console.log("res in getProductBySearch", response?.data?.cart);
-                // setCategoryProduct(response?.data?.cart)
+                console.log("res in profile", response?.data?.user);
+                setName(response?.data?.user?.name)
+                setNumber(response?.data?.user?.mobile)
+                setEmail(response?.data?.user?.email)
+              
             })
             .catch((err) => {
-                console.log("err in getProductBySearch", err);
+                console.log("err in profile", err);
             });
         setIsLoading(false);
         const submitCustomer = await response.json();
         console.log('getProfileDataX', JSON.stringify(submitCustomer));
-        if (submitCustomer?.status) {
-            setName(submitCustomer?.user?.name)
-            setNumber(submitCustomer?.user?.mobile)
-            setEmail(submitCustomer?.user?.email)
-            // setStatus(submitCustomer?.status)
-            // setProfileImage(submitCustomer?.user?.user_image)
-            // setAddress(submitCustomer?.user?.full_address)
-        } else {
 
-        }
     }
 
     const openCameraToUpload = async () => {
@@ -171,7 +163,7 @@ const ProfileScreen = () => {
             {isLoading === true ?
                 <ActivityIndicator style={{ alignSelf: 'center', marginTop: Dimensions.get('screen').width / 1 }} color={'#222222'} size={'large'} /> :
                 <View style={{}}>
-                    <ImageBackground source={{ uri: MY_STORAGE_URL + profileImage }} style={{ paddingVertical: 70, paddingHorizontal: 40, height: 250, flexDirection: 'row', alignItems: 'center' }} blurRadius={4} resizeMode={'cover'}>
+                    <ImageBackground source={{ uri: Image_Files_URL + profileImage }} style={{ paddingVertical: 70, paddingHorizontal: 40, height: 250, flexDirection: 'row', alignItems: 'center' }} blurRadius={4} resizeMode={'cover'}>
                         <View style={{ width: 100, height: 120 }}>
                             {/* <Image style={styles.avatar} source={{ uri: MY_BASE_URL + profileImage }} />
                             <TouchableOpacity onPress={() => openCameraToUpload()} style={{ position: 'absolute', right: -15, bottom: 0, backgroundColor: 'white', borderRadius: 100, padding: 5, zIndex: 999 }}>

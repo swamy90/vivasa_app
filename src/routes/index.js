@@ -35,6 +35,7 @@ import BarcodeScannerScreen from '../screens/CodeBarcodeScanner';
 import BoatChatScreen from '../screens/BoatChatScreen';
 import BrandScreen from '../screens/BrandScreen';
 import ProductSearch from '../screens/ProductSearch';
+import PayScreen from '../screens/PayScreen';
 // Theme.
 const MyTheme = {
     dark: false,
@@ -464,6 +465,19 @@ function StackNavigation() {
                 <Stack.Screen
                     name="BoatChatScreen"
                     component={BoatChatScreen}
+                    options={{
+                        title: 'BoatChatScreen',
+                        headerStyle: {
+                            backgroundColor: 'black',
+                        },
+                        headerTintColor: '#fff',
+                        headerTitleStyle: {
+                            fontWeight: 'bold',
+                        },
+                    }} />
+                     <Stack.Screen
+                    name="PayScreen"
+                    component={PayScreen}
                     options={{
                         title: 'BoatChatScreen',
                         headerStyle: {

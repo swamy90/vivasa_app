@@ -24,13 +24,14 @@ const NewAddressScreen = () => {
     const [State, setState] = React.useState('')
     const [City, setCity] = React.useState('')
     const [Pincode, setPincode] = React.useState('')
+    const [email, setEmail] = React.useState('')
     const [Remark, setRemark] = React.useState('')
     const reg = /^[0]?[789]\d{9}$/;
 
     React.useEffect(async () => {
         navigation.addListener('focus', async () => {
             // call function
-            getCurrentLication();
+            // getCurrentLication();
         });
     }, [false]);
 
@@ -118,7 +119,7 @@ const NewAddressScreen = () => {
         console.log('addProductInCart', user?.user?.id);
         setIsLoading(true);
         const formData = new FormData();
-        const URLs = MY_BASE_URL + "api/add-address";
+        const URLs = MY_BASE_URL + "api/place_order";
         formData.append("user_id", user?.user?.id);
         formData.append("first_name", FirstName);
         formData.append("last_name", LastName);
@@ -127,26 +128,27 @@ const NewAddressScreen = () => {
         formData.append("state", State);
         formData.append("city", City);
         formData.append("pincode", Pincode);
-        formData.append("latitude", isLocation?.latitude);
-        formData.append("longitude", isLocation?.longitude);
+        formData.append("email", Pincode);
+        // formData.append("latitude", isLocation?.latitude);
+        // formData.append("longitude", isLocation?.longitude);
         const response = await fetch(URLs, {
             method: 'POST',
             body: formData
         });
-        const submitCustomer = await response.json();
-        // console.log('submitCustomer', JSON.stringify(submitCustomer) + JSON.stringify(formData));
+        const address = await response.json();
+        console.log('address', JSON.stringify(address) + JSON.stringify(formData));
         setIsLoading(false);
-        if (submitCustomer.status) {
+        if (address.status) {
             showMessage({
                 message: 'Congratulations',
-                description: submitCustomer?.message,
+                description: address?.msg,
                 type: "success",
             });
-            navigation.navigate('HomeBottomNavigation');
+            navigation.navigate('PayScreen');
         } else {
             showMessage({
                 message: 'Something went wrong!',
-                description: submitCustomer?.message,
+                description: address?.msg,
                 type: "error",
             });
         }
@@ -175,8 +177,8 @@ const NewAddressScreen = () => {
                             shadowRadius: 2,
                             height: 55,
                         }}>
-                            <TextInput onChangeText={(text) => setFirstName(text)} style={{ flex: 1 / 2, paddingLeft: 20, backgroundColor: 'white', marginRight: 10, elevation: 5, borderRadius: 10, }} placeholder='First Name *' />
-                            <TextInput onChangeText={(text) => setLastName(text)} style={{ flex: 1 / 2, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='Last Name *' />
+                            <TextInput onChangeText={(text) => setFirstName(text)} style={{ flex: 1 / 2, paddingLeft: 20, backgroundColor: 'white', marginRight: 10, elevation: 5, borderRadius: 10, }} placeholder='First Name *'value={FirstName} />
+                            <TextInput onChangeText={(text) => setLastName(text)} style={{ flex: 1 / 2, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='Last Name *' value={LastName} />
                         </View>
                     </View>
                     <View style={{ marginTop: 10 }}>
@@ -187,7 +189,7 @@ const NewAddressScreen = () => {
                             shadowRadius: 2,
                             height: 55,
                         }}>
-                            <TextInput maxLength={10} keyboardType="numeric" onChangeText={(text) => setMobileNumber(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='Mobile *' />
+                            <TextInput maxLength={10} keyboardType="numeric" onChangeText={(text) => setMobileNumber(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='Mobile *' value={MobileNumber} />
                         </View>
                     </View>
                     <View style={{ marginTop: 10 }}>
@@ -198,7 +200,7 @@ const NewAddressScreen = () => {
                             shadowRadius: 2,
                             height: 55,
                         }}>
-                            <TextInput onChangeText={(text) => setFullAddress(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='Full Address *' />
+                            <TextInput onChangeText={(text) => setFullAddress(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='Full Address *' value={FullAddress} />
                         </View>
                     </View>
                     <View style={{ marginTop: 10 }}>
@@ -209,7 +211,7 @@ const NewAddressScreen = () => {
                             shadowRadius: 2,
                             height: 55,
                         }}>
-                            <TextInput onChangeText={(text) => setState(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='State *' />
+                            <TextInput onChangeText={(text) => setEmail(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='Email *' value={email} />
                         </View>
                     </View>
                     <View style={{ marginTop: 10 }}>
@@ -220,7 +222,7 @@ const NewAddressScreen = () => {
                             shadowRadius: 2,
                             height: 55,
                         }}>
-                            <TextInput onChangeText={(text) => setCity(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='City *' />
+                            <TextInput onChangeText={(text) => setState(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='State *'  value={State}/>
                         </View>
                     </View>
                     <View style={{ marginTop: 10 }}>
@@ -231,7 +233,7 @@ const NewAddressScreen = () => {
                             shadowRadius: 2,
                             height: 55,
                         }}>
-                            <TextInput maxLength={6} keyboardType="numeric" onChangeText={(text) => setPincode(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='Pincode *' />
+                            <TextInput onChangeText={(text) => setCity(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='City *' value={City} />
                         </View>
                     </View>
                     <View style={{ marginTop: 10 }}>
@@ -242,7 +244,18 @@ const NewAddressScreen = () => {
                             shadowRadius: 2,
                             height: 55,
                         }}>
-                            <TextInput onChangeText={(text) => setIsLoading(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='Remark (Optional)' />
+                            <TextInput maxLength={6} keyboardType="numeric" onChangeText={(text) => setPincode(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='Pincode *'  value={Pincode}/>
+                        </View>
+                    </View>
+                    <View style={{ marginTop: 10 }}>
+                        <View style={{
+                            flexDirection: 'row', alignItems: 'center', shadowColor: '#b4b4b4',
+                            shadowOffset: { width: 0, height: 3 },
+                            shadowOpacity: 0.8,
+                            shadowRadius: 2,
+                            height: 55,
+                        }}>
+                            <TextInput onChangeText={(text) => setIsLoading(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='Remark (Optional)' value={Remark} />
                         </View>
                     </View>
                     <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 20 }}>

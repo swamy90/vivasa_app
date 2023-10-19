@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/pooja/Documents/Vivasa/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "/Users/pooja/.gradle/caches/transforms-3/5940308d4d7715146f1889ee032d3885/transformed/appcompat-1.4.1/res/values-pt-rBR/values-pt-rBR.xml",
