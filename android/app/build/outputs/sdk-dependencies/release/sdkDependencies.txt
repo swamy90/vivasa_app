@@ -1887,10 +1887,10 @@ library {
   maven_library {
     groupId: "com.razorpay"
     artifactId: "checkout"
-    version: "1.6.34"
+    version: "1.6.36"
   }
   digests {
-    sha256: "\235\r\262\350\316\002\030\003\215\375\n\224)\226\000;i\3751\227snL\275}~\365[a\360v\244"
+    sha256: "\240$\025\353\033|\021j\316\327\324C\240@\033\005\274\231\2009\355\274\362lD\336W\327\353/\3506"
   }
   repo_index {
   }

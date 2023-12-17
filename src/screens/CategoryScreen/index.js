@@ -18,6 +18,7 @@ const CategoryScreen = () => {
     const [isVisible, setIsVisible] = React.useState(true);
     const [CategoryProduct, setCategoryProduct] = React.useState([]);
 
+
     React.useEffect(() => {
         navigation.addListener('focus', () => {
             console.log('focus');
@@ -95,7 +96,7 @@ const CategoryScreen = () => {
 
         const URLs = MY_BASE_URL + "api/product-details";
         formData.append("user_id", user?.user?.id);
-        formData.append("product_id", params?.item?.id);
+        formData.append("product_id", params?.params?.item?.id);
         const response = await fetch(URLs, {
             method: 'POST',
             body: formData
@@ -156,7 +157,7 @@ const CategoryScreen = () => {
     }
 
     const addProductInFavList = async (data) => {
-        console.log("data",data)
+        console.log("data", data)
         const value = await AsyncStorage.getItem('@storage_Key');
         const user = JSON.parse(value);
         console.log('addProductInCart', user?.user?.id);
@@ -170,7 +171,7 @@ const CategoryScreen = () => {
             body: formData
         });
         const submitCustomer = await response.json();
-        console.log('res',JSON.stringify(formData));
+        console.log('res', JSON.stringify(formData));
         setIsLoading(false);
         // getCategoryByProductData();
         if (submitCustomer.status) {
@@ -219,77 +220,91 @@ const CategoryScreen = () => {
     }
 
     const getCategoryListByProduct = async () => {
-        const URLs = MY_BASE_URL + "api/category-product-list";
         const value = await AsyncStorage.getItem('@storage_Key')
         const user = JSON.parse(value);
-        console.log("inside user", user)
         const formData = new FormData();
-        formData.append("user_id", user?.user?.id);
-        formData.append("category_id", params?.params?.item?.id);
-        setIsLoading(true)
-        axios.post(URLs, {
+        formData.append("user_id", Number(user?.user?.id));
+        formData.append("category_id", Number(params?.params?.item?.id));
+        var requestOptions = {
             method: 'POST',
-            body: formData
-        })
-            .then((response) => {
-                console.log("res in getCategoryListByProduct", response);
+            body: formData,
+            redirect: 'follow'
+        };
+        setIsLoading(true)
+
+        fetch(MY_BASE_URL + "api/category-product-list", requestOptions)
+            .then(response => response.json())
+            .then(result => {
+                console.log('result in category', result)
                 setIsLoading(false)
-                setCategoryProduct(response?.data?.cart)
+                setCategoryProduct(result?.cart)
+                // if (result.status) {
+                //     showMessage({
+                //         message: 'Congratulations',
+                //         description: result?.msg,
+                //         type: "success",
+                //     });
+
+                // } else {
+                //     showMessage({
+                //         message: 'Sorry!',
+                //         description: result?.msg,
+                //         type: "danger",
+                //     });
+                // }
             })
-            .catch((err) => {
-                console.log("err in getCategoryListByProduct", JSON.stringify(err));
-            });
+            .catch(error => console.log('error', error));
     }
 
-    const renderCatByProduct = (items) => {
-        console.log("item in renderCatByProduct", items)
-        return (
-            <View style={{
-                padding: 0, backgroundColor: '#ffffff', shadowColor: '#b4b4b4',
-                shadowOffset: { width: 0, height: 3 },
-                shadowOpacity: 0.8,
-                shadowRadius: 2,
-                elevation: 5,
-                margin: 1,
-                width: Dimensions.get('screen').width / 2.1
-            }}>
-                <View style={{ flexDirection: 'row', alignItems: 'center', position: 'absolute', marginTop: 5, zIndex: 999, padding: 10, paddingTop: -5 }}>
-                    <Text style={{ fontSize: 10, fontWeight: '800', backgroundColor: 'rgb(92,150,65)', paddingLeft: 4, paddingRight: 4, color: '#ffffff', borderRadius: 12, paddingTop: 2, paddingBottom: 2, display: 'none' }}>* {items.item.rating}</Text>
-                    {items.item.wishlist_status !== "Yes" ? <TouchableOpacity onPress={() => addProductInFavList(items.item)} style={{ flex: 1, alignItems: 'flex-end', marginRight: 5 }}>
-                        <Image style={{ width: 15, height: 15, resizeMode: 'contain', tintColor: 'orange' }} source={require('../../assets/images/add_favorite.png')} />
-                    </TouchableOpacity> : <TouchableOpacity onPress={() => removeProductInFavList(items.item)} style={{ flex: 1, alignItems: 'flex-end', marginRight: 5 }}>
-                        <Image style={{ width: 15, height: 15, resizeMode: 'contain', tintColor: 'orange' }} source={require('../../assets/images/fill_favorite.png')} />
-                    </TouchableOpacity>
+   const renderItem = (items) => {
+    console.log("item ", items)
+    return (
+        <View style={{
+            padding: 0, backgroundColor: '#ffffff', shadowColor: '#b4b4b4',
+            shadowOffset: { width: 0, height: 3 },
+            shadowOpacity: 0.8,
+            shadowRadius: 2,
+            elevation: 5,
+            margin: 1,
+            width: Dimensions.get('screen').width / 2.1
+        }}>
+            <View style={{ flexDirection: 'row', alignItems: 'center', position: 'absolute', marginTop: 5, zIndex: 999, padding: 10, paddingTop: -5 }}>
+                <Text style={{ fontSize: 10, fontWeight: '800', backgroundColor: 'rgb(92,150,65)', paddingLeft: 4, paddingRight: 4, color: '#ffffff', borderRadius: 12, paddingTop: 2, paddingBottom: 2, display: 'none' }}>* {items.item.rating}</Text>
+                {items.item.wishlist_status !== "Yes" ? <TouchableOpacity onPress={() => addProductInFavList(items.item)} style={{ flex: 1, alignItems: 'flex-end', marginRight: 5 }}>
+                    <Image style={{ width: 15, height: 15, resizeMode: 'contain', tintColor: 'orange' }} source={require('../../assets/images/add_favorite.png')} />
+                </TouchableOpacity> : <TouchableOpacity onPress={() => removeProductInFavList(items.item)} style={{ flex: 1, alignItems: 'flex-end', marginRight: 5 }}>
+                    <Image style={{ width: 15, height: 15, resizeMode: 'contain', tintColor: 'orange' }} source={require('../../assets/images/fill_favorite.png')} />
+                </TouchableOpacity>
+                }
+            </View>
+            <TouchableOpacity style={{ padding: 0 }} onPress={() => navigation.navigate('ProductDetailsScreen', items?.item)}>
+                <Image style={{ height: 200, width: '100%', resizeMode: 'cover' }} source={{ uri: Image_Files_URL + items?.item?.product_image }} />
+            </TouchableOpacity>
+            <View style={{ marginTop: 10, marginLeft: 10, marginRight: 10 }}>
+                <Text numberOfLines={1} style={{ fontSize: 12, fontWeight: '600' }}>{items.item.product_name}</Text>
+            </View>
+            {/* <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 5, marginLeft: 10, marginRight: 10, marginBottom: 5 }}>
+                <Text style={{ fontSize: 10, marginBottom: 5 }} numberOfLines={2}>{items.item.specifications}/-</Text>
+            </View> */}
+            <View style={{ flexDirection: 'row', alignItems: 'center', marginLeft: 10, marginRight: 10 }}>
+                <View style={{ flex: 1, marginRight: 5, flexDirection: 'row', alignItems: 'center' }}>
+                    <Text style={{ fontSize: 10, textDecorationLine: 'line-through', textDecorationStyle: 'solid', marginRight: 5 }}>₹ {items.item.market_price}/-</Text>
+                    <Text style={{ fontSize: 11, fontWeight: 'bold', }}>₹ {items.item.price}</Text>
+                </View>
+                <View style={{ marginBottom: 10 }}>
+                    {items.item.cart_status === "Yes" ?
+                        <TouchableOpacity onPress={() => showCartScreen()} style={{ backgroundColor: '#222222', padding: 2, borderRadius: 5, paddingLeft: 10, paddingRight: 10 }}>
+                            <Text style={{ color: '#FFFFFF', fontSize: 12 }}>View Cart</Text>
+                        </TouchableOpacity> :
+                        <TouchableOpacity onPress={() => addProductInCart(items.item)} style={{ backgroundColor: '#222222', padding: 2, borderRadius: 5, paddingLeft: 10, paddingRight: 10 }}>
+                            <Text style={{ color: '#FFFFFF', fontSize: 12 }}>ADD</Text>
+                        </TouchableOpacity>
                     }
                 </View>
-                <TouchableOpacity style={{ padding: 0 }} onPress={() => navigation.navigate('ProductDetailsScreen', items?.item)}>
-                    <Image style={{ height: 200, width: '100%', resizeMode: 'cover' }} source={{ uri: Image_Files_URL + items?.item?.product_image }} />
-                </TouchableOpacity>
-                <View style={{ marginTop: 10, marginLeft: 10, marginRight: 10 }}>
-                    <Text numberOfLines={1} style={{ fontSize: 12, fontWeight: '600' }}>{items.item.product_name}</Text>
-                </View>
-                <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 5, marginLeft: 10, marginRight: 10, marginBottom: 5 }}>
-                    <Text style={{ fontSize: 10, marginBottom: 5 }} numberOfLines={2}>{items.item.specifications}/-</Text>
-                </View>
-                <View style={{ flexDirection: 'row', alignItems: 'center', marginLeft: 10, marginRight: 10 }}>
-                    <View style={{ flex: 1, marginRight: 5, flexDirection: 'row', alignItems: 'center' }}>
-                        <Text style={{ fontSize: 10, textDecorationLine: 'line-through', textDecorationStyle: 'solid', marginRight: 5 }}>₹ {items.item.market_price}/-</Text>
-                        <Text style={{ fontSize: 11, fontWeight: 'bold', }}>₹ {items.item.price}</Text>
-                    </View>
-                    <View style={{ marginBottom: 10 }}>
-                        {items.item.cart_status === "Yes" ?
-                            <TouchableOpacity onPress={() => showCartScreen()} style={{ backgroundColor: '#222222', padding: 2, borderRadius: 5, paddingLeft: 10, paddingRight: 10 }}>
-                                <Text style={{ color: '#FFFFFF', fontSize: 12 }}>View Cart</Text>
-                            </TouchableOpacity> :
-                            <TouchableOpacity onPress={() => addProductInCart(items.item)} style={{ backgroundColor: '#222222', padding: 2, borderRadius: 5, paddingLeft: 10, paddingRight: 10 }}>
-                                <Text style={{ color: '#FFFFFF', fontSize: 12 }}>ADD</Text>
-                            </TouchableOpacity>
-                        }
-                    </View>
-                </View>
             </View>
-        )
-    }
+        </View>
+    )
+   }
 
     const showCartScreen = () => {
         navigation.navigate('CartScreen');
@@ -313,9 +328,9 @@ const CategoryScreen = () => {
                             <Text style={{ fontSize: 16, fontWeight: '800', color: '#FFFFFF' }}>{params?.params?.item?.category_name}</Text>
                             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                                 <Text style={{ fontSize: 12, fontWeight: '800', color: '#FFFFFF' }}>Categories</Text>
-                                <TouchableOpacity>
+                                {/* <TouchableOpacity>
                                     <Image style={{ width: 10, height: 10, resizeMode: 'contain', tintColor: '#FFFFFF', transform: [{ rotate: '270deg' }], marginLeft: 5 }} source={require('../../assets/images/arrow.png')} />
-                                </TouchableOpacity>
+                                </TouchableOpacity> */}
                             </View>
                         </TouchableOpacity>
                     </View>
@@ -329,12 +344,12 @@ const CategoryScreen = () => {
                         <Image style={{ width: '100%', height: '100%', resizeMode: 'center' }} source={require('../../assets/images/no_product.png')} />
                     </View> :
                     <>
-                        {isLoading ? <ActivityIndicator size={"large"} color={"#fff"}style={{justifyContent:'center',alignSelf:'center',flex:1}} /> : <View style={{ padding: 10, backgroundColor: 'rgb(226,230,229)', flex: 1 }}>
+                        {isLoading ? <ActivityIndicator size={"large"} color={"#fff"} style={{ justifyContent: 'center', alignSelf: 'center', flex: 1 }} /> : <View style={{ padding: 10, backgroundColor: 'rgb(226,230,229)', flex: 1 }}>
                             <FlatList
                                 data={CategoryProduct}
                                 numColumns={2}
                                 keyExtractor={(items) => items.id}
-                                renderItem={(items, index) => renderCatByProduct(items)}
+                                renderItem={(item)=> renderItem(item)}
                             />
                         </View>}
                     </>}

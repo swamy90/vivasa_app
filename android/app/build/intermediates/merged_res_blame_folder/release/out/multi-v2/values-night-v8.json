@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/pooja/Documents/Vivasa/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/pooja/Documents/Vivasa/node_modules/@react-native-community/datetimepicker/android/build/intermediates/packaged_res/release/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/datetimepicker/android/build/intermediates/packaged_res/release/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,5",
                         "startColumns": "4,4",

@@ -1,6 +1,6 @@
 <lint-module
     format="1"
-    dir="/Users/pooja/Documents/Vivasa/android/app"
+    dir="/Users/pooja/Documents/vivasa_app/android/app"
     name=":app"
     type="APP"
     maven="Vivasa:app:"

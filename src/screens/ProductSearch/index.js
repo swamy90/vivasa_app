@@ -1,4 +1,4 @@
-import { View, Text, TextInput, Image, TouchableOpacity, FlatList, Dimensions } from 'react-native'
+import { View, Text, TextInput, Image, TouchableOpacity, FlatList, Dimensions, ActivityIndicator } from 'react-native'
 import React, { useState } from 'react'
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -9,6 +9,7 @@ import { useNavigation } from '@react-navigation/native';
 export default function ProductSearch() {
     const [keywords, skeywords] = useState();
     const [CategoryProduct, setCategoryProduct] = React.useState([]);
+    const [loading, sLoading] = useState(false);
     const navigation = useNavigation();
 
 
@@ -19,6 +20,7 @@ export default function ProductSearch() {
         const user = JSON.parse(value);
         console.log("inside user", user)
         console.log("urls", URLs, keywords, user?.user?.id)
+        sLoading(true)
         axios.post(URLs, {
             keywords: keywords,
             user_id: user?.user?.id,
@@ -26,6 +28,7 @@ export default function ProductSearch() {
         })
             .then((response) => {
                 console.log("res in getProductBySearch", response?.data?.cart);
+                sLoading(false)
                 setCategoryProduct(response?.data?.cart)
             })
             .catch((err) => {
@@ -58,10 +61,10 @@ export default function ProductSearch() {
                 <View style={{ marginTop: 10, marginLeft: 10, marginRight: 10 }}>
                     <Text numberOfLines={1} style={{ fontSize: 12, fontWeight: '600' }}>{items.item.product_name}</Text>
                 </View>
-                <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 5, marginLeft: 10, marginRight: 10, marginBottom: 5 }}>
+                {/* <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 5, marginLeft: 10, marginRight: 10, marginBottom: 5 }}>
                     <Text style={{ fontSize: 10, marginBottom: 5 }} numberOfLines={2}>{items.item.specifications}/-</Text>
-                </View>
-                <View style={{ flexDirection: 'row', alignItems: 'center', marginLeft: 10, marginRight: 10 }}>
+                </View> */}
+                <View style={{ flexDirection: 'row', alignItems: 'center', marginLeft: 10, marginRight: 10,marginBottom:10 }}>
                     <View style={{ flex: 1, marginRight: 5, flexDirection: 'row', alignItems: 'center' }}>
                         <Text style={{ fontSize: 10, textDecorationLine: 'line-through', textDecorationStyle: 'solid', marginRight: 5 }}>₹ {items.item.market_price}/-</Text>
                         <Text style={{ fontSize: 11, fontWeight: 'bold', }}>₹ {items.item.price}</Text>
@@ -103,7 +106,8 @@ export default function ProductSearch() {
                 {keywords?.length > 3 ? <TouchableOpacity style={{ position: 'absolute', right: 25, top: 25 }}
                     onPress={getProductBySearch}
                 >
-                    <Text style={{ paddingRight: 10 }}>Click</Text></TouchableOpacity>
+                    {loading === true ? <Text style={{ paddingRight: 10 }}>loading...</Text> : <Text style={{ paddingRight: 10 }}>Click</Text> }
+                    </TouchableOpacity>
                     : null}
             </View>
 

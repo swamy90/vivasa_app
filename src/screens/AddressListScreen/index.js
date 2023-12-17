@@ -18,6 +18,7 @@ const AddressListScreen = () => {
     React.useEffect(async () => {
         navigation.addListener('focus', async () => {
             // call function
+            console.log("inside")
             getDefaultAddress();
             getAddressList();
         });

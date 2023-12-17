@@ -6,71 +6,71 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
+8-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
+9-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:5:5-67
-11-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:5:22-64
+11-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:5:22-64
 12    <!-- Define ACCESS_FINE_LOCATION if you will use enableHighAccuracy=true -->
 13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-13-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:7:5-78
-13-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:7:22-76
+13-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:7:5-78
+13-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:7:22-76
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-14-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:8:5-80
-14-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:8:22-77
+14-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:8:5-80
+14-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:8:22-77
 15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-15-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:9:5-10:40
-15-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:9:22-78
+15-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:9:5-10:40
+15-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:9:22-78
 16    <uses-permission android:name="android.permission.CAMERA" />
-16-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:11:5-65
-16-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:11:22-62
+16-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:11:5-65
+16-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:11:22-62
 17
 18    <uses-feature android:name="android.hardware.camera" />
-18-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:12:5-60
-18-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:12:19-57
+18-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:12:5-60
+18-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:12:19-57
 19    <uses-feature android:name="android.hardware.camera.autofocus" />
-19-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:13:5-70
-19-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:13:19-67
+19-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:13:5-70
+19-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:13:19-67
 20    <!-- Define ACCESS_COARSE_LOCATION if you will use enableHighAccuracy=false -->
 21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-21-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:15:5-80
-21-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:15:22-78
+21-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:15:5-80
+21-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:15:22-78
 22    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
-22-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:16:5-81
-22-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:16:22-78
+22-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:16:5-81
+22-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:16:22-78
 23    <uses-permission android:name="android.permission.VIBRATE" />
-23-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:17:5-66
-23-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:17:22-63
+23-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:17:5-66
+23-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:17:22-63
 24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-24-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:18:5-77
-24-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:18:22-74
+24-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:18:5-77
+24-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:18:22-74
 25    <uses-permission android:name="android.permission.WAKE_LOCK" />
-25-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:19:5-68
-25-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:19:22-65
+25-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:19:5-68
+25-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:19:22-65
 26    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
-26-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:20:5-75
-26-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:20:22-72
+26-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:20:5-75
+26-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:20:22-72
 27
 28    <uses-feature
-28-->[:react-native-scan-barcode] /Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:5-16:36
+28-->[:react-native-scan-barcode] /Users/pooja/Documents/vivasa_app/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:5-16:36
 29        android:name="android.hardware.camera.front"
-29-->[:react-native-scan-barcode] /Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-53
+29-->[:react-native-scan-barcode] /Users/pooja/Documents/vivasa_app/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-53
 30        android:required="false" />
-30-->[:react-native-scan-barcode] /Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-33
+30-->[:react-native-scan-barcode] /Users/pooja/Documents/vivasa_app/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-33
 31
 32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-32-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
-32-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+32-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+32-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
 33
 34    <queries>
-34-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
+34-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
 35        <intent>
-35-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+35-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
 36            <action android:name="android.media.action.IMAGE_CAPTURE" />
-36-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-73
-36-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-70
+36-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-73
+36-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-70
 37        </intent>
 38        <intent>
 38-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:18:9-20:18
@@ -90,63 +90,63 @@
 44-->[androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-3/576c088c8fb10fed8ab09777b8455141/transformed/runner-1.4.0/AndroidManifest.xml:27:18-80
 45
 46        <intent>
-46-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:11:9-17:18
+46-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:11:9-17:18
 47            <action android:name="android.intent.action.VIEW" />
-47-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:12:13-65
-47-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:12:21-62
+47-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:12:13-65
+47-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:12:21-62
 48
 49            <data
-49-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:14:13-16:38
+49-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:14:13-16:38
 50                android:mimeType="*/*"
-50-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:15:17-39
+50-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:15:17-39
 51                android:scheme="*" />
-51-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:16:17-35
+51-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:16:17-35
 52        </intent>
 53        <intent>
-53-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:18:9-27:18
+53-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:18:9-27:18
 54            <action android:name="android.intent.action.VIEW" />
-54-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:12:13-65
-54-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:12:21-62
+54-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:12:13-65
+54-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:12:21-62
 55
 56            <category android:name="android.intent.category.BROWSABLE" />
-56-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:21:13-74
-56-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:21:23-71
+56-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:21:13-74
+56-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:21:23-71
 57
 58            <data
-58-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:14:13-16:38
+58-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:14:13-16:38
 59                android:host="pay"
 60                android:mimeType="*/*"
-60-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:15:17-39
+60-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:15:17-39
 61                android:scheme="upi" />
-61-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:16:17-35
+61-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:16:17-35
 62        </intent>
 63        <intent>
-63-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:28:9-30:18
+63-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:28:9-30:18
 64            <action android:name="android.intent.action.MAIN" />
-64-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:44:13-65
-64-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:44:21-62
+64-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:44:13-65
+64-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:44:21-62
 65        </intent>
 66        <intent>
-66-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:31:9-35:18
+66-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:31:9-35:18
 67            <action android:name="android.intent.action.SEND" />
-67-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:32:13-65
-67-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:32:21-62
+67-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:32:13-65
+67-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:32:21-62
 68
 69            <data android:mimeType="*/*" />
-69-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:14:13-16:38
-69-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:15:17-39
+69-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:14:13-16:38
+69-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:15:17-39
 70        </intent>
 71        <intent>
-71-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:36:9-38:18
+71-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:36:9-38:18
 72            <action android:name="rzp.device_token.share" />
-72-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:37:13-61
-72-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:37:21-58
+72-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:37:13-61
+72-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:37:21-58
 73        </intent>
 74    </queries>
 75
 76    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-76-->[:react-native-voice] /Users/pooja/Documents/Vivasa/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-71
-76-->[:react-native-voice] /Users/pooja/Documents/Vivasa/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-68
+76-->[:react-native-voice] /Users/pooja/Documents/vivasa_app/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-71
+76-->[:react-native-voice] /Users/pooja/Documents/vivasa_app/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-68
 77    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
 77-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:5-77
 77-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:22-74
@@ -236,314 +236,314 @@
 113-->[me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
 114
 115    <application
-115-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:22:5-106:19
+115-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:22:5-106:19
 116        android:name="com.createdinam.vivasa.MainApplication"
-116-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:23:7-38
+116-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:23:7-38
 117        android:allowBackup="true"
-117-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:27:7-33
+117-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:27:7-33
 118        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 118-->[androidx.core:core:1.9.0] /Users/pooja/.gradle/caches/transforms-3/91e5ae0e30bfc9e5e66a0fa550b98906/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 119        android:dataExtractionRules="@xml/data_extraction_rules"
-119-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:29:7-63
+119-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:29:7-63
 120        android:icon="@mipmap/ic_launcher"
-120-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:25:7-41
+120-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:25:7-41
 121        android:label="@string/app_name"
-121-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:24:7-39
+121-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:24:7-39
 122        android:roundIcon="@mipmap/ic_launcher"
-122-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:26:7-46
+122-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:26:7-46
 123        android:supportsRtl="true"
 123-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:26:9-35
 124        android:theme="@style/AppTheme" >
-124-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:28:7-38
+124-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:28:7-38
 125        <meta-data
-125-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:32:9-34:36
+125-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:32:9-34:36
 126            android:name="com.google.android.gms.wallet.api.enabled"
-126-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:33:13-69
+126-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:33:13-69
 127            android:value="true" />
-127-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:34:13-33
+127-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:34:13-33
 128
 129        <activity
-129-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:35:7-47:18
+129-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:35:7-47:18
 130            android:name="com.createdinam.vivasa.MainActivity"
-130-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:36:9-37
+130-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:36:9-37
 131            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-131-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:38:9-118
+131-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:38:9-118
 132            android:exported="true"
-132-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:41:9-32
+132-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:41:9-32
 133            android:label="@string/app_name"
-133-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:37:9-41
+133-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:37:9-41
 134            android:launchMode="singleTask"
-134-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:39:9-40
+134-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:39:9-40
 135            android:windowSoftInputMode="adjustResize" >
-135-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:40:9-51
+135-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:40:9-51
 136            <meta-data
-136-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:42:9-155
+136-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:42:9-155
 137                android:name="com.google.firebase.messaging.default_notification_channel_id"
-137-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:42:20-96
+137-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:42:20-96
 138                android:value="@string/default_notification_channel_id" />
-138-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:42:97-152
+138-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:42:97-152
 139
 140            <intent-filter>
-140-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:43:9-46:25
+140-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:43:9-46:25
 141                <action android:name="android.intent.action.MAIN" />
-141-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:44:13-65
-141-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:44:21-62
+141-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:44:13-65
+141-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:44:21-62
 142
 143                <category android:name="android.intent.category.LAUNCHER" />
-143-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:45:13-73
-143-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:45:23-70
+143-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:45:13-73
+143-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:45:23-70
 144            </intent-filter>
 145        </activity>
 146
 147        <meta-data
-147-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:48:9-49:41
+147-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:48:9-49:41
 148            android:name="com.dieam.reactnativepushnotification.notification_channel_name"
-148-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:48:21-99
+148-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:48:21-99
 149            android:value="my-channel" />
-149-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:49:13-39
+149-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:49:13-39
 150        <meta-data
-150-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:50:9-51:41
+150-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:50:9-51:41
 151            android:name="com.dieam.reactnativepushnotification.notification_channel_description"
-151-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:50:21-106
+151-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:50:21-106
 152            android:value="my channel" />
-152-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:51:13-39
+152-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:51:13-39
 153
 154        <!-- Change the value to true to enable pop-up for in foreground (remote-only, for local use ignoreInForeground) -->
 155        <meta-data
-155-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:54:9-55:36
+155-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:54:9-55:36
 156            android:name="com.dieam.reactnativepushnotification.notification_foreground"
-156-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:54:21-97
+156-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:54:21-97
 157            android:value="false" />
-157-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:55:13-34
+157-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:55:13-34
 158        <!-- Change the value to false if you don't want the creation of the default channel -->
 159        <meta-data
-159-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:57:9-58:36
+159-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:57:9-58:36
 160            android:name="com.dieam.reactnativepushnotification.channel_create_default"
-160-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:57:21-96
+160-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:57:21-96
 161            android:value="true " />
-161-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:58:13-34
+161-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:58:13-34
 162        <!-- Change the resource name to your App's accent color - or any other color you want -->
 163        <meta-data
-163-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:60:9-61:46
+163-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:60:9-61:46
 164            android:name="com.dieam.reactnativepushnotification.notification_color"
-164-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:60:21-92
+164-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:60:21-92
 165            android:resource="@color/white" />
-165-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:61:13-44
+165-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:61:13-44
 166        <!-- or @android:color/{name} to use a standard color -->
 167
 168        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
-168-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:64:9-108
-168-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:64:19-105
+168-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:64:9-108
+168-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:64:19-105
 169        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
-169-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:65:9-110
-169-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:65:19-107
+169-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:65:9-110
+169-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:65:19-107
 170        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
-170-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:64:9-108
-170-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:64:19-105
+170-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:64:9-108
+170-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:64:19-105
 171        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
-171-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:65:9-110
-171-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:65:19-107
+171-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:65:9-110
+171-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:65:19-107
 172        <receiver
-172-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:68:9-74:20
+172-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:68:9-74:20
 173            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
-173-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:69:13-109
+173-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:69:13-109
 174            android:exported="true" >
-174-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:70:13-36
+174-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:70:13-36
 175            <intent-filter>
-175-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:71:13-73:29
+175-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:71:13-73:29
 176                <action android:name="android.intent.action.BOOT_COMPLETED" />
-176-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:72:17-79
-176-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:72:25-76
+176-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:72:17-79
+176-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:72:25-76
 177            </intent-filter>
 178        </receiver>
 179
 180        <service
-180-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:75:9-81:19
+180-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:75:9-81:19
 181            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
-181-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:76:13-107
+181-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:76:13-107
 182            android:exported="false" >
-182-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:77:13-37
+182-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:77:13-37
 183            <intent-filter>
-183-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:78:13-80:29
+183-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:78:13-80:29
 184                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-184-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:17-78
-184-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:25-75
+184-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:79:17-78
+184-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:79:25-75
 185            </intent-filter>
 186        </service>
 187
 188        <activity
-188-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:82:9-90:15
+188-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:82:9-90:15
 189            android:name="com.reactnativefullscreennotificationincomingcall.IncomingCallActivity"
-189-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:83:13-98
+189-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:83:13-98
 190            android:excludeFromRecents="true"
-190-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:86:13-46
+190-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:86:13-46
 191            android:exported="true"
-191-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:87:13-36
+191-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:87:13-36
 192            android:launchMode="singleTask"
-192-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:85:13-44
+192-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:85:13-44
 193            android:showWhenLocked="true"
-193-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:88:13-42
+193-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:88:13-42
 194            android:theme="@style/incomingCall"
-194-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:84:13-48
+194-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:84:13-48
 195            android:turnScreenOn="true" />
-195-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:89:13-40
+195-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:89:13-40
 196        <activity
-196-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:91:9-99:15
+196-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:91:9-99:15
 197            android:name="com.reactnativefullscreennotificationincomingcall.NotificationReceiverActivity"
-197-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:92:13-106
+197-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:92:13-106
 198            android:excludeFromRecents="true"
-198-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:95:13-46
+198-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:95:13-46
 199            android:exported="true"
-199-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:96:13-36
+199-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:96:13-36
 200            android:launchMode="singleTask"
-200-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:94:13-44
+200-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:94:13-44
 201            android:showWhenLocked="true"
-201-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:97:13-42
+201-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:97:13-42
 202            android:theme="@style/incomingCall"
-202-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:93:13-48
+202-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:93:13-48
 203            android:turnScreenOn="true" />
-203-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:98:13-40
+203-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:98:13-40
 204
 205        <service
-205-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:100:9-105:11
+205-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:100:9-105:11
 206            android:name="com.reactnativefullscreennotificationincomingcall.IncomingCallService"
-206-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:101:13-97
+206-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:101:13-97
 207            android:enabled="true"
-207-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:102:13-35
+207-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:102:13-35
 208            android:exported="true"
-208-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:104:13-36
+208-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:104:13-36
 209            android:stopWithTask="false" />
-209-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:103:13-41
+209-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:103:13-41
 210
 211        <meta-data
-211-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:36
+211-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:36
 212            android:name="firebase_analytics_collection_enabled"
-212-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-65
+212-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-65
 213            android:value="true" />
-213-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-33
+213-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-33
 214        <meta-data
-214-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-19:37
+214-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-19:37
 215            android:name="firebase_analytics_collection_deactivated"
-215-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-69
+215-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-69
 216            android:value="false" />
-216-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-34
+216-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-34
 217        <meta-data
-217-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-22:36
+217-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-22:36
 218            android:name="google_analytics_adid_collection_enabled"
-218-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-68
+218-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-68
 219            android:value="true" />
-219-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-33
+219-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-33
 220        <meta-data
-220-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-25:36
+220-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-25:36
 221            android:name="google_analytics_ssaid_collection_enabled"
-221-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-69
+221-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-69
 222            android:value="true" />
-222-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-33
+222-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-33
 223        <meta-data
-223-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:9-28:36
+223-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:9-28:36
 224            android:name="google_analytics_default_allow_ad_personalization_signals"
-224-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-85
+224-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-85
 225            android:value="true" />
-225-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-33
+225-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-33
 226        <meta-data
-226-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-31:36
+226-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-31:36
 227            android:name="google_analytics_automatic_screen_reporting_enabled"
-227-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-79
+227-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-79
 228            android:value="true" /> <!-- Disable crashlytics by default so we can custom init with CrashlyticsNdk support -->
-228-->[:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-33
+228-->[:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-33
 229        <meta-data
-229-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-14:37
+229-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-14:37
 230            android:name="firebase_crashlytics_collection_enabled"
-230-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-67
+230-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-67
 231            android:value="false" />
-231-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-34
+231-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-34
 232
 233        <provider
-233-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:38
+233-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:38
 234            android:name="io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider"
-234-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-104
+234-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-104
 235            android:authorities="com.createdinam.vivasa.reactnativefirebasecrashlyticsinitprovider"
-235-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-94
+235-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-94
 236            android:exported="false"
-236-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+236-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
 237            android:initOrder="98" />
-237-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-35
+237-->[:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-35
 238
 239        <service
-239-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:40
+239-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:40
 240            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
-240-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-103
+240-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-103
 241            android:exported="false" />
-241-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+241-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
 242        <service
-242-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-23:19
+242-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-23:19
 243            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
-243-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-95
+243-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-95
 244            android:exported="false" >
-244-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+244-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
 245            <intent-filter>
-245-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:78:13-80:29
+245-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:78:13-80:29
 246                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-246-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:17-78
-246-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:25-75
+246-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:79:17-78
+246-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:79:25-75
 247            </intent-filter>
 248        </service>
 249
 250        <receiver
-250-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-32:20
+250-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-32:20
 251            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
-251-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-96
+251-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-96
 252            android:exported="true"
-252-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+252-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
 253            android:permission="com.google.android.c2dm.permission.SEND" >
-253-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-73
+253-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-73
 254            <intent-filter>
-254-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
+254-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
 255                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-255-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
-255-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
+255-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
+255-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
 256            </intent-filter>
 257        </receiver>
 258
 259        <meta-data
-259-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-36:36
+259-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-36:36
 260            android:name="firebase_messaging_auto_init_enabled"
-260-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-64
+260-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-64
 261            android:value="true" />
-261-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-33
+261-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-33
 262        <meta-data
-262-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:42:9-155
+262-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:42:9-155
 263            android:name="com.google.firebase.messaging.default_notification_channel_id"
-263-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:42:20-96
+263-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:42:20-96
 264            android:value="" />
-264-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:42:97-152
+264-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:42:97-152
 265        <meta-data
-265-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-42:47
+265-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-42:47
 266            android:name="com.google.firebase.messaging.default_notification_color"
-266-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-84
+266-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-84
 267            android:resource="@color/white" />
-267-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-44
+267-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-44
 268        <meta-data
-268-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:36
+268-->[:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:36
 269            android:name="app_data_collection_default_enabled"
-269-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-63
+269-->[:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-63
 270            android:value="true" />
-270-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-33
+270-->[:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-33
 271
 272        <service
-272-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:19
+272-->[:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:19
 273            android:name="com.google.firebase.components.ComponentDiscoveryService"
-273-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-84
+273-->[:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-84
 274            android:directBootAware="true"
-274-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-43
+274-->[:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-43
 275            android:exported="false" >
-275-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+275-->[:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
 276            <meta-data
-276-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:85
+276-->[:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:85
 277                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
-277-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-120
+277-->[:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-120
 278                android:value="com.google.firebase.components.ComponentRegistrar" />
-278-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
+278-->[:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
 279            <meta-data
 279-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
 280                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
@@ -595,118 +595,118 @@
 303        </service>
 304
 305        <provider
-305-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-29:38
+305-->[:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-29:38
 306            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
-306-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-88
+306-->[:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-88
 307            android:authorities="com.createdinam.vivasa.reactnativefirebaseappinitprovider"
-307-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-86
+307-->[:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-86
 308            android:exported="false"
-308-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
+308-->[:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
 309            android:initOrder="99" />
-309-->[:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-35
+309-->[:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-35
 310        <provider
-310-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-26:20
+310-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-26:20
 311            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
-311-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-94
+311-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-94
 312            android:authorities="com.createdinam.vivasa.provider"
-312-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-60
+312-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-60
 313            android:exported="false"
-313-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+313-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
 314            android:grantUriPermissions="true" >
-314-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-47
+314-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-47
 315            <meta-data
-315-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:78
+315-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:78
 316                android:name="android.support.FILE_PROVIDER_PATHS"
-316-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-67
+316-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-67
 317                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
-317-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-75
+317-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-75
 318        </provider>
 319
 320        <activity
-320-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-30:72
+320-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-30:72
 321            android:name="com.yalantis.ucrop.UCropActivity"
-321-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-60
+321-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-60
 322            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-322-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-69
+322-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-69
 323
 324        <receiver
-324-->[:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-17:20
+324-->[:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-17:20
 325            android:name="com.reactnativeotpautofill.OtpBroadcastReceiver"
-325-->[:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-75
+325-->[:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-75
 326            android:exported="true"
-326-->[:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-36
+326-->[:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-36
 327            android:permission="com.google.android.gms.auth.api.phone.permission.SEND" >
-327-->[:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-87
+327-->[:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-87
 328            <intent-filter>
-328-->[:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-16:29
+328-->[:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-16:29
 329                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
-329-->[:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-94
-329-->[:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:25-91
+329-->[:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-94
+329-->[:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:25-91
 330            </intent-filter>
 331        </receiver>
 332
 333        <activity
-333-->[:react-native-razorpay] /Users/pooja/Documents/Vivasa/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:86
+333-->[:react-native-razorpay] /Users/pooja/Documents/vivasa_app/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:86
 334            android:name="com.razorpay.CheckoutActivity"
-334-->[:react-native-razorpay] /Users/pooja/Documents/Vivasa/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-57
+334-->[:react-native-razorpay] /Users/pooja/Documents/vivasa_app/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-57
 335            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-335-->[:react-native-razorpay] /Users/pooja/Documents/Vivasa/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-83
+335-->[:react-native-razorpay] /Users/pooja/Documents/vivasa_app/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-83
 336            android:exported="false"
-336-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:54:13-37
+336-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:54:13-37
 337            android:theme="@style/CheckoutTheme" >
-337-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:55:13-49
+337-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:55:13-49
 338            <intent-filter>
-338-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:56:13-58:29
+338-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:56:13-58:29
 339                <action android:name="android.intent.action.MAIN" />
-339-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:44:13-65
-339-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:44:21-62
+339-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:44:13-65
+339-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:44:21-62
 340            </intent-filter>
 341        </activity> <!-- The main service, handles playback, playlists and media buttons -->
 342        <service
-342-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-22:19
+342-->[:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-22:19
 343            android:name="com.doublesymmetry.trackplayer.service.MusicService"
-343-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-79
+343-->[:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-79
 344            android:enabled="true"
-344-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-35
+344-->[:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-35
 345            android:exported="false" >
-345-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+345-->[:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
 346            <intent-filter>
-346-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-21:29
+346-->[:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-21:29
 347                <action android:name="android.intent.action.MEDIA_BUTTON" />
-347-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-77
-347-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:25-74
+347-->[:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-77
+347-->[:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:25-74
 348            </intent-filter>
 349        </service> <!-- A receiver that will receive media buttons. Required on pre-lollipop devices -->
 350        <receiver
-350-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-31:20
+350-->[:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-31:20
 351            android:name="androidx.media.session.MediaButtonReceiver"
-351-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-70
+351-->[:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-70
 352            android:exported="true" >
-352-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+352-->[:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
 353            <intent-filter>
-353-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-21:29
+353-->[:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-21:29
 354                <action android:name="android.intent.action.MEDIA_BUTTON" />
-354-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-77
-354-->[:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:25-74
+354-->[:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-77
+354-->[:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:25-74
 355            </intent-filter>
 356        </receiver>
 357
 358        <provider
-358-->[:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+358-->[:react-native-webview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
 359            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
-359-->[:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-83
+359-->[:react-native-webview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-83
 360            android:authorities="com.createdinam.vivasa.fileprovider"
-360-->[:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+360-->[:react-native-webview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
 361            android:exported="false"
-361-->[:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+361-->[:react-native-webview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
 362            android:grantUriPermissions="true" >
-362-->[:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+362-->[:react-native-webview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
 363            <meta-data
-363-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:78
+363-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:78
 364                android:name="android.support.FILE_PROVIDER_PATHS"
-364-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-67
+364-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-67
 365                android:resource="@xml/file_provider_paths" />
-365-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-75
+365-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-75
 366        </provider>
 367        <provider
 367-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:27:9-36:20
@@ -719,11 +719,11 @@
 371            android:grantUriPermissions="true" >
 371-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:31:13-47
 372            <meta-data
-372-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:78
+372-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:78
 373                android:name="android.support.FILE_PROVIDER_PATHS"
-373-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-67
+373-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-67
 374                android:resource="@xml/km_provider_paths" />
-374-->[:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-75
+374-->[:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-75
 375        </provider>
 376
 377        <service
@@ -735,10 +735,10 @@
 380            android:stopWithTask="false" >
 380-->[io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:41:13-41
 381            <intent-filter>
-381-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:78:13-80:29
+381-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:78:13-80:29
 382                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-382-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:17-78
-382-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:25-75
+382-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:79:17-78
+382-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:79:25-75
 383            </intent-filter>
 384        </service>
 385
@@ -840,10 +840,10 @@
 436            android:permission="com.google.android.c2dm.permission.SEND" >
 436-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
 437            <intent-filter>
-437-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
+437-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
 438                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-438-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
-438-->[:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
+438-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
+438-->[:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
 439            </intent-filter>
 440        </receiver>
 441        <!--
@@ -859,10 +859,10 @@
 448            android:exported="false" >
 448-->[com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
 449            <intent-filter android:priority="-500" >
-449-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:78:13-80:29
+449-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:78:13-80:29
 450                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-450-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:17-78
-450-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:25-75
+450-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:79:17-78
+450-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:79:25-75
 451            </intent-filter>
 452        </service>
 453        <service
@@ -986,8 +986,8 @@
 515-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:76:17-82
 515-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:76:25-79
 516                <action android:name="android.intent.action.BOOT_COMPLETED" />
-516-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:72:17-79
-516-->/Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:72:25-76
+516-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:72:17-79
+516-->/Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:72:25-76
 517            </intent-filter>
 518        </receiver>
 519
@@ -1023,34 +1023,34 @@
 534-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:95:13-39
 535
 536        <provider
-536-->[com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+536-->[com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
 537            android:name="com.squareup.picasso.PicassoProvider"
-537-->[com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+537-->[com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
 538            android:authorities="com.createdinam.vivasa.com.squareup.picasso"
-538-->[com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+538-->[com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
 539            android:exported="false" />
-539-->[com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+539-->[com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
 540
 541        <receiver
-541-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:42:9-49:20
+541-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:42:9-49:20
 542            android:name="com.razorpay.RzpTokenReceiver"
-542-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:43:13-57
+542-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:43:13-57
 543            android:exported="true" >
-543-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:44:13-36
+543-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:44:13-36
 544            <intent-filter>
-544-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:46:13-48:29
+544-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:46:13-48:29
 545                <action android:name="rzp.device_token.share" />
-545-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:37:13-61
-545-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:37:21-58
+545-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:37:13-61
+545-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:37:21-58
 546            </intent-filter>
 547        </receiver>
 548
 549        <meta-data
-549-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:61:9-63:58
+549-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:61:9-63:58
 550            android:name="com.razorpay.plugin.googlepay_all"
-550-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:62:13-61
+550-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:62:13-61
 551            android:value="com.razorpay.RzpGpayMerged" />
-551-->[com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:63:13-55
+551-->[com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:63:13-55
 552
 553        <activity
 553-->[com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75

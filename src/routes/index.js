@@ -36,6 +36,7 @@ import BoatChatScreen from '../screens/BoatChatScreen';
 import BrandScreen from '../screens/BrandScreen';
 import ProductSearch from '../screens/ProductSearch';
 import PayScreen from '../screens/PayScreen';
+import OrderDetails from '../screens/OrderDetails';
 // Theme.
 const MyTheme = {
     dark: false,
@@ -319,7 +320,7 @@ function StackNavigation() {
                             fontWeight: 'bold',
                         },
                     }} />
-                     <Stack.Screen
+                <Stack.Screen
                     name="ProductSearch"
                     component={ProductSearch}
                     options={{
@@ -475,11 +476,24 @@ function StackNavigation() {
                             fontWeight: 'bold',
                         },
                     }} />
-                     <Stack.Screen
+                <Stack.Screen
                     name="PayScreen"
                     component={PayScreen}
                     options={{
                         title: 'BoatChatScreen',
+                        headerStyle: {
+                            backgroundColor: 'black',
+                        },
+                        headerTintColor: '#fff',
+                        headerTitleStyle: {
+                            fontWeight: 'bold',
+                        },
+                    }} />
+                <Stack.Screen
+                    name="OrderDetails"
+                    component={OrderDetails}
+                    options={{
+                        title: 'OrderDetails',
                         headerStyle: {
                             backgroundColor: 'black',
                         },

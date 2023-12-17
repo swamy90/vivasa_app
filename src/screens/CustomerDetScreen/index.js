@@ -72,8 +72,8 @@ const CustomerDetailsScreen = () => {
         if (posts.status === true) {
             saveDetailToAsync(posts);
             showMessage({
-                message: "Loggout Successfull!",
-                description: "Congratulations, Loggout successfully!",
+                message: "Login Successfull!",
+                description: "Congratulations, Login successfully!",
                 type: "success",
             });
         } else {
@@ -137,7 +137,7 @@ const CustomerDetailsScreen = () => {
                         <Image source={require('../../assets/images/s-img4.png')} style={{ height: 100, width: 100, resizeMode: 'contain', marginTop: 20, marginRight: 15, alignSelf: "flex-end" }} />
                     </View>
                     <View style={{ paddingLeft: 10, width: '90%' }}>
-                        <Text style={{ fontSize: 25, textTransform: 'uppercase', fontWeight: '700', lineHeight: 30, marginBottom: 5, letterSpacing: 1., color: '#FFFFFF' }}>Vitrag Cloths Distributor</Text>
+                        <Text style={{ fontSize: 25, textTransform: 'uppercase', fontWeight: '700', lineHeight: 30, marginBottom: 5, letterSpacing: 1., color: '#FFFFFF' }}>Vitrag Cloth Distributor</Text>
                         <Text style={{ fontSize: 18, textTransform: 'uppercase', lineHeight: 25, color: '#FFFFFF' }}>VIVASA is a premium brand that caters to the high fashion lifestyle of women.</Text>
                     </View>
                     <View style={{ alignSelf: 'center', marginTop: 20 }}>

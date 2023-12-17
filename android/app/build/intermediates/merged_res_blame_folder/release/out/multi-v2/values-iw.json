@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/pooja/Documents/Vivasa/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-iw/values-iw.xml",
+            "outputFile": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-iw/values-iw.xml",
             "map": [
                 {
                     "source": "/Users/pooja/.gradle/caches/transforms-3/91e5ae0e30bfc9e5e66a0fa550b98906/transformed/core-1.9.0/res/values-iw/values-iw.xml",
@@ -91,7 +91,7 @@
                     }
                 },
                 {
-                    "source": "/Users/pooja/.gradle/caches/transforms-3/8ffd1cd2262d6d07e1f02e33c6168b04/transformed/jetified-exoplayer-ui-2.18.1/res/values-iw/values-iw.xml",
+                    "source": "/Users/pooja/.gradle/caches/transforms-3/7b96da856b9f3a78a972820ed31dcb89/transformed/jetified-exoplayer-ui-2.18.1/res/values-iw/values-iw.xml",
                     "from": {
                         "startLines": "2,11,17,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -1,45 +1,45 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:1:1-108:12
-INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:1:1-108:12
-INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:1:1-108:12
-INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:1:1-108:12
-MERGED from [:react-native-scan-barcode] /Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-18:12
-MERGED from [:react-native-google-pay] /Users/pooja/Documents/Vivasa/node_modules/react-native-google-pay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-exit-app] /Users/pooja/Documents/Vivasa/node_modules/react-native-exit-app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-async-storage_async-storage] /Users/pooja/Documents/Vivasa/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_checkbox] /Users/pooja/Documents/Vivasa/node_modules/@react-native-community/checkbox/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_datetimepicker] /Users/pooja/Documents/Vivasa/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-community_masked-view] /Users/pooja/Documents/Vivasa/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-34:12
-MERGED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-23:12
-MERGED from [:react-native-firebase_database] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-13:12
-MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-13:12
-MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-45:12
-MERGED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-32:12
-MERGED from [:react-native-device-info] /Users/pooja/Documents/Vivasa/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-full-screen-notification-incoming-call] /Users/pooja/Documents/Vivasa/node_modules/react-native-full-screen-notification-incoming-call/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-gesture-handler] /Users/pooja/Documents/Vivasa/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-get-location] /Users/pooja/Documents/Vivasa/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-id-qrcodeview] /Users/pooja/Documents/Vivasa/node_modules/react-native-id-qrcodeview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-33:12
-MERGED from [:react-native-kommunicate-chat] /Users/pooja/Documents/Vivasa/node_modules/react-native-kommunicate-chat/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-linear-gradient] /Users/pooja/Documents/Vivasa/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-20:12
-MERGED from [:react-native-push-notification] /Users/pooja/Documents/Vivasa/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-razorpay] /Users/pooja/Documents/Vivasa/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-15:12
-MERGED from [:react-native-safe-area-context] /Users/pooja/Documents/Vivasa/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-screens] /Users/pooja/Documents/Vivasa/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-34:12
-MERGED from [:react-native-version-check] /Users/pooja/Documents/Vivasa/node_modules/react-native-version-check/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-voice] /Users/pooja/Documents/Vivasa/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-14:12
-MERGED from [:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:1:1-108:12
+INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:1:1-108:12
+INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:1:1-108:12
+INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:1:1-108:12
+MERGED from [:react-native-scan-barcode] /Users/pooja/Documents/vivasa_app/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-18:12
+MERGED from [:react-native-google-pay] /Users/pooja/Documents/vivasa_app/node_modules/react-native-google-pay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-exit-app] /Users/pooja/Documents/vivasa_app/node_modules/react-native-exit-app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-async-storage_async-storage] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_checkbox] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/checkbox/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_datetimepicker] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_masked-view] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-34:12
+MERGED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-23:12
+MERGED from [:react-native-firebase_database] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-45:12
+MERGED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-32:12
+MERGED from [:react-native-device-info] /Users/pooja/Documents/vivasa_app/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-full-screen-notification-incoming-call] /Users/pooja/Documents/vivasa_app/node_modules/react-native-full-screen-notification-incoming-call/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /Users/pooja/Documents/vivasa_app/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-get-location] /Users/pooja/Documents/vivasa_app/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-id-qrcodeview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-id-qrcodeview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-33:12
+MERGED from [:react-native-kommunicate-chat] /Users/pooja/Documents/vivasa_app/node_modules/react-native-kommunicate-chat/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-linear-gradient] /Users/pooja/Documents/vivasa_app/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-20:12
+MERGED from [:react-native-push-notification] /Users/pooja/Documents/vivasa_app/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-razorpay] /Users/pooja/Documents/vivasa_app/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-safe-area-context] /Users/pooja/Documents/vivasa_app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/pooja/Documents/vivasa_app/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-34:12
+MERGED from [:react-native-version-check] /Users/pooja/Documents/vivasa_app/node_modules/react-native-version-check/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-voice] /Users/pooja/Documents/vivasa_app/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-14:12
+MERGED from [:react-native-webview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
 MERGED from [com.facebook.react:react-native:0.69.3] /Users/pooja/.gradle/caches/transforms-3/5ad57d8f069bfdfe2c68d61b486b22c5/transformed/jetified-react-native-0.69.3-release/AndroidManifest.xml:2:1-11:12
 MERGED from [io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:2:1-99:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/pooja/.gradle/caches/transforms-3/1e78a0515f5cd9d6de4a1e5bcfa16394/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [org.webkit:android-jsc:r250230] /Users/pooja/.gradle/caches/transforms-3/386706216bcc7721ce13497b940d4a85/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-reanimated] /Users/pooja/Documents/Vivasa/node_modules/react-native-reanimated/android/build/.transforms/0366faf75ecf1ad92c7efcc454c1e717/transformed/jetified-react-native-reanimated-69-jsc/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-sound] /Users/pooja/Documents/Vivasa/node_modules/react-native-sound/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-10:12
+MERGED from [:react-native-reanimated] /Users/pooja/Documents/vivasa_app/node_modules/react-native-reanimated/android/build/.transforms/414e4a68fe664ff8a497bdf23bb597f0/transformed/jetified-react-native-reanimated-69-jsc/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-sound] /Users/pooja/Documents/vivasa_app/node_modules/react-native-sound/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-10:12
 MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/pooja/.gradle/caches/transforms-3/be8f6961c123b975208727b040b7f84e/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/pooja/.gradle/caches/transforms-3/3bd3bb16b17c790a86a8b28cf9087c1f/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/pooja/.gradle/caches/transforms-3/3decc7c002ff091fd7cba473b9556e42/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:2:1-9:12
@@ -86,14 +86,14 @@ MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/pooja/.gradle/caches/
 MERGED from [androidx.test:rules:1.4.0] /Users/pooja/.gradle/caches/transforms-3/b8738d1924408d293cf316336bae370f/transformed/rules-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-3/576c088c8fb10fed8ab09777b8455141/transformed/runner-1.4.0/AndroidManifest.xml:17:1-32:12
 MERGED from [androidx.test.services:storage:1.4.0] /Users/pooja/.gradle/caches/transforms-3/936d3b22b2e45f35855e73e289a77a18/transformed/jetified-storage-1.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/a541218515d4de393e7b05452cbb5357/transformed/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/92d566157d44da56077a1b084a53ae8b/transformed/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pooja/.gradle/caches/transforms-3/ebae4bea43657ca9264ce50f5fcd6153/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pooja/.gradle/caches/transforms-3/6a505e8cd571f982b683cd8787457c75/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/pooja/.gradle/caches/transforms-3/8e3cee0cff7bc89fcb54ae9add3efc4d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pooja/.gradle/caches/transforms-3/19df0794a19f8a43eda98ae3b0d14858/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.webkit:webkit:1.4.0] /Users/pooja/.gradle/caches/transforms-3/289dc31b2a03bd640aac69d0048f53a9/transformed/webkit-1.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:2:1-66:12
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:2:1-66:12
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/pooja/.gradle/caches/transforms-3/156927b6ee345ef05e354f138cd23d14/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/pooja/.gradle/caches/transforms-3/6e22017a39b220afee21550ab31f5f4f/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
@@ -127,7 +127,7 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/pooja/.grad
 MERGED from [androidx.loader:loader:1.0.0] /Users/pooja/.gradle/caches/transforms-3/bfeb77ac14b6795e294eff88c7c6a0b2/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pooja/.gradle/caches/transforms-3/cac0917b844e69eff9e7f007323418e1/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.exoplayer:exoplayer:2.18.1] /Users/pooja/.gradle/caches/transforms-3/0233fd87afb318c44970775323034c8d/transformed/jetified-exoplayer-2.18.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] /Users/pooja/.gradle/caches/transforms-3/8ffd1cd2262d6d07e1f02e33c6168b04/transformed/jetified-exoplayer-ui-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] /Users/pooja/.gradle/caches/transforms-3/7b96da856b9f3a78a972820ed31dcb89/transformed/jetified-exoplayer-ui-2.18.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/pooja/.gradle/caches/transforms-3/d18f4efaa6e6cf266b0cf77b6d2ac04a/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/pooja/.gradle/caches/transforms-3/d54c7305e08f198980a6dfe1fe86dabd/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.exoplayer:extension-mediasession:2.18.1] /Users/pooja/.gradle/caches/transforms-3/ac89b3767dd88025be597518b0cf6f43/transformed/jetified-extension-mediasession-2.18.1/AndroidManifest.xml:17:1-24:12
@@ -141,7 +141,7 @@ MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/pooja/.g
 MERGED from [androidx.core:core:1.9.0] /Users/pooja/.gradle/caches/transforms-3/91e5ae0e30bfc9e5e66a0fa550b98906/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.core:core-ktx:1.9.0] /Users/pooja/.gradle/caches/transforms-3/ba7d3e4cffcb4095cdca2ff6014f94b7/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/pooja/.gradle/caches/transforms-3/3f3a36ce8add6354d731bcdfd7dc90c9/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.orhanobut:logger:2.2.0] /Users/pooja/.gradle/caches/transforms-3/4d31e03fb80e52a865756601614c1e55/transformed/jetified-logger-2.2.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.orhanobut:logger:2.2.0] /Users/pooja/.gradle/caches/transforms-3/894d011d5903d0db24ee9a483c23a1f0/transformed/jetified-logger-2.2.0/AndroidManifest.xml:2:1-8:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pooja/.gradle/caches/transforms-3/ee397c324754c76fe0ebac131ba57406/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/pooja/.gradle/caches/transforms-3/702ddcd37fc82a839512dc0ab8f41c90/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/pooja/.gradle/caches/transforms-3/e815ac4b4268ee017aff6930781baa32/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -157,7 +157,7 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/pooja/.gradle/ca
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/pooja/.gradle/caches/transforms-3/51da684f7a3e769723f4429bcb64e339/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/pooja/.gradle/caches/transforms-3/b74f8d82323ae31b096039716acaeab7/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/pooja/.gradle/caches/transforms-3/5c8a1e2d612480a9f28760f6e8fea122/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/55c70565c4d225fbedcd210e46b9ff58/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/1f23dd5c9b931081672c47a613188953/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] /Users/pooja/.gradle/caches/transforms-3/d62da7fad5d9b080c9ce3903da46c18d/transformed/jetified-exoplayer-datasource-2.18.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] /Users/pooja/.gradle/caches/transforms-3/9dd1b85811709d6120b536f39c660394/transformed/jetified-exoplayer-database-2.18.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.1] /Users/pooja/.gradle/caches/transforms-3/e4961020a44db887b53dc3972b86ba4a/transformed/jetified-exoplayer-extractor-2.18.1/AndroidManifest.xml:17:1-24:12
@@ -173,38 +173,38 @@ MERGED from [com.jakewharton.timber:timber:5.0.1] /Users/pooja/.gradle/caches/tr
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/pooja/.gradle/caches/transforms-3/f05e975ce24e142ab13cc9044b1e42c8/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/pooja/.gradle/caches/transforms-3/5366e2924e19e63c7d2abf208009d568/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:2:1-9:12
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/1047d3af863d672aac16dba01eec01c5/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:1:1-108:12
-INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:1:1-108:12
-INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:1:1-108:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/aa2e998f8c4fd78b3d545345b12a0f7e/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:1:1-108:12
+INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:1:1-108:12
+INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:1:1-108:12
 	package
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:3:5-37
-		INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:1:1-108:12
-		INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:1:1-108:12
+		INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:2:5-51
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:2:5-51
 	android:versionCode
-		INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:1:1-108:12
-		INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:1:1-108:12
+		INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:5:5-67
-MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-67
-MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-67
-MERGED from [:react-native-firebase_database] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_database] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-voice] /Users/pooja/Documents/Vivasa/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-67
-MERGED from [:react-native-voice] /Users/pooja/Documents/Vivasa/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-67
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-67
+MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-67
+MERGED from [:react-native-firebase_database] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_database] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-voice] /Users/pooja/Documents/vivasa_app/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-67
+MERGED from [:react-native-voice] /Users/pooja/Documents/vivasa_app/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-67
 MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/pooja/.gradle/caches/transforms-3/a3ec5fd4b4b66bd9c814f85ca82eefc5/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:9:5-67
 MERGED from [com.google.firebase:firebase-crashlytics:18.3.6] /Users/pooja/.gradle/caches/transforms-3/a3ec5fd4b4b66bd9c814f85ca82eefc5/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:9:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/pooja/.gradle/caches/transforms-3/2bf3581aaf525f2a6a46dc4b511b5e33/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
@@ -219,8 +219,8 @@ MERGED from [io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/t
 MERGED from [io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:16:5-18:30
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pooja/.gradle/caches/transforms-3/19df0794a19f8a43eda98ae3b0d14858/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pooja/.gradle/caches/transforms-3/19df0794a19f8a43eda98ae3b0d14858/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
-MERGED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:8:5-67
-MERGED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:8:5-67
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:8:5-67
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:8:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pooja/.gradle/caches/transforms-3/b0bedba31ccd9257f3af288e61cb4fb6/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pooja/.gradle/caches/transforms-3/b0bedba31ccd9257f3af288e61cb4fb6/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-measurement:21.2.1] /Users/pooja/.gradle/caches/transforms-3/05d4df7d76178df7380a9983c680f423/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:23:5-67
@@ -234,75 +234,75 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.1] /U
 	tools:node
 		ADDED from [io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:18:9-27
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:7:5-78
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:7:5-78
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:7:22-76
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:7:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:8:5-80
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:8:5-80
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:8:22-77
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:8:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:9:5-10:40
-MERGED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-81
-MERGED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-81
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:9:5-10:40
+MERGED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-81
+MERGED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-81
 	tools:ignore
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:10:9-37
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:10:9-37
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:9:22-78
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:9:22-78
 uses-permission#android.permission.CAMERA
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:11:5-65
-MERGED from [:react-native-scan-barcode] /Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-65
-MERGED from [:react-native-scan-barcode] /Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-65
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:11:5-65
+MERGED from [:react-native-scan-barcode] /Users/pooja/Documents/vivasa_app/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-65
+MERGED from [:react-native-scan-barcode] /Users/pooja/Documents/vivasa_app/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-65
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:11:22-62
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:11:22-62
 uses-feature#android.hardware.camera
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:12:5-60
-MERGED from [:react-native-scan-barcode] /Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-13:36
-MERGED from [:react-native-scan-barcode] /Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-13:36
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:12:5-60
+MERGED from [:react-native-scan-barcode] /Users/pooja/Documents/vivasa_app/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-13:36
+MERGED from [:react-native-scan-barcode] /Users/pooja/Documents/vivasa_app/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-13:36
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:12:19-57
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:12:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:13:5-70
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:13:5-70
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:13:19-67
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:13:19-67
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:15:5-80
-MERGED from [:react-native-get-location] /Users/pooja/Documents/Vivasa/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
-MERGED from [:react-native-get-location] /Users/pooja/Documents/Vivasa/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:15:5-80
+MERGED from [:react-native-get-location] /Users/pooja/Documents/vivasa_app/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+MERGED from [:react-native-get-location] /Users/pooja/Documents/vivasa_app/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:15:22-78
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:15:22-78
 uses-permission#android.permission.USE_FULL_SCREEN_INTENT
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:16:5-81
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:16:5-81
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:16:22-78
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:16:22-78
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:17:5-66
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:17:5-66
 MERGED from [io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:13:5-15:30
 MERGED from [io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:13:5-15:30
 	tools:node
 		ADDED from [io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:15:9-27
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:17:22-63
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:17:22-63
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:18:5-77
-MERGED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-77
-MERGED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-77
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:18:5-77
+MERGED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-77
+MERGED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-77
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:18:22-74
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:18:22-74
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:19:5-68
-MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-68
-MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-68
-MERGED from [:react-native-firebase_database] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_database] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-68
-MERGED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-68
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:19:5-68
+MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-68
+MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-68
+MERGED from [:react-native-firebase_database] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_database] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-68
+MERGED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-68
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:26:5-68
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:26:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.1] /Users/pooja/.gradle/caches/transforms-3/808bdafa0d0af7c6f99eb4c25ca1f507/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:24:5-68
@@ -316,33 +316,33 @@ MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.1] /Users/pooja/.gradle/caches/transforms-3/633fe40853752fd54d971c22dd92ef6b/transformed/jetified-play-services-measurement-sdk-api-21.2.1/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.1] /Users/pooja/.gradle/caches/transforms-3/633fe40853752fd54d971c22dd92ef6b/transformed/jetified-play-services-measurement-sdk-api-21.2.1/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:19:22-65
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:19:22-65
 uses-permission#android.permission.DISABLE_KEYGUARD
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:20:5-75
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:20:5-75
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:20:22-72
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:20:22-72
 application
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:22:5-106:19
-MERGED from [:react-native-community_datetimepicker] /Users/pooja/Documents/Vivasa/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-20
-MERGED from [:react-native-community_datetimepicker] /Users/pooja/Documents/Vivasa/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-20
-MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-32:19
-MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-32:19
-MERGED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-21:19
-MERGED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-21:19
-MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-43:19
-MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-43:19
-MERGED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-30:19
-MERGED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-30:19
-MERGED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:5-31:19
-MERGED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:5-31:19
-MERGED from [:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-18:19
-MERGED from [:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-18:19
-MERGED from [:react-native-razorpay] /Users/pooja/Documents/Vivasa/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:19
-MERGED from [:react-native-razorpay] /Users/pooja/Documents/Vivasa/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:19
-MERGED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-32:19
-MERGED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-32:19
-MERGED from [:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
-MERGED from [:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:22:5-106:19
+MERGED from [:react-native-community_datetimepicker] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-20
+MERGED from [:react-native-community_datetimepicker] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-20
+MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-32:19
+MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-32:19
+MERGED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-21:19
+MERGED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-21:19
+MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-43:19
+MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-43:19
+MERGED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:5-31:19
+MERGED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:5-31:19
+MERGED from [:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-18:19
+MERGED from [:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-18:19
+MERGED from [:react-native-razorpay] /Users/pooja/Documents/vivasa_app/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:19
+MERGED from [:react-native-razorpay] /Users/pooja/Documents/vivasa_app/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:19
+MERGED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-32:19
+MERGED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-32:19
+MERGED from [:react-native-webview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-webview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
 MERGED from [com.facebook.react:react-native:0.69.3] /Users/pooja/.gradle/caches/transforms-3/5ad57d8f069bfdfe2c68d61b486b22c5/transformed/jetified-react-native-0.69.3-release/AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-native:0.69.3] /Users/pooja/.gradle/caches/transforms-3/5ad57d8f069bfdfe2c68d61b486b22c5/transformed/jetified-react-native-0.69.3-release/AndroidManifest.xml:9:5-20
 MERGED from [io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:23:5-97:19
@@ -389,14 +389,14 @@ MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/pooja/.gradle/caches/
 MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/pooja/.gradle/caches/transforms-3/dadcf75d0581defec704c4d4d66249b1/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
 MERGED from [androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-3/576c088c8fb10fed8ab09777b8455141/transformed/runner-1.4.0/AndroidManifest.xml:30:5-20
 MERGED from [androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-3/576c088c8fb10fed8ab09777b8455141/transformed/runner-1.4.0/AndroidManifest.xml:30:5-20
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/a541218515d4de393e7b05452cbb5357/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/a541218515d4de393e7b05452cbb5357/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/92d566157d44da56077a1b084a53ae8b/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/92d566157d44da56077a1b084a53ae8b/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pooja/.gradle/caches/transforms-3/19df0794a19f8a43eda98ae3b0d14858/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pooja/.gradle/caches/transforms-3/19df0794a19f8a43eda98ae3b0d14858/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
-MERGED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:41:5-64:19
-MERGED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:41:5-64:19
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:41:5-64:19
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:41:5-64:19
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pooja/.gradle/caches/transforms-3/b0bedba31ccd9257f3af288e61cb4fb6/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
@@ -437,240 +437,240 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/pooja/.gradle/ca
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/pooja/.gradle/caches/transforms-3/aea9f7e0d1897e520bda3c53692fcd7a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/pooja/.gradle/caches/transforms-3/d98f981cc43a2e5c6edb0f97847a568f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/pooja/.gradle/caches/transforms-3/d98f981cc43a2e5c6edb0f97847a568f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/55c70565c4d225fbedcd210e46b9ff58/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/55c70565c4d225fbedcd210e46b9ff58/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/1f23dd5c9b931081672c47a613188953/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/1f23dd5c9b931081672c47a613188953/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
 MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/pooja/.gradle/caches/transforms-3/6cfd60e65b71a7d56d1bca81babf54d3/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:11:5-20
 MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/pooja/.gradle/caches/transforms-3/6cfd60e65b71a7d56d1bca81babf54d3/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:11:5-20
 MERGED from [com.jakewharton.timber:timber:5.0.1] /Users/pooja/.gradle/caches/transforms-3/5a140ebfd5578d4cf8df0d776fa86aaa/transformed/jetified-timber-5.0.1/AndroidManifest.xml:7:5-20
 MERGED from [com.jakewharton.timber:timber:5.0.1] /Users/pooja/.gradle/caches/transforms-3/5a140ebfd5578d4cf8df0d776fa86aaa/transformed/jetified-timber-5.0.1/AndroidManifest.xml:7:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/1047d3af863d672aac16dba01eec01c5/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/1047d3af863d672aac16dba01eec01c5/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/aa2e998f8c4fd78b3d545345b12a0f7e/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/aa2e998f8c4fd78b3d545345b12a0f7e/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:9:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/pooja/.gradle/caches/transforms-3/91e5ae0e30bfc9e5e66a0fa550b98906/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
 		ADDED from [io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:26:9-35
 	android:label
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:24:7-39
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:24:7-39
 	tools:ignore
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:31:7-41
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:31:7-41
 	android:roundIcon
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:26:7-46
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:26:7-46
 	tools:targetApi
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:30:7-26
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:30:7-26
 	android:icon
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:25:7-41
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:25:7-41
 	android:allowBackup
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:27:7-33
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:27:7-33
 	android:theme
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:28:7-38
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:28:7-38
 	android:dataExtractionRules
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:29:7-63
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:29:7-63
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:23:7-38
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:23:7-38
 meta-data#com.google.android.gms.wallet.api.enabled
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:32:9-34:36
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:32:9-34:36
 	android:value
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:34:13-33
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:34:13-33
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:33:13-69
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:33:13-69
 activity#com.createdinam.vivasa.MainActivity
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:35:7-47:18
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:35:7-47:18
 	android:label
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:37:9-41
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:37:9-41
 	android:launchMode
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:39:9-40
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:39:9-40
 	android:windowSoftInputMode
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:40:9-51
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:40:9-51
 	android:exported
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:41:9-32
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:41:9-32
 	android:configChanges
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:38:9-118
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:38:9-118
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:36:9-37
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:36:9-37
 meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:42:9-155
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:42:9-155
 	android:value
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:42:97-152
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:42:97-152
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:42:20-96
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:42:20-96
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:43:9-46:25
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:43:9-46:25
 action#android.intent.action.MAIN
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:44:13-65
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:44:13-65
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:44:21-62
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:44:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:45:13-73
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:45:13-73
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:45:23-70
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:45:23-70
 meta-data#com.dieam.reactnativepushnotification.notification_channel_name
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:48:9-49:41
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:48:9-49:41
 	android:value
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:49:13-39
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:49:13-39
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:48:21-99
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:48:21-99
 meta-data#com.dieam.reactnativepushnotification.notification_channel_description
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:50:9-51:41
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:50:9-51:41
 	android:value
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:51:13-39
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:51:13-39
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:50:21-106
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:50:21-106
 meta-data#com.dieam.reactnativepushnotification.notification_foreground
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:54:9-55:36
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:54:9-55:36
 	android:value
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:55:13-34
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:55:13-34
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:54:21-97
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:54:21-97
 meta-data#com.dieam.reactnativepushnotification.channel_create_default
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:57:9-58:36
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:57:9-58:36
 	android:value
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:58:13-34
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:58:13-34
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:57:21-96
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:57:21-96
 meta-data#com.dieam.reactnativepushnotification.notification_color
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:60:9-61:46
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:60:9-61:46
 	android:resource
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:61:13-44
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:61:13-44
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:60:21-92
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:60:21-92
 receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationActions
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:64:9-108
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:64:9-108
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:64:19-105
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:64:19-105
 receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:65:9-110
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:65:9-110
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:65:19-107
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:65:19-107
 receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:68:9-74:20
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:68:9-74:20
 	android:exported
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:70:13-36
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:70:13-36
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:69:13-109
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:69:13-109
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:71:13-73:29
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:71:13-73:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:72:17-79
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:72:17-79
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:72:25-76
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:72:25-76
 service#com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:75:9-81:19
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:75:9-81:19
 	android:exported
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:77:13-37
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:77:13-37
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:76:13-107
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:76:13-107
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:78:13-80:29
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:78:13-80:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:17-78
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:79:17-78
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:79:25-75
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:79:25-75
 activity#com.reactnativefullscreennotificationincomingcall.IncomingCallActivity
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:82:9-90:15
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:82:9-90:15
 	android:turnScreenOn
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:89:13-40
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:89:13-40
 	android:excludeFromRecents
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:86:13-46
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:86:13-46
 	android:showWhenLocked
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:88:13-42
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:88:13-42
 	android:launchMode
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:85:13-44
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:85:13-44
 	android:exported
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:87:13-36
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:87:13-36
 	android:theme
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:84:13-48
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:84:13-48
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:83:13-98
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:83:13-98
 activity#com.reactnativefullscreennotificationincomingcall.NotificationReceiverActivity
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:91:9-99:15
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:91:9-99:15
 	android:turnScreenOn
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:98:13-40
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:98:13-40
 	android:excludeFromRecents
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:95:13-46
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:95:13-46
 	android:showWhenLocked
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:97:13-42
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:97:13-42
 	android:launchMode
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:94:13-44
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:94:13-44
 	android:exported
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:96:13-36
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:96:13-36
 	android:theme
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:93:13-48
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:93:13-48
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:92:13-106
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:92:13-106
 service#com.reactnativefullscreennotificationincomingcall.IncomingCallService
-ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:100:9-105:11
+ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:100:9-105:11
 	android:enabled
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:102:13-35
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:102:13-35
 	android:exported
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:104:13-36
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:104:13-36
 	android:stopWithTask
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:103:13-41
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:103:13-41
 	android:name
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml:101:13-97
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml:101:13-97
 uses-sdk
-INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-scan-barcode] /Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-scan-barcode] /Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-google-pay] /Users/pooja/Documents/Vivasa/node_modules/react-native-google-pay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-google-pay] /Users/pooja/Documents/Vivasa/node_modules/react-native-google-pay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-exit-app] /Users/pooja/Documents/Vivasa/node_modules/react-native-exit-app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-exit-app] /Users/pooja/Documents/Vivasa/node_modules/react-native-exit-app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-async-storage_async-storage] /Users/pooja/Documents/Vivasa/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-async-storage_async-storage] /Users/pooja/Documents/Vivasa/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_checkbox] /Users/pooja/Documents/Vivasa/node_modules/@react-native-community/checkbox/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_checkbox] /Users/pooja/Documents/Vivasa/node_modules/@react-native-community/checkbox/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_datetimepicker] /Users/pooja/Documents/Vivasa/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_datetimepicker] /Users/pooja/Documents/Vivasa/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] /Users/pooja/Documents/Vivasa/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] /Users/pooja/Documents/Vivasa/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_database] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_database] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
-MERGED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
-MERGED from [:react-native-device-info] /Users/pooja/Documents/Vivasa/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-device-info] /Users/pooja/Documents/Vivasa/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-full-screen-notification-incoming-call] /Users/pooja/Documents/Vivasa/node_modules/react-native-full-screen-notification-incoming-call/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-full-screen-notification-incoming-call] /Users/pooja/Documents/Vivasa/node_modules/react-native-full-screen-notification-incoming-call/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] /Users/pooja/Documents/Vivasa/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] /Users/pooja/Documents/Vivasa/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-get-location] /Users/pooja/Documents/Vivasa/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-get-location] /Users/pooja/Documents/Vivasa/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-id-qrcodeview] /Users/pooja/Documents/Vivasa/node_modules/react-native-id-qrcodeview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-id-qrcodeview] /Users/pooja/Documents/Vivasa/node_modules/react-native-id-qrcodeview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-kommunicate-chat] /Users/pooja/Documents/Vivasa/node_modules/react-native-kommunicate-chat/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-kommunicate-chat] /Users/pooja/Documents/Vivasa/node_modules/react-native-kommunicate-chat/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-linear-gradient] /Users/pooja/Documents/Vivasa/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-linear-gradient] /Users/pooja/Documents/Vivasa/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-push-notification] /Users/pooja/Documents/Vivasa/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-push-notification] /Users/pooja/Documents/Vivasa/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-razorpay] /Users/pooja/Documents/Vivasa/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-razorpay] /Users/pooja/Documents/Vivasa/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] /Users/pooja/Documents/Vivasa/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] /Users/pooja/Documents/Vivasa/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] /Users/pooja/Documents/Vivasa/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] /Users/pooja/Documents/Vivasa/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-version-check] /Users/pooja/Documents/Vivasa/node_modules/react-native-version-check/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-version-check] /Users/pooja/Documents/Vivasa/node_modules/react-native-version-check/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-voice] /Users/pooja/Documents/Vivasa/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-9:54
-MERGED from [:react-native-voice] /Users/pooja/Documents/Vivasa/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-9:54
-MERGED from [:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-scan-barcode] /Users/pooja/Documents/vivasa_app/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-scan-barcode] /Users/pooja/Documents/vivasa_app/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-google-pay] /Users/pooja/Documents/vivasa_app/node_modules/react-native-google-pay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-google-pay] /Users/pooja/Documents/vivasa_app/node_modules/react-native-google-pay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-exit-app] /Users/pooja/Documents/vivasa_app/node_modules/react-native-exit-app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-exit-app] /Users/pooja/Documents/vivasa_app/node_modules/react-native-exit-app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/checkbox/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/checkbox/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_database] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_database] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-device-info] /Users/pooja/Documents/vivasa_app/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-device-info] /Users/pooja/Documents/vivasa_app/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-full-screen-notification-incoming-call] /Users/pooja/Documents/vivasa_app/node_modules/react-native-full-screen-notification-incoming-call/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-full-screen-notification-incoming-call] /Users/pooja/Documents/vivasa_app/node_modules/react-native-full-screen-notification-incoming-call/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/pooja/Documents/vivasa_app/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/pooja/Documents/vivasa_app/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-get-location] /Users/pooja/Documents/vivasa_app/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-get-location] /Users/pooja/Documents/vivasa_app/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-id-qrcodeview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-id-qrcodeview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-id-qrcodeview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-id-qrcodeview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-kommunicate-chat] /Users/pooja/Documents/vivasa_app/node_modules/react-native-kommunicate-chat/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-kommunicate-chat] /Users/pooja/Documents/vivasa_app/node_modules/react-native-kommunicate-chat/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-linear-gradient] /Users/pooja/Documents/vivasa_app/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-linear-gradient] /Users/pooja/Documents/vivasa_app/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-push-notification] /Users/pooja/Documents/vivasa_app/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-push-notification] /Users/pooja/Documents/vivasa_app/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-razorpay] /Users/pooja/Documents/vivasa_app/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-razorpay] /Users/pooja/Documents/vivasa_app/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/pooja/Documents/vivasa_app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/pooja/Documents/vivasa_app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/pooja/Documents/vivasa_app/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/pooja/Documents/vivasa_app/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-version-check] /Users/pooja/Documents/vivasa_app/node_modules/react-native-version-check/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-version-check] /Users/pooja/Documents/vivasa_app/node_modules/react-native-version-check/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-voice] /Users/pooja/Documents/vivasa_app/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-9:54
+MERGED from [:react-native-voice] /Users/pooja/Documents/vivasa_app/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-9:54
+MERGED from [:react-native-webview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-webview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.69.3] /Users/pooja/.gradle/caches/transforms-3/5ad57d8f069bfdfe2c68d61b486b22c5/transformed/jetified-react-native-0.69.3-release/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.69.3] /Users/pooja/.gradle/caches/transforms-3/5ad57d8f069bfdfe2c68d61b486b22c5/transformed/jetified-react-native-0.69.3-release/AndroidManifest.xml:5:5-7:41
 MERGED from [io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:8:5-10:41
@@ -679,10 +679,10 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/pooja/
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/pooja/.gradle/caches/transforms-3/1e78a0515f5cd9d6de4a1e5bcfa16394/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [org.webkit:android-jsc:r250230] /Users/pooja/.gradle/caches/transforms-3/386706216bcc7721ce13497b940d4a85/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r250230] /Users/pooja/.gradle/caches/transforms-3/386706216bcc7721ce13497b940d4a85/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /Users/pooja/Documents/Vivasa/node_modules/react-native-reanimated/android/build/.transforms/0366faf75ecf1ad92c7efcc454c1e717/transformed/jetified-react-native-reanimated-69-jsc/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-reanimated] /Users/pooja/Documents/Vivasa/node_modules/react-native-reanimated/android/build/.transforms/0366faf75ecf1ad92c7efcc454c1e717/transformed/jetified-react-native-reanimated-69-jsc/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-sound] /Users/pooja/Documents/Vivasa/node_modules/react-native-sound/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
-MERGED from [:react-native-sound] /Users/pooja/Documents/Vivasa/node_modules/react-native-sound/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-reanimated] /Users/pooja/Documents/vivasa_app/node_modules/react-native-reanimated/android/build/.transforms/414e4a68fe664ff8a497bdf23bb597f0/transformed/jetified-react-native-reanimated-69-jsc/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/pooja/Documents/vivasa_app/node_modules/react-native-reanimated/android/build/.transforms/414e4a68fe664ff8a497bdf23bb597f0/transformed/jetified-react-native-reanimated-69-jsc/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-sound] /Users/pooja/Documents/vivasa_app/node_modules/react-native-sound/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-sound] /Users/pooja/Documents/vivasa_app/node_modules/react-native-sound/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
 MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/pooja/.gradle/caches/transforms-3/be8f6961c123b975208727b040b7f84e/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/pooja/.gradle/caches/transforms-3/be8f6961c123b975208727b040b7f84e/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/pooja/.gradle/caches/transforms-3/3bd3bb16b17c790a86a8b28cf9087c1f/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
@@ -775,10 +775,10 @@ MERGED from [androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-
 MERGED from [androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-3/576c088c8fb10fed8ab09777b8455141/transformed/runner-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.test.services:storage:1.4.0] /Users/pooja/.gradle/caches/transforms-3/936d3b22b2e45f35855e73e289a77a18/transformed/jetified-storage-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.test.services:storage:1.4.0] /Users/pooja/.gradle/caches/transforms-3/936d3b22b2e45f35855e73e289a77a18/transformed/jetified-storage-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/a541218515d4de393e7b05452cbb5357/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/a541218515d4de393e7b05452cbb5357/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/92d566157d44da56077a1b084a53ae8b/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/92d566157d44da56077a1b084a53ae8b/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pooja/.gradle/caches/transforms-3/ebae4bea43657ca9264ce50f5fcd6153/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pooja/.gradle/caches/transforms-3/ebae4bea43657ca9264ce50f5fcd6153/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pooja/.gradle/caches/transforms-3/6a505e8cd571f982b683cd8787457c75/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
@@ -789,8 +789,8 @@ MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pooja/.grad
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pooja/.gradle/caches/transforms-3/19df0794a19f8a43eda98ae3b0d14858/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.webkit:webkit:1.4.0] /Users/pooja/.gradle/caches/transforms-3/289dc31b2a03bd640aac69d0048f53a9/transformed/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.webkit:webkit:1.4.0] /Users/pooja/.gradle/caches/transforms-3/289dc31b2a03bd640aac69d0048f53a9/transformed/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:6:5-44
-MERGED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:6:5-44
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:6:5-44
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:6:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/pooja/.gradle/caches/transforms-3/156927b6ee345ef05e354f138cd23d14/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
@@ -857,8 +857,8 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pooja/.gradle/caches/tra
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pooja/.gradle/caches/transforms-3/cac0917b844e69eff9e7f007323418e1/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.exoplayer:exoplayer:2.18.1] /Users/pooja/.gradle/caches/transforms-3/0233fd87afb318c44970775323034c8d/transformed/jetified-exoplayer-2.18.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer:2.18.1] /Users/pooja/.gradle/caches/transforms-3/0233fd87afb318c44970775323034c8d/transformed/jetified-exoplayer-2.18.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] /Users/pooja/.gradle/caches/transforms-3/8ffd1cd2262d6d07e1f02e33c6168b04/transformed/jetified-exoplayer-ui-2.18.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] /Users/pooja/.gradle/caches/transforms-3/8ffd1cd2262d6d07e1f02e33c6168b04/transformed/jetified-exoplayer-ui-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] /Users/pooja/.gradle/caches/transforms-3/7b96da856b9f3a78a972820ed31dcb89/transformed/jetified-exoplayer-ui-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] /Users/pooja/.gradle/caches/transforms-3/7b96da856b9f3a78a972820ed31dcb89/transformed/jetified-exoplayer-ui-2.18.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/pooja/.gradle/caches/transforms-3/d18f4efaa6e6cf266b0cf77b6d2ac04a/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/pooja/.gradle/caches/transforms-3/d18f4efaa6e6cf266b0cf77b6d2ac04a/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] /Users/pooja/.gradle/caches/transforms-3/d54c7305e08f198980a6dfe1fe86dabd/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
@@ -885,8 +885,8 @@ MERGED from [androidx.core:core-ktx:1.9.0] /Users/pooja/.gradle/caches/transform
 MERGED from [androidx.core:core-ktx:1.9.0] /Users/pooja/.gradle/caches/transforms-3/ba7d3e4cffcb4095cdca2ff6014f94b7/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/pooja/.gradle/caches/transforms-3/3f3a36ce8add6354d731bcdfd7dc90c9/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/pooja/.gradle/caches/transforms-3/3f3a36ce8add6354d731bcdfd7dc90c9/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.orhanobut:logger:2.2.0] /Users/pooja/.gradle/caches/transforms-3/4d31e03fb80e52a865756601614c1e55/transformed/jetified-logger-2.2.0/AndroidManifest.xml:6:5-43
-MERGED from [com.orhanobut:logger:2.2.0] /Users/pooja/.gradle/caches/transforms-3/4d31e03fb80e52a865756601614c1e55/transformed/jetified-logger-2.2.0/AndroidManifest.xml:6:5-43
+MERGED from [com.orhanobut:logger:2.2.0] /Users/pooja/.gradle/caches/transforms-3/894d011d5903d0db24ee9a483c23a1f0/transformed/jetified-logger-2.2.0/AndroidManifest.xml:6:5-43
+MERGED from [com.orhanobut:logger:2.2.0] /Users/pooja/.gradle/caches/transforms-3/894d011d5903d0db24ee9a483c23a1f0/transformed/jetified-logger-2.2.0/AndroidManifest.xml:6:5-43
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pooja/.gradle/caches/transforms-3/ee397c324754c76fe0ebac131ba57406/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pooja/.gradle/caches/transforms-3/ee397c324754c76fe0ebac131ba57406/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/pooja/.gradle/caches/transforms-3/702ddcd37fc82a839512dc0ab8f41c90/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
@@ -917,8 +917,8 @@ MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/pooja/
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/pooja/.gradle/caches/transforms-3/b74f8d82323ae31b096039716acaeab7/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/pooja/.gradle/caches/transforms-3/5c8a1e2d612480a9f28760f6e8fea122/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/pooja/.gradle/caches/transforms-3/5c8a1e2d612480a9f28760f6e8fea122/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/55c70565c4d225fbedcd210e46b9ff58/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/55c70565c4d225fbedcd210e46b9ff58/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/1f23dd5c9b931081672c47a613188953/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/1f23dd5c9b931081672c47a613188953/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] /Users/pooja/.gradle/caches/transforms-3/d62da7fad5d9b080c9ce3903da46c18d/transformed/jetified-exoplayer-datasource-2.18.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] /Users/pooja/.gradle/caches/transforms-3/d62da7fad5d9b080c9ce3903da46c18d/transformed/jetified-exoplayer-datasource-2.18.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] /Users/pooja/.gradle/caches/transforms-3/9dd1b85811709d6120b536f39c660394/transformed/jetified-exoplayer-database-2.18.1/AndroidManifest.xml:20:5-22:41
@@ -949,34 +949,34 @@ MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transf
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/pooja/.gradle/caches/transforms-3/5366e2924e19e63c7d2abf208009d568/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/pooja/.gradle/caches/transforms-3/5366e2924e19e63c7d2abf208009d568/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/1047d3af863d672aac16dba01eec01c5/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/1047d3af863d672aac16dba01eec01c5/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
-INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/aa2e998f8c4fd78b3d545345b12a0f7e/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/aa2e998f8c4fd78b3d545345b12a0f7e/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [:react-native-voice] /Users/pooja/Documents/Vivasa/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:9-51
+		ADDED from [:react-native-voice] /Users/pooja/Documents/vivasa_app/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:9-51
 	android:targetSdkVersion
-		INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/pooja/Documents/Vivasa/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/main/AndroidManifest.xml
 uses-feature#android.hardware.camera.front
-ADDED from [:react-native-scan-barcode] /Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:5-16:36
+ADDED from [:react-native-scan-barcode] /Users/pooja/Documents/vivasa_app/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:5-16:36
 	android:required
-		ADDED from [:react-native-scan-barcode] /Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-33
+		ADDED from [:react-native-scan-barcode] /Users/pooja/Documents/vivasa_app/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-33
 	android:name
-		ADDED from [:react-native-scan-barcode] /Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-53
+		ADDED from [:react-native-scan-barcode] /Users/pooja/Documents/vivasa_app/node_modules/react-native-scan-barcode/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-53
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
-MERGED from [:react-native-firebase_database] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_database] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [:react-native-firebase_database] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_database] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_dynamic-links] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/pooja/.gradle/caches/transforms-3/2bf3581aaf525f2a6a46dc4b511b5e33/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
@@ -1008,105 +1008,105 @@ MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /Users/pooja/
 	tools:node
 		ADDED from [io.kommunicate.sdk:kommunicate:2.7.0] /Users/pooja/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:21:9-27
 	android:name
-		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
 meta-data#firebase_analytics_collection_enabled
-ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:36
+ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:36
 	android:value
-		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-33
+		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-33
 	android:name
-		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-65
+		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-65
 meta-data#firebase_analytics_collection_deactivated
-ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-19:37
+ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-19:37
 	android:value
-		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-34
+		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-34
 	android:name
-		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-69
+		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-69
 meta-data#google_analytics_adid_collection_enabled
-ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-22:36
+ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-22:36
 	android:value
-		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-33
+		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-33
 	android:name
-		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-68
+		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-68
 meta-data#google_analytics_ssaid_collection_enabled
-ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-25:36
+ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-25:36
 	android:value
-		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-33
+		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-33
 	android:name
-		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-69
+		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-69
 meta-data#google_analytics_default_allow_ad_personalization_signals
-ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:9-28:36
+ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:9-28:36
 	android:value
-		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-33
+		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-33
 	android:name
-		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-85
+		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-85
 meta-data#google_analytics_automatic_screen_reporting_enabled
-ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-31:36
+ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-31:36
 	android:value
-		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-33
+		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-33
 	android:name
-		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-79
+		ADDED from [:react-native-firebase_analytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-79
 meta-data#firebase_crashlytics_collection_enabled
-ADDED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-14:37
+ADDED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-14:37
 	android:value
-		ADDED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-34
+		ADDED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-34
 	android:name
-		ADDED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-67
+		ADDED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-67
 provider#io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider
-ADDED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:38
+ADDED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:38
 	android:authorities
-		ADDED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-94
+		ADDED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-94
 	android:exported
-		ADDED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+		ADDED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
 	android:initOrder
-		ADDED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-35
+		ADDED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-35
 	android:name
-		ADDED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-104
+		ADDED from [:react-native-firebase_crashlytics] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-104
 service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
-ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:40
+ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:40
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-103
+		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-103
 service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
-ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-23:19
+ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-23:19
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-95
+		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-95
 receiver#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
-ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-32:20
+ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-32:20
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
 	android:permission
-		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-73
+		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-73
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-96
+		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-96
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
+ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
+ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
+		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
 meta-data#firebase_messaging_auto_init_enabled
-ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-36:36
+ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-36:36
 	android:value
-		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-33
+		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-33
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-64
+		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-64
 meta-data#com.google.firebase.messaging.default_notification_color
-ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-42:47
+ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-42:47
 	android:resource
-		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-44
+		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-44
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-84
+		ADDED from [:react-native-firebase_messaging] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-84
 meta-data#app_data_collection_default_enabled
-ADDED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:36
+ADDED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:36
 	android:value
-		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-33
+		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-33
 	android:name
-		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-63
+		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-63
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:19
+ADDED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:19
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:52:9-58:19
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/pooja/.gradle/caches/transforms-3/cb2a2bff9c1126947977871b5f893718/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:52:9-58:19
 MERGED from [com.google.firebase:firebase-crashlytics-ndk:18.3.6] /Users/pooja/.gradle/caches/transforms-3/e1e6d8ed585ca0c0fe72b34dd85891eb/transformed/jetified-firebase-crashlytics-ndk-18.3.6/AndroidManifest.xml:31:9-37:19
@@ -1126,127 +1126,127 @@ MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/pooja/.gr
 MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/pooja/.gradle/caches/transforms-3/2e7fc86748c14f72c8afd36fdad0f047/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
 MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/pooja/.gradle/caches/transforms-3/2e7fc86748c14f72c8afd36fdad0f047/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
 	android:exported
-		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
 	tools:targetApi
-		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-32
+		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-32
 	android:directBootAware
-		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-43
+		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-43
 	android:name
-		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-84
+		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-84
 meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
-ADDED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:85
+ADDED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:85
 	android:value
-		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
+		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
 	android:name
-		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-120
+		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-120
 provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
-ADDED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-29:38
+ADDED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-29:38
 	android:authorities
-		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-86
+		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-86
 	android:exported
-		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
+		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
 	android:initOrder
-		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-35
+		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-35
 	android:name
-		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-88
+		ADDED from [:react-native-firebase_app] /Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-88
 queries
-ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
+ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
 MERGED from [io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:12:5-16:15
 MERGED from [io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:12:5-16:15
 MERGED from [io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:17:5-21:15
 MERGED from [io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:17:5-21:15
 MERGED from [androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-3/576c088c8fb10fed8ab09777b8455141/transformed/runner-1.4.0/AndroidManifest.xml:24:5-28:15
 MERGED from [androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-3/576c088c8fb10fed8ab09777b8455141/transformed/runner-1.4.0/AndroidManifest.xml:24:5-28:15
-MERGED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:10:5-39:15
-MERGED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:10:5-39:15
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:10:5-39:15
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:10:5-39:15
 intent#action:name:android.media.action.IMAGE_CAPTURE
-ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
 action#android.media.action.IMAGE_CAPTURE
-ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-73
+ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-73
 	android:name
-		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-70
+		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-70
 provider#com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider
-ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-26:20
+ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-26:20
 	android:grantUriPermissions
-		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-47
+		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-47
 	android:authorities
-		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-60
+		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-60
 	android:exported
-		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-94
+		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-94
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:78
+ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:78
 	android:resource
-		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-75
+		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-75
 	android:name
-		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-67
+		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-67
 activity#com.yalantis.ucrop.UCropActivity
-ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-30:72
+ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-30:72
 	android:theme
-		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-69
+		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-69
 	android:name
-		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-60
+		ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-60
 receiver#com.reactnativeotpautofill.OtpBroadcastReceiver
-ADDED from [:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-17:20
+ADDED from [:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-17:20
 	android:exported
-		ADDED from [:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-36
+		ADDED from [:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-36
 	android:permission
-		ADDED from [:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-87
+		ADDED from [:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-87
 	android:name
-		ADDED from [:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-75
+		ADDED from [:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-75
 intent-filter#action:name:com.google.android.gms.auth.api.phone.SMS_RETRIEVED
-ADDED from [:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-16:29
+ADDED from [:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-16:29
 action#com.google.android.gms.auth.api.phone.SMS_RETRIEVED
-ADDED from [:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-94
+ADDED from [:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-94
 	android:name
-		ADDED from [:react-native-otp-auto-fill] /Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:25-91
+		ADDED from [:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:25-91
 activity#com.razorpay.CheckoutActivity
-ADDED from [:react-native-razorpay] /Users/pooja/Documents/Vivasa/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:86
-MERGED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:51:9-59:20
-MERGED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:51:9-59:20
+ADDED from [:react-native-razorpay] /Users/pooja/Documents/vivasa_app/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:86
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:51:9-59:20
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:51:9-59:20
 	android:exported
-		ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:54:13-37
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:54:13-37
 	android:configChanges
-		ADDED from [:react-native-razorpay] /Users/pooja/Documents/Vivasa/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-83
+		ADDED from [:react-native-razorpay] /Users/pooja/Documents/vivasa_app/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-83
 	android:theme
-		ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:55:13-49
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:55:13-49
 	android:name
-		ADDED from [:react-native-razorpay] /Users/pooja/Documents/Vivasa/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-57
+		ADDED from [:react-native-razorpay] /Users/pooja/Documents/vivasa_app/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-57
 service#com.doublesymmetry.trackplayer.service.MusicService
-ADDED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-22:19
+ADDED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-22:19
 	android:enabled
-		ADDED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-35
+		ADDED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-35
 	android:exported
-		ADDED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+		ADDED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-79
+		ADDED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-79
 intent-filter#action:name:android.intent.action.MEDIA_BUTTON
-ADDED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-21:29
+ADDED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-21:29
 action#android.intent.action.MEDIA_BUTTON
-ADDED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-77
+ADDED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:25-74
+		ADDED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:25-74
 receiver#androidx.media.session.MediaButtonReceiver
-ADDED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-31:20
+ADDED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-31:20
 	android:exported
-		ADDED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+		ADDED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
 	android:name
-		ADDED from [:react-native-track-player] /Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-70
+		ADDED from [:react-native-track-player] /Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-70
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from [:react-native-voice] /Users/pooja/Documents/Vivasa/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-71
+ADDED from [:react-native-voice] /Users/pooja/Documents/vivasa_app/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-71
 	android:name
-		ADDED from [:react-native-voice] /Users/pooja/Documents/Vivasa/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-68
+		ADDED from [:react-native-voice] /Users/pooja/Documents/vivasa_app/node_modules/react-native-voice/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-68
 provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
-ADDED from [:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+ADDED from [:react-native-webview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
 	android:grantUriPermissions
-		ADDED from [:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+		ADDED from [:react-native-webview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
 	android:authorities
-		ADDED from [:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+		ADDED from [:react-native-webview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
 	android:exported
-		ADDED from [:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+		ADDED from [:react-native-webview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
 	android:name
-		ADDED from [:react-native-webview] /Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-83
+		ADDED from [:react-native-webview] /Users/pooja/Documents/vivasa_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-83
 intent#action:name:android.speech.RecognitionService
 ADDED from [io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:18:9-20:18
 action#android.speech.RecognitionService
@@ -1626,63 +1626,63 @@ ADDED from [androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-3
 	android:name
 		ADDED from [androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-3/576c088c8fb10fed8ab09777b8455141/transformed/runner-1.4.0/AndroidManifest.xml:27:18-80
 provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
 	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
 intent#action:name:android.intent.action.VIEW+data:mimeType:*/*+data:scheme:*
-ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:11:9-17:18
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:11:9-17:18
 action#android.intent.action.VIEW
-ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:12:13-65
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:12:13-65
 	android:name
-		ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:12:21-62
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:12:21-62
 data
-ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:14:13-16:38
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:14:13-16:38
 	android:scheme
-		ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:16:17-35
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:16:17-35
 	android:mimeType
-		ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:15:17-39
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:15:17-39
 intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:host:pay+data:mimeType:*/*+data:scheme:upi
-ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:18:9-27:18
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:18:9-27:18
 category#android.intent.category.BROWSABLE
-ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:21:13-74
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:21:13-74
 	android:name
-		ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:21:23-71
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:21:23-71
 intent#action:name:android.intent.action.MAIN
-ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:28:9-30:18
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:28:9-30:18
 intent#action:name:android.intent.action.SEND+data:mimeType:*/*
-ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:31:9-35:18
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:31:9-35:18
 action#android.intent.action.SEND
-ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:32:13-65
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:32:13-65
 	android:name
-		ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:32:21-62
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:32:21-62
 intent#action:name:rzp.device_token.share
-ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:36:9-38:18
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:36:9-38:18
 action#rzp.device_token.share
-ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:37:13-61
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:37:13-61
 	android:name
-		ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:37:21-58
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:37:21-58
 receiver#com.razorpay.RzpTokenReceiver
-ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:42:9-49:20
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:42:9-49:20
 	android:exported
-		ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:44:13-36
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:44:13-36
 	tools:ignore
-		ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:45:13-44
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:45:13-44
 	android:name
-		ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:43:13-57
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:43:13-57
 intent-filter#action:name:rzp.device_token.share
-ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:46:13-48:29
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:46:13-48:29
 intent-filter#action:name:android.intent.action.MAIN
-ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:56:13-58:29
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:56:13-58:29
 meta-data#com.razorpay.plugin.googlepay_all
-ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:61:9-63:58
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:61:9-63:58
 	android:value
-		ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:63:13-55
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:63:13-55
 	android:name
-		ADDED from [com.razorpay:checkout:1.6.34] /Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/AndroidManifest.xml:62:13-61
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:62:13-61
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents

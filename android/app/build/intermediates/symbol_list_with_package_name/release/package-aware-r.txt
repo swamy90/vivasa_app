@@ -2719,7 +2719,9 @@ drawable src_assets_images_about
 drawable src_assets_images_add_favorite
 drawable src_assets_images_arrow
 drawable src_assets_images_background
+drawable src_assets_images_camera
 drawable src_assets_images_cross
+drawable src_assets_images_defaultpic
 drawable src_assets_images_demo_map
 drawable src_assets_images_empty_cart
 drawable src_assets_images_eye
@@ -2732,10 +2734,8 @@ drawable src_assets_images_homes_1
 drawable src_assets_images_homes_11
 drawable src_assets_images_homes_account
 drawable src_assets_images_homes_home
-drawable src_assets_images_homes_location
 drawable src_assets_images_homes_msearch
 drawable src_assets_images_homes_offer
-drawable src_assets_images_homes_w
 drawable src_assets_images_insta
 drawable src_assets_images_loginlog
 drawable src_assets_images_logout
@@ -2745,9 +2745,9 @@ drawable src_assets_images_notification
 drawable src_assets_images_order_history
 drawable src_assets_images_password_hide
 drawable src_assets_images_privacy_policy
-drawable src_assets_images_qr_code
 drawable src_assets_images_remove
 drawable src_assets_images_remove_fav
+drawable src_assets_images_scanner
 drawable src_assets_images_settings
 drawable src_assets_images_shopping_cart
 drawable src_assets_images_simg4

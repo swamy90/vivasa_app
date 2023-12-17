@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/pooja/Documents/Vivasa/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ro/values-ro.xml",
+            "outputFile": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ro/values-ro.xml",
             "map": [
                 {
                     "source": "/Users/pooja/.gradle/caches/transforms-3/5940308d4d7715146f1889ee032d3885/transformed/appcompat-1.4.1/res/values-ro/values-ro.xml",
@@ -55,24 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/pooja/.gradle/caches/transforms-3/00da0a118d1e94128da5c8e16be5186a/transformed/jetified-play-services-wallet-18.1.3/res/values-ro/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "202",
-                        "endColumns": "70",
-                        "endOffsets": "272"
-                    },
-                    "to": {
-                        "startLines": "181",
-                        "startColumns": "4",
-                        "startOffsets": "14852",
-                        "endColumns": "74",
-                        "endOffsets": "14922"
-                    }
-                },
-                {
-                    "source": "/Users/pooja/.gradle/caches/transforms-3/8ffd1cd2262d6d07e1f02e33c6168b04/transformed/jetified-exoplayer-ui-2.18.1/res/values-ro/values-ro.xml",
+                    "source": "/Users/pooja/.gradle/caches/transforms-3/7b96da856b9f3a78a972820ed31dcb89/transformed/jetified-exoplayer-ui-2.18.1/res/values-ro/values-ro.xml",
                     "from": {
                         "startLines": "2,11,16,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -88,6 +71,23 @@
                         "endLines": "10,15,20,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,109,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129",
                         "endColumns": "17,12,12,86,88,87,95,95,74,65,98,96,70,64,62,68,115,114,115,75,79,68,75,97,99,64,62,52,57,47,60,63,69,64,68,60,57,65,63,65,51,61,75,75,56",
                         "endOffsets": "331,627,897,6670,6759,6847,6943,7039,7114,7180,7279,7376,7447,7512,7575,7644,7760,7875,7991,8067,8147,8216,8292,8390,8490,8555,8618,9368,9686,9734,9795,9859,9929,9994,10063,10124,10182,10248,10312,10378,10430,10492,10568,10644,10701"
+                    }
+                },
+                {
+                    "source": "/Users/pooja/.gradle/caches/transforms-3/00da0a118d1e94128da5c8e16be5186a/transformed/jetified-play-services-wallet-18.1.3/res/values-ro/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "70",
+                        "endOffsets": "272"
+                    },
+                    "to": {
+                        "startLines": "181",
+                        "startColumns": "4",
+                        "startOffsets": "14852",
+                        "endColumns": "74",
+                        "endOffsets": "14922"
                     }
                 },
                 {

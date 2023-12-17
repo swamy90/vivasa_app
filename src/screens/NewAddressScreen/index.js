@@ -136,7 +136,7 @@ const NewAddressScreen = () => {
             body: formData
         });
         const address = await response.json();
-        console.log('address', JSON.stringify(address) + JSON.stringify(formData));
+        console.log('address', JSON.stringify(address));
         setIsLoading(false);
         if (address.status) {
             showMessage({
@@ -144,7 +144,7 @@ const NewAddressScreen = () => {
                 description: address?.msg,
                 type: "success",
             });
-            navigation.navigate('PayScreen');
+            navigation.navigate('PayScreen',{address});
         } else {
             showMessage({
                 message: 'Something went wrong!',
@@ -247,7 +247,7 @@ const NewAddressScreen = () => {
                             <TextInput maxLength={6} keyboardType="numeric" onChangeText={(text) => setPincode(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='Pincode *'  value={Pincode}/>
                         </View>
                     </View>
-                    <View style={{ marginTop: 10 }}>
+                    {/* <View style={{ marginTop: 10 }}>
                         <View style={{
                             flexDirection: 'row', alignItems: 'center', shadowColor: '#b4b4b4',
                             shadowOffset: { width: 0, height: 3 },
@@ -257,11 +257,11 @@ const NewAddressScreen = () => {
                         }}>
                             <TextInput onChangeText={(text) => setIsLoading(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='Remark (Optional)' value={Remark} />
                         </View>
-                    </View>
-                    <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 20 }}>
+                    </View> */}
+                    {/* <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 20 }}>
                         <Text>ADCode </Text>
                         {isSearching === true ? <ActivityIndicator color={'#222222'} /> : <Text>{isLocation?.latitude},{isLocation?.longitude}</Text>}
-                    </View>
+                    </View> */}
                 </View>
                 <View style={{ alignSelf: 'center', top: 40 }}>
                     <CommonButton

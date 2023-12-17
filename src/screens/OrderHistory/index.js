@@ -1,4 +1,4 @@
-import React, { Component, Profiler } from 'react';
+import React, { Component, Profiler, useState } from 'react';
 import { StyleSheet, Text, View, Image, TouchableOpacity, SafeAreaView, FlatList } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Spinner from 'react-native-loading-spinner-overlay';
@@ -10,6 +10,7 @@ const OrderHistoryScreen = () => {
     const [isStatus, setStatus] = React.useState(false);
     const [isLoading, setIsLoading] = React.useState(true);
     const [orderHistory, setOrderHistory] = React.useState([]);
+    const [ord_No, setOrd_No] = useState(null);
     const navigation = useNavigation();
     const routes = useRoute();
 
@@ -36,6 +37,7 @@ const OrderHistoryScreen = () => {
         console.log('OrderHistoryData', submitCustomer);
         if (submitCustomer?.status) {
             setOrderHistory(submitCustomer?.data);
+   
         } else {
 
         }
@@ -63,18 +65,21 @@ const OrderHistoryScreen = () => {
                     </View>
                     :
                     <FlatList
-                        style={{ marginTop: 5,flex:1}}
+                        style={{ marginTop: 5, flex: 1 }}
                         data={orderHistory}
                         keyExtractor={(items) => items.id}
                         renderItem={(items) => {
+                            console.log("items", items)
                             return (
-                                <View style={{ padding: 10, marginHorizontal: 5, backgroundColor: '#ffffff', flexDirection: 'row', alignItems: 'center', elevation: 5, marginBottom: 5, borderRadius: 5, marginTop: 3 }}>
-                                    <View style={{}}>
+                                <TouchableOpacity style={{ padding: 10, marginHorizontal: 5, backgroundColor: '#ffffff', flexDirection: 'row', alignItems: 'center', elevation: 5, marginBottom: 5, borderRadius: 5, marginTop: 3 }}
+                                    onPress={() => navigation.navigate("OrderDetails", {items})}
+                                >
+                                    <View style={{flex:1}}>
                                         <View style={{ flexDirection: 'row', alignItems: 'center', marginVertical: 2 }}>
                                             <Text style={{ flex: 1, fontWeight: 'bold', fontSize: 15, color: '#000000', }}>{items?.item?.first_name} {items?.item?.last_name}</Text>
                                             <Text style={{ fontWeight: 'bold', fontSize: 14, color: '#000000', textTransform: 'uppercase' }}>OID_{items?.item?.order_number}</Text>
                                         </View>
-                                        <Text numberOfLines={2} style={{ fontWeight: '600', fontSize: 14, color: '#b4b4b4', textTransform: 'capitalize', }}>Delivery Address: {items?.item?.address}, {items?.item?.state}, {items?.item?.city}, {items?.item?.pincode}</Text>
+                                        <Text numberOfLines={2} style={{ width:'100%',fontWeight: '600', fontSize: 14, color: '#b4b4b4', textTransform: 'capitalize',flexWrap:'wrap' }}>Delivery Address: {items?.item?.address}, {items?.item?.state}, {items?.item?.city}, {items?.item?.pincode}</Text>
                                         <View style={{ marginVertical: 2 }}>
                                             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                                                 <Text style={{ fontWeight: 'bold', fontSize: 14, color: '#000000', flex: 1 }}>Transaction Status</Text>
@@ -83,11 +88,11 @@ const OrderHistoryScreen = () => {
                                             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                                                 <Text style={{ fontWeight: 'bold', fontSize: 14, color: '#008000', }}>INR ₹{items?.item?.grand_total}/- </Text>
                                                 <Text style={{ fontWeight: 'bold', fontSize: 14, color: items?.item?.order_status === 'Pending' ? '#FFA500' : '#008000', flex: 1 }}>{items?.item?.payment_status}</Text>
-                                                <Text style={{ fontWeight: 'bold', fontSize: 14, color: items?.item?.order_status === 'Pending' ? '#FFA500' : '#008000', }}>Order Status: {items?.item?.order_status}</Text>
+                                                <Text style={{ fontWeight: 'bold', fontSize: 14, color: items?.item?.order_status === 'Pending' ? '#FFA500' : '#008000', }}>Order Status: {items?.item?.order_status === 1 ? 'Success' : 'Failed'}</Text>
                                             </View>
                                         </View>
                                     </View>
-                                </View>
+                                </TouchableOpacity>
                             )
                         }}
                     />}

@@ -93,14 +93,14 @@ MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/pooja/.gradle/
 MERGED from [androidx.autofill:autofill:1.1.0] /Users/pooja/.gradle/caches/transforms-3/df7f98b915caa23a6b23c1607808efc5/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/pooja/.gradle/caches/transforms-3/1d9a2729378c5a941270720224060d2e/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/pooja/.gradle/caches/transforms-3/2c59caa64e6f08ddd00490f75920587a/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be42099cce0c60671bf47fbddc6f1f91/transformed/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/8c4475850fc29ca7278bd465de15e600/transformed/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/92d566157d44da56077a1b084a53ae8b/transformed/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pooja/.gradle/caches/transforms-3/ebae4bea43657ca9264ce50f5fcd6153/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pooja/.gradle/caches/transforms-3/6a505e8cd571f982b683cd8787457c75/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/pooja/.gradle/caches/transforms-3/8e3cee0cff7bc89fcb54ae9add3efc4d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pooja/.gradle/caches/transforms-3/19df0794a19f8a43eda98ae3b0d14858/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.webkit:webkit:1.4.0] /Users/pooja/.gradle/caches/transforms-3/289dc31b2a03bd640aac69d0048f53a9/transformed/webkit-1.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:2:1-66:12
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:2:1-66:12
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/pooja/.gradle/caches/transforms-3/156927b6ee345ef05e354f138cd23d14/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/pooja/.gradle/caches/transforms-3/6e22017a39b220afee21550ab31f5f4f/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
@@ -134,7 +134,7 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/pooja/.grad
 MERGED from [androidx.loader:loader:1.0.0] /Users/pooja/.gradle/caches/transforms-3/bfeb77ac14b6795e294eff88c7c6a0b2/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pooja/.gradle/caches/transforms-3/cac0917b844e69eff9e7f007323418e1/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.exoplayer:exoplayer:2.18.1] /Users/pooja/.gradle/caches/transforms-3/0233fd87afb318c44970775323034c8d/transformed/jetified-exoplayer-2.18.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] /Users/pooja/.gradle/caches/transforms-3/ec6d5966875cab23dd32651b986b554e/transformed/jetified-exoplayer-ui-2.18.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] /Users/pooja/.gradle/caches/transforms-3/7b96da856b9f3a78a972820ed31dcb89/transformed/jetified-exoplayer-ui-2.18.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/pooja/.gradle/caches/transforms-3/d18f4efaa6e6cf266b0cf77b6d2ac04a/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/pooja/.gradle/caches/transforms-3/d54c7305e08f198980a6dfe1fe86dabd/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.exoplayer:extension-mediasession:2.18.1] /Users/pooja/.gradle/caches/transforms-3/ac89b3767dd88025be597518b0cf6f43/transformed/jetified-extension-mediasession-2.18.1/AndroidManifest.xml:17:1-24:12
@@ -148,7 +148,7 @@ MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/pooja/.g
 MERGED from [androidx.core:core:1.9.0] /Users/pooja/.gradle/caches/transforms-3/91e5ae0e30bfc9e5e66a0fa550b98906/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.core:core-ktx:1.9.0] /Users/pooja/.gradle/caches/transforms-3/ba7d3e4cffcb4095cdca2ff6014f94b7/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/pooja/.gradle/caches/transforms-3/3f3a36ce8add6354d731bcdfd7dc90c9/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.orhanobut:logger:2.2.0] /Users/pooja/.gradle/caches/transforms-3/373a50581305e059aaf3d5ce32a2df04/transformed/jetified-logger-2.2.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.orhanobut:logger:2.2.0] /Users/pooja/.gradle/caches/transforms-3/894d011d5903d0db24ee9a483c23a1f0/transformed/jetified-logger-2.2.0/AndroidManifest.xml:2:1-8:12
 MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/pooja/.gradle/caches/transforms-3/ed0a886843da3dec4b01f51acda250a0/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pooja/.gradle/caches/transforms-3/ee397c324754c76fe0ebac131ba57406/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/pooja/.gradle/caches/transforms-3/702ddcd37fc82a839512dc0ab8f41c90/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
@@ -165,7 +165,7 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/pooja/.gradle/ca
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/pooja/.gradle/caches/transforms-3/51da684f7a3e769723f4429bcb64e339/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/pooja/.gradle/caches/transforms-3/b74f8d82323ae31b096039716acaeab7/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/pooja/.gradle/caches/transforms-3/5c8a1e2d612480a9f28760f6e8fea122/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/5171baa0855da9dd98c01914f73901d6/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/1f23dd5c9b931081672c47a613188953/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] /Users/pooja/.gradle/caches/transforms-3/d62da7fad5d9b080c9ce3903da46c18d/transformed/jetified-exoplayer-datasource-2.18.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] /Users/pooja/.gradle/caches/transforms-3/9dd1b85811709d6120b536f39c660394/transformed/jetified-exoplayer-database-2.18.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.1] /Users/pooja/.gradle/caches/transforms-3/e4961020a44db887b53dc3972b86ba4a/transformed/jetified-exoplayer-extractor-2.18.1/AndroidManifest.xml:17:1-24:12
@@ -181,7 +181,7 @@ MERGED from [com.jakewharton.timber:timber:5.0.1] /Users/pooja/.gradle/caches/tr
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/pooja/.gradle/caches/transforms-3/f05e975ce24e142ab13cc9044b1e42c8/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
 MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/pooja/.gradle/caches/transforms-3/c3a3c2809277ee322149bd3c3c5201b1/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/62758ce48a1906de90e552b9f8d25786/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/aa2e998f8c4fd78b3d545345b12a0f7e/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:2:1-11:12
 INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/debug/AndroidManifest.xml:2:1-13:12
@@ -230,8 +230,8 @@ MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/pooja/.gr
 MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/pooja/.gradle/caches/transforms-3/c418cc6869518447fcc03f8b04f9b20c/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:10:5-67
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pooja/.gradle/caches/transforms-3/19df0794a19f8a43eda98ae3b0d14858/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pooja/.gradle/caches/transforms-3/19df0794a19f8a43eda98ae3b0d14858/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
-MERGED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:8:5-67
-MERGED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:8:5-67
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:8:5-67
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:8:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pooja/.gradle/caches/transforms-3/b0bedba31ccd9257f3af288e61cb4fb6/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pooja/.gradle/caches/transforms-3/b0bedba31ccd9257f3af288e61cb4fb6/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-measurement:21.2.1] /Users/pooja/.gradle/caches/transforms-3/05d4df7d76178df7380a9983c680f423/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:23:5-67
@@ -402,14 +402,14 @@ MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/pooja/.gradle/ca
 MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/pooja/.gradle/caches/transforms-3/2e7fc86748c14f72c8afd36fdad0f047/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/pooja/.gradle/caches/transforms-3/cfa46e4f425d4a561371f6b000050253/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/pooja/.gradle/caches/transforms-3/cfa46e4f425d4a561371f6b000050253/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be42099cce0c60671bf47fbddc6f1f91/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be42099cce0c60671bf47fbddc6f1f91/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/8c4475850fc29ca7278bd465de15e600/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/8c4475850fc29ca7278bd465de15e600/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/92d566157d44da56077a1b084a53ae8b/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/92d566157d44da56077a1b084a53ae8b/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pooja/.gradle/caches/transforms-3/19df0794a19f8a43eda98ae3b0d14858/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pooja/.gradle/caches/transforms-3/19df0794a19f8a43eda98ae3b0d14858/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
-MERGED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:41:5-64:19
-MERGED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:41:5-64:19
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:41:5-64:19
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:41:5-64:19
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pooja/.gradle/caches/transforms-3/b0bedba31ccd9257f3af288e61cb4fb6/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
@@ -450,14 +450,14 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/pooja/.gradle/ca
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/pooja/.gradle/caches/transforms-3/aea9f7e0d1897e520bda3c53692fcd7a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/pooja/.gradle/caches/transforms-3/d98f981cc43a2e5c6edb0f97847a568f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/pooja/.gradle/caches/transforms-3/d98f981cc43a2e5c6edb0f97847a568f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/5171baa0855da9dd98c01914f73901d6/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/5171baa0855da9dd98c01914f73901d6/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/1f23dd5c9b931081672c47a613188953/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/1f23dd5c9b931081672c47a613188953/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
 MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/pooja/.gradle/caches/transforms-3/6cfd60e65b71a7d56d1bca81babf54d3/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:11:5-20
 MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/pooja/.gradle/caches/transforms-3/6cfd60e65b71a7d56d1bca81babf54d3/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:11:5-20
 MERGED from [com.jakewharton.timber:timber:5.0.1] /Users/pooja/.gradle/caches/transforms-3/5a140ebfd5578d4cf8df0d776fa86aaa/transformed/jetified-timber-5.0.1/AndroidManifest.xml:7:5-20
 MERGED from [com.jakewharton.timber:timber:5.0.1] /Users/pooja/.gradle/caches/transforms-3/5a140ebfd5578d4cf8df0d776fa86aaa/transformed/jetified-timber-5.0.1/AndroidManifest.xml:7:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/62758ce48a1906de90e552b9f8d25786/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/62758ce48a1906de90e552b9f8d25786/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/aa2e998f8c4fd78b3d545345b12a0f7e/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/aa2e998f8c4fd78b3d545345b12a0f7e/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:9:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/pooja/.gradle/caches/transforms-3/91e5ae0e30bfc9e5e66a0fa550b98906/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
@@ -809,10 +809,10 @@ MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/pooja/.gradle/caches/t
 MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/pooja/.gradle/caches/transforms-3/1d9a2729378c5a941270720224060d2e/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/pooja/.gradle/caches/transforms-3/2c59caa64e6f08ddd00490f75920587a/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/pooja/.gradle/caches/transforms-3/2c59caa64e6f08ddd00490f75920587a/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be42099cce0c60671bf47fbddc6f1f91/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be42099cce0c60671bf47fbddc6f1f91/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/8c4475850fc29ca7278bd465de15e600/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/8c4475850fc29ca7278bd465de15e600/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/92d566157d44da56077a1b084a53ae8b/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/pooja/.gradle/caches/transforms-3/92d566157d44da56077a1b084a53ae8b/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pooja/.gradle/caches/transforms-3/ebae4bea43657ca9264ce50f5fcd6153/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pooja/.gradle/caches/transforms-3/ebae4bea43657ca9264ce50f5fcd6153/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pooja/.gradle/caches/transforms-3/6a505e8cd571f982b683cd8787457c75/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
@@ -823,8 +823,8 @@ MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pooja/.grad
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/pooja/.gradle/caches/transforms-3/19df0794a19f8a43eda98ae3b0d14858/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.webkit:webkit:1.4.0] /Users/pooja/.gradle/caches/transforms-3/289dc31b2a03bd640aac69d0048f53a9/transformed/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.webkit:webkit:1.4.0] /Users/pooja/.gradle/caches/transforms-3/289dc31b2a03bd640aac69d0048f53a9/transformed/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:6:5-44
-MERGED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:6:5-44
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:6:5-44
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:6:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/pooja/.gradle/caches/transforms-3/156927b6ee345ef05e354f138cd23d14/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
@@ -891,8 +891,8 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pooja/.gradle/caches/tra
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pooja/.gradle/caches/transforms-3/cac0917b844e69eff9e7f007323418e1/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.exoplayer:exoplayer:2.18.1] /Users/pooja/.gradle/caches/transforms-3/0233fd87afb318c44970775323034c8d/transformed/jetified-exoplayer-2.18.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer:2.18.1] /Users/pooja/.gradle/caches/transforms-3/0233fd87afb318c44970775323034c8d/transformed/jetified-exoplayer-2.18.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] /Users/pooja/.gradle/caches/transforms-3/ec6d5966875cab23dd32651b986b554e/transformed/jetified-exoplayer-ui-2.18.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] /Users/pooja/.gradle/caches/transforms-3/ec6d5966875cab23dd32651b986b554e/transformed/jetified-exoplayer-ui-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] /Users/pooja/.gradle/caches/transforms-3/7b96da856b9f3a78a972820ed31dcb89/transformed/jetified-exoplayer-ui-2.18.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.18.1] /Users/pooja/.gradle/caches/transforms-3/7b96da856b9f3a78a972820ed31dcb89/transformed/jetified-exoplayer-ui-2.18.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/pooja/.gradle/caches/transforms-3/d18f4efaa6e6cf266b0cf77b6d2ac04a/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/pooja/.gradle/caches/transforms-3/d18f4efaa6e6cf266b0cf77b6d2ac04a/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] /Users/pooja/.gradle/caches/transforms-3/d54c7305e08f198980a6dfe1fe86dabd/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
@@ -919,8 +919,8 @@ MERGED from [androidx.core:core-ktx:1.9.0] /Users/pooja/.gradle/caches/transform
 MERGED from [androidx.core:core-ktx:1.9.0] /Users/pooja/.gradle/caches/transforms-3/ba7d3e4cffcb4095cdca2ff6014f94b7/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/pooja/.gradle/caches/transforms-3/3f3a36ce8add6354d731bcdfd7dc90c9/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/pooja/.gradle/caches/transforms-3/3f3a36ce8add6354d731bcdfd7dc90c9/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.orhanobut:logger:2.2.0] /Users/pooja/.gradle/caches/transforms-3/373a50581305e059aaf3d5ce32a2df04/transformed/jetified-logger-2.2.0/AndroidManifest.xml:6:5-43
-MERGED from [com.orhanobut:logger:2.2.0] /Users/pooja/.gradle/caches/transforms-3/373a50581305e059aaf3d5ce32a2df04/transformed/jetified-logger-2.2.0/AndroidManifest.xml:6:5-43
+MERGED from [com.orhanobut:logger:2.2.0] /Users/pooja/.gradle/caches/transforms-3/894d011d5903d0db24ee9a483c23a1f0/transformed/jetified-logger-2.2.0/AndroidManifest.xml:6:5-43
+MERGED from [com.orhanobut:logger:2.2.0] /Users/pooja/.gradle/caches/transforms-3/894d011d5903d0db24ee9a483c23a1f0/transformed/jetified-logger-2.2.0/AndroidManifest.xml:6:5-43
 MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/pooja/.gradle/caches/transforms-3/ed0a886843da3dec4b01f51acda250a0/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/pooja/.gradle/caches/transforms-3/ed0a886843da3dec4b01f51acda250a0/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pooja/.gradle/caches/transforms-3/ee397c324754c76fe0ebac131ba57406/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
@@ -953,8 +953,8 @@ MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/pooja/
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/pooja/.gradle/caches/transforms-3/b74f8d82323ae31b096039716acaeab7/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/pooja/.gradle/caches/transforms-3/5c8a1e2d612480a9f28760f6e8fea122/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/pooja/.gradle/caches/transforms-3/5c8a1e2d612480a9f28760f6e8fea122/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/5171baa0855da9dd98c01914f73901d6/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/5171baa0855da9dd98c01914f73901d6/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/1f23dd5c9b931081672c47a613188953/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/pooja/.gradle/caches/transforms-3/1f23dd5c9b931081672c47a613188953/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] /Users/pooja/.gradle/caches/transforms-3/d62da7fad5d9b080c9ce3903da46c18d/transformed/jetified-exoplayer-datasource-2.18.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] /Users/pooja/.gradle/caches/transforms-3/d62da7fad5d9b080c9ce3903da46c18d/transformed/jetified-exoplayer-datasource-2.18.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] /Users/pooja/.gradle/caches/transforms-3/9dd1b85811709d6120b536f39c660394/transformed/jetified-exoplayer-database-2.18.1/AndroidManifest.xml:20:5-22:41
@@ -985,8 +985,8 @@ MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transf
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/pooja/.gradle/caches/transforms-3/d814457deb2170224c7e4204eefd60ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/pooja/.gradle/caches/transforms-3/c3a3c2809277ee322149bd3c3c5201b1/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/pooja/.gradle/caches/transforms-3/c3a3c2809277ee322149bd3c3c5201b1/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/62758ce48a1906de90e552b9f8d25786/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/62758ce48a1906de90e552b9f8d25786/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/aa2e998f8c4fd78b3d545345b12a0f7e/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/pooja/.gradle/caches/transforms-3/aa2e998f8c4fd78b3d545345b12a0f7e/transformed/jetified-circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
 INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/pooja/Documents/vivasa_app/android/app/src/debug/AndroidManifest.xml
 	tools:overrideLibrary
@@ -1205,8 +1205,8 @@ MERGED from [io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches
 MERGED from [io.kommunicate.sdk:kommunicateui:2.7.0] /Users/pooja/.gradle/caches/transforms-3/d97ac33ee44ee1e49a05ab18a38cf3fd/transformed/jetified-kommunicateui-2.7.0/AndroidManifest.xml:17:5-21:15
 MERGED from [androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-3/576c088c8fb10fed8ab09777b8455141/transformed/runner-1.4.0/AndroidManifest.xml:24:5-28:15
 MERGED from [androidx.test:runner:1.4.0] /Users/pooja/.gradle/caches/transforms-3/576c088c8fb10fed8ab09777b8455141/transformed/runner-1.4.0/AndroidManifest.xml:24:5-28:15
-MERGED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:10:5-39:15
-MERGED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:10:5-39:15
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:10:5-39:15
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:10:5-39:15
 intent#action:name:android.media.action.IMAGE_CAPTURE
 ADDED from [:react-native-image-crop-picker] /Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
 action#android.media.action.IMAGE_CAPTURE
@@ -1251,14 +1251,14 @@ ADDED from [:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_
 		ADDED from [:react-native-otp-auto-fill] /Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:25-91
 activity#com.razorpay.CheckoutActivity
 ADDED from [:react-native-razorpay] /Users/pooja/Documents/vivasa_app/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:86
-MERGED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:51:9-59:20
-MERGED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:51:9-59:20
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:51:9-59:20
+MERGED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:51:9-59:20
 	android:exported
-		ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:54:13-37
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:54:13-37
 	android:configChanges
 		ADDED from [:react-native-razorpay] /Users/pooja/Documents/vivasa_app/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-83
 	android:theme
-		ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:55:13-49
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:55:13-49
 	android:name
 		ADDED from [:react-native-razorpay] /Users/pooja/Documents/vivasa_app/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-57
 service#com.doublesymmetry.trackplayer.service.MusicService
@@ -1674,63 +1674,63 @@ ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/pooja/.gradle/cac
 	android:name
 		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/pooja/.gradle/caches/transforms-3/2e7fc86748c14f72c8afd36fdad0f047/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
 provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be42099cce0c60671bf47fbddc6f1f91/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
 	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be42099cce0c60671bf47fbddc6f1f91/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be42099cce0c60671bf47fbddc6f1f91/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/be42099cce0c60671bf47fbddc6f1f91/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
 intent#action:name:android.intent.action.VIEW+data:mimeType:*/*+data:scheme:*
-ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:11:9-17:18
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:11:9-17:18
 action#android.intent.action.VIEW
-ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:12:13-65
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:12:13-65
 	android:name
-		ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:12:21-62
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:12:21-62
 data
-ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:14:13-16:38
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:14:13-16:38
 	android:scheme
-		ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:16:17-35
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:16:17-35
 	android:mimeType
-		ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:15:17-39
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:15:17-39
 intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:host:pay+data:mimeType:*/*+data:scheme:upi
-ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:18:9-27:18
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:18:9-27:18
 category#android.intent.category.BROWSABLE
-ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:21:13-74
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:21:13-74
 	android:name
-		ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:21:23-71
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:21:23-71
 intent#action:name:android.intent.action.MAIN
-ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:28:9-30:18
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:28:9-30:18
 intent#action:name:android.intent.action.SEND+data:mimeType:*/*
-ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:31:9-35:18
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:31:9-35:18
 action#android.intent.action.SEND
-ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:32:13-65
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:32:13-65
 	android:name
-		ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:32:21-62
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:32:21-62
 intent#action:name:rzp.device_token.share
-ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:36:9-38:18
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:36:9-38:18
 action#rzp.device_token.share
-ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:37:13-61
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:37:13-61
 	android:name
-		ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:37:21-58
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:37:21-58
 receiver#com.razorpay.RzpTokenReceiver
-ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:42:9-49:20
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:42:9-49:20
 	android:exported
-		ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:44:13-36
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:44:13-36
 	tools:ignore
-		ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:45:13-44
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:45:13-44
 	android:name
-		ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:43:13-57
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:43:13-57
 intent-filter#action:name:rzp.device_token.share
-ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:46:13-48:29
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:46:13-48:29
 intent-filter#action:name:android.intent.action.MAIN
-ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:56:13-58:29
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:56:13-58:29
 meta-data#com.razorpay.plugin.googlepay_all
-ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:61:9-63:58
+ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:61:9-63:58
 	android:value
-		ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:63:13-55
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:63:13-55
 	android:name
-		ADDED from [com.razorpay:checkout:1.6.35] /Users/pooja/.gradle/caches/transforms-3/b10ceeea911bbf21de5985b64bec58a6/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:62:13-61
+		ADDED from [com.razorpay:checkout:1.6.36] /Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:62:13-61
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:20.3.0] /Users/pooja/.gradle/caches/transforms-3/5bc173c3c74810c5c6a23f94cfe43f0e/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents

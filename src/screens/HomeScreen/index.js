@@ -270,7 +270,7 @@ const HomeScreen = () => {
     }
 
     const addProductInFavList = async (data) => {
-        console.log("data",data)
+        console.log("data", data)
         const value = await AsyncStorage.getItem('@storage_Key');
         const user = JSON.parse(value);
         console.log('addProductInCart', user?.user?.id);
@@ -339,7 +339,7 @@ const HomeScreen = () => {
     }
 
     const FruitsItems = (items) => {
-       
+        console.log("ite,s>>>", items)
         return (
             <View style={{
                 padding: 0, backgroundColor: '#ffffff', shadowColor: '#b4b4b4',
@@ -373,7 +373,7 @@ const HomeScreen = () => {
                     <View style={{ flex: 1, marginRight: 5, flexDirection: 'row', alignItems: 'center', marginBottom: 10 }}>
                         <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#000' }}>{currencyFormat(items.item.price)}</Text>
                     </View>
-                    <View style={{ marginBottom: 10, flexDirection: 'row', alignItems: 'center', }}>
+                    {/* <View style={{ marginBottom: 10, flexDirection: 'row', alignItems: 'center', }}>
                         {items.item.cart_status === "Yes" ?
                             <TouchableOpacity onPress={() => showCartScreen(items.item)} style={{ backgroundColor: '#222222', padding: 2, borderRadius: 200, paddingHorizontal: 15, paddingVertical: 5 }}>
                                 <Image style={{ width: 20, height: 20, resizeMode: 'contain', tintColor: '#ffffff' }} source={require('../../assets/images/shopping_cart.png')} />
@@ -382,7 +382,7 @@ const HomeScreen = () => {
                                 <Image style={{ width: 20, height: 20, resizeMode: 'contain', tintColor: '#ffffff' }} source={require('../../assets/images/shopping_cart.png')} />
                             </TouchableOpacity>
                         }
-                    </View>
+                    </View> */}
                 </View>
             </View>
         )
@@ -452,7 +452,7 @@ const HomeScreen = () => {
                 shadowRadius: 2,
                 elevation: 5,
             }}>
-                <View style={{ flexDirection: 'row', alignItems: 'center', alignSelf: 'center' }}>
+                {/* <View style={{ flexDirection: 'row', alignItems: 'center', alignSelf: 'center' }}>
                     <View style={{ alignSelf: 'center', flex: 1 }}>
                         <TouchableOpacity onPress={() => getAddressList()} style={{ flexDirection: 'row', alignItems: 'center', alignSelf: 'flex-start' }}>
                             <Image style={{ width: 15, height: 15, resizeMode: 'contain', marginRight: 5, tintColor: '#ffffff' }} source={require('../../assets/images/home-s/location.png')} />
@@ -469,7 +469,7 @@ const HomeScreen = () => {
                             <Text style={{ fontSize: 11, alignSelf: 'center', fontWeight: 'bold', marginBottom: 4 }}>9</Text>
                         </View>
                     </TouchableOpacity>
-                </View>
+                </View> */}
                 <TouchableOpacity onPress={() => navigation.navigate("ProductSearch")} style={{
                     shadowColor: '#b4b4b4',
                     shadowOffset: { width: 0, height: 2 },
@@ -527,23 +527,23 @@ const HomeScreen = () => {
                                     />
                                 </View>
                             </View>
-                            <View style={{ padding: 10 }}>
+                            {/* <View style={{ padding: 10 }}>
                                 <Text style={{ fontSize: 16, fontWeight: '500', letterSpacing: 1 }}>Trending</Text>
-                            </View>
+                            </View> */}
                             <View style={{
-                                backgroundColor: 'rgb(231,254,248)', width: '100%', paddingBottom: 10, shadowColor: '#b4b4b4',
-                                shadowOffset: { width: 0, height: 1 },
-                                shadowOpacity: 0.8,
-                                shadowRadius: 2,
-                                elevation: 5,
+                                // backgroundColor: 'rgb(231,254,248)', width: '100%', paddingBottom: 10, shadowColor: '#b4b4b4',
+                                // shadowOffset: { width: 0, height: 1 },
+                                // shadowOpacity: 0.8,
+                                // shadowRadius: 2,
+                                // elevation: 5,
                             }}>
-                                <View style={{ flexDirection: 'row', alignItems: 'center', padding: 10, paddingBottom: 5 }}>
+                                {/* <View style={{ flexDirection: 'row', alignItems: 'center', padding: 10, paddingBottom: 5 }}>
                                     <Text style={{ flex: 1, color: '#222222', fontSize: 12, fontWeight: 'bold' }}>Flash Deal: Avail any 3 Deal</Text>
                                     <View style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: '#222222', paddingLeft: 8, paddingRight: 8, borderRadius: 40, paddingTop: 3, paddingBottom: 3 }}>
                                         <Image style={{ width: 10, height: 10, resizeMode: 'contain' }} source={require('../../assets/images/home-s/w.png')} />
                                         <Text style={{ textTransform: 'uppercase', color: 'white', marginLeft: 3, fontSize: 10 }}>Share</Text>
                                     </View>
-                                </View>
+                                </View> */}
                                 <View style={{ paddingHorizontal: 10, paddingVertical: 10 }}>
                                     <FlatList
                                         data={brand}

@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.flipper:flipper-fresco-plugin:0.125.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0f12deace24c24ca3a14ee514cfe0656/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0f12deace24c24ca3a14ee514cfe0656/transformed/jetified-flipper-fresco-plugin-0.125.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2bd1d26a30ef7115ea8e98daa5d704ad/transformed/jetified-flipper-fresco-plugin-0.125.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2bd1d26a30ef7115ea8e98daa5d704ad/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.flipper/flipper-fresco-plugin/0.125.0/e5ee4d972298193044a60dfb4f5c12ccaff18ef6/flipper-fresco-plugin-0.125.0-javadoc.jar!/" />

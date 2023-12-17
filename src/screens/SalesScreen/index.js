@@ -413,7 +413,7 @@ const SalesScreen = () => {
                                                     </View>
                                                 </View>
                                             </View>
-                                            <TouchableOpacity onPress={() => addProductInCart(items?.item)} style={{ position: 'absolute', top: 5, right: 0 }} >
+                                            <TouchableOpacity onPress={() => removeProductInCart(items?.item)} style={{ position: 'absolute', top: 5, right: 0 }} >
                                                 <Image style={{ width: 23, height: 23, tintColor: '#000', resizeMode: 'contain', marginRight: 10 }} source={require('../../assets/images/remove_fav.png')} />
                                             </TouchableOpacity>
                                         </View>

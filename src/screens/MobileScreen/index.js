@@ -66,8 +66,8 @@ const MobileScreen = () => {
             body: data
         });
         const posts = await response.json();
-        console.log('params:', JSON.stringify(data));
-        console.log('response:x', JSON.stringify(posts));
+        console.log('params:', data);
+        console.log('response:x', posts);
         if (posts.status === true) {
             setLoading(false);
             showMessage({
@@ -77,9 +77,13 @@ const MobileScreen = () => {
             });
             navigation.replace('CustomerDetailsScreen', mobile);
         } else {
+            let description = posts?.error?.email || '';
+            if (posts?.error?.mobile) {
+                description += ' ' + posts?.error?.mobile ;
+            }
             showMessage({
                 message: "Invalid Login Details",
-                description: 'error: ' + JSON.stringify(posts),
+                description: description,
                 type: "warning",
             });
             setLoading(false);

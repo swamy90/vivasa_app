@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.installreferrer:installreferrer:1.1.2@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7f6ba652c87106438ad656a00bc7d325/transformed/jetified-installreferrer-1.1.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7f6ba652c87106438ad656a00bc7d325/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6cfd60e65b71a7d56d1bca81babf54d3/transformed/jetified-installreferrer-1.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6cfd60e65b71a7d56d1bca81babf54d3/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

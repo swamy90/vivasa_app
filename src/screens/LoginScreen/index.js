@@ -79,6 +79,7 @@ const LoginScreen = () => {
         const submitCustomer = await response.json();
         // console.log('submitCustomer', submitCustomer);
         if (submitCustomer.status === true) {
+            console.log("inside")
             setLoading(false);
             Toast.show({
                 type: 'success',

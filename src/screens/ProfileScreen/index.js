@@ -1,5 +1,5 @@
 import React, { Component, Profiler, BackHandler } from 'react';
-import { StyleSheet, Text, View, Image, TouchableOpacity, ImageBackground, ActivityIndicator, Dimensions, Alert, StatusBar, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, Image, TouchableOpacity, ImageBackground, ActivityIndicator, Dimensions, Alert, StatusBar, ScrollView, Linking } from 'react-native';
 // import { InAppBrowser } from 'react-native-inappbrowser-reborn';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useFocusEffect, useNavigation, useRoute } from '@react-navigation/native';
@@ -50,7 +50,7 @@ const ProfileScreen = () => {
                 setName(response?.data?.user?.name)
                 setNumber(response?.data?.user?.mobile)
                 setEmail(response?.data?.user?.email)
-              
+
             })
             .catch((err) => {
                 console.log("err in profile", err);
@@ -132,13 +132,14 @@ const ProfileScreen = () => {
             keys = await AsyncStorage.getAllKeys()
             console.log(`Keys: ${keys}`) // Just to see what's going on
             await AsyncStorage.multiRemove(keys);
-            navigation.navigate('SplashScreen');
+            // navigation.navigate('SplashScreen');
             showMessage({
                 message: "Loggout Successfull!",
-                description: "Congratulations, Loggout successfully & your Application Restart.",
+                description: "Congratulations, Loggout successfully!",
                 type: "success",
             });
-            RNExitApp.exitApp();
+            navigation.replace('SplashScreen');
+            // RNExitApp.exitApp();
         } catch (e) {
             console.log(e)
         }
@@ -155,6 +156,14 @@ const ProfileScreen = () => {
         }
     }
 
+    const ComingSoon = () => {
+        showMessage({
+            message: 'Coming Soon!',
+            description: 'Coming Soon',
+            type: "alert",
+        });
+    }
+
     return (
         <ScrollView style={styles.container}>
             <View style={styles.header}>
@@ -162,26 +171,32 @@ const ProfileScreen = () => {
             </View>
             {isLoading === true ?
                 <ActivityIndicator style={{ alignSelf: 'center', marginTop: Dimensions.get('screen').width / 1 }} color={'#222222'} size={'large'} /> :
-                <View style={{}}>
-                    <ImageBackground source={{ uri: Image_Files_URL + profileImage }} style={{ paddingVertical: 70, paddingHorizontal: 40, height: 250, flexDirection: 'row', alignItems: 'center' }} blurRadius={4} resizeMode={'cover'}>
-                        <View style={{ width: 100, height: 120 }}>
-                            {/* <Image style={styles.avatar} source={{ uri: MY_BASE_URL + profileImage }} />
+                <View style={{marginTop:50,justifyContent:'center'}}>
+                    {/* <ImageBackground source={{ uri: Image_Files_URL + profileImage }} style={{ paddingVertical: 70, paddingHorizontal: 40, height: 250, flexDirection: 'row', alignItems: 'center' }} blurRadius={4} resizeMode={'cover'}> */}
+                        {/* <View style={{ width: 100, height: 120 }}>
+                            <Image style={styles.avatar} source={{ uri: MY_BASE_URL + profileImage }} />
                             <TouchableOpacity onPress={() => openCameraToUpload()} style={{ position: 'absolute', right: -15, bottom: 0, backgroundColor: 'white', borderRadius: 100, padding: 5, zIndex: 999 }}>
                                 <Image style={{ tintColor: 'black', width: 15, height: 15, resizeMode: 'contain' }} source={require('../../assets/images/camera.png')} />
-                            </TouchableOpacity> */}
+                            </TouchableOpacity>
                             <QRCodeView
                                 qrCodeValue={"a7f539c30127dbfc548c05f0f72423abda0f568d"}
                                 backgroundColor={'#F5F7FB'}
                                 style={{ width: 130, height: 130 }}
                                 key="a7f539c30127dbfc548c05f0f72423abda0f568d"
                             />
+                        </View> */}
+
+                    {/* </ImageBackground> */}
+                    <View style={{ flexDirection: 'row',justifyContent:'space-around',marginBottom:20,width:'80%'}}>
+                        <View style={{}}>
+                            <Image source={require('../../assets/images/defaultpic.png')} style={{ width: Dimensions.get("screen").width - 280, height: Dimensions.get("screen").width - 280, resizeMode: 'contain' }} />
                         </View>
-                        <View style={{ marginLeft: 40 }}>
+                        <View style={{marginTop:20}}>
                             <Text style={{ fontWeight: 'bold', color: 'black', fontSize: 18 }}>{name}</Text>
                             <Text style={{ fontWeight: 'bold' }}>{number}</Text>
                             <Text style={{ fontWeight: 'bold' }}>{email}</Text>
                         </View>
-                    </ImageBackground>
+                    </View>
                     <TouchableOpacity
                         style={[styles.list, { display: 'none' }]}
                         onPress={() => navigation.navigate('AddressListScreen')}>
@@ -192,7 +207,7 @@ const ProfileScreen = () => {
                     </TouchableOpacity>
                     <TouchableOpacity
                         style={styles.list}
-                        onPress={() => navigation.navigate('AddressListScreen')}>
+                        onPress={() => Linking.openURL('http://www.vivasa.co.in/')}>
                         <Image
                             style={styles.list_icon}
                             source={require('../../assets/images/about.png')} />
@@ -208,7 +223,7 @@ const ProfileScreen = () => {
                     </TouchableOpacity>
                     <TouchableOpacity
                         style={styles.list}
-                        onPress={() => goToPrivacyCheck('https://www.freeprivacypolicy.com/live/e2b45d36-e9b5-4258-a64b-70aae495ebf9')}>
+                        onPress={() => Linking.openURL('https://www.vivasa.co.in/privacy-policy')}>
                         <Image
                             style={styles.list_icon}
                             source={require('../../assets/images/privacy_policy.png')} />
@@ -216,7 +231,7 @@ const ProfileScreen = () => {
                     </TouchableOpacity>
                     <TouchableOpacity
                         style={styles.list}
-                        onPress={() => navigation.navigate('AddressListScreen')}>
+                        onPress={() => ComingSoon()}>
                         <Image
                             style={styles.list_icon}
                             source={require('../../assets/images/settings.png')} />

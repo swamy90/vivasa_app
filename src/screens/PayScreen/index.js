@@ -4,11 +4,14 @@ import ImagePicker from 'react-native-image-crop-picker';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Image_Files_URL, MY_BASE_URL } from '../../global';
 import { showMessage } from 'react-native-flash-message';
+import { useNavigation } from '@react-navigation/native';
 
 
-export default function PayScreen() {
+export default function PayScreen({ route }) {
+    console.log("route", route?.params?.address?.order_number)
     const [transId, setTransId] = React.useState('');
     const [screenShotImg, setScreenShoImage] = React.useState('');
+    const navigation = useNavigation();
 
     const openCameraToUpload = async () => {
         console.log("inside")
@@ -30,7 +33,7 @@ export default function PayScreen() {
         var formdata = new FormData();
         formdata.append("screenshot", { uri: image, name: 'photo.png', filename: 'imageName.png', type: 'image/png' });
         formdata.append("user_id", user?.user?.id);
-        formdata.append("order_number", 'VIVA594322');
+        formdata.append("order_number", route?.params?.address?.order_number);
         formdata.append("transaction_id", transId ? transId : "");
         var requestOptions = {
             method: 'POST',
@@ -48,7 +51,8 @@ export default function PayScreen() {
                         description: result?.msg,
                         type: "success",
                     });
-
+                    
+                    navigation.navigate("HomeBottomNavigation")
                 } else {
                     showMessage({
                         message: 'Sorry!',
@@ -84,8 +88,8 @@ export default function PayScreen() {
                         <Text>Upload Screenshot here</Text>
                     </View>
                     <TouchableOpacity>
-                        <TouchableOpacity style={{ paddingLeft: 20, backgroundColor: 'white',alignSelf:'center',justifyContent:'center' }} onPress={() => openCameraToUpload()}>
-                            <Image source={{ uri: screenShotImg ? screenShotImg : 'https://cdn.vectorstock.com/i/preview-1x/65/30/default-image-icon-missing-picture-page-vector-40546530.jpg' }} style={{ width: 100, height: 100,resizeMode:'contain',borderRadius:50,justifyContent:'center' }} />
+                        <TouchableOpacity style={{ paddingLeft: 20, backgroundColor: 'white', alignSelf: 'center', justifyContent: 'center' }} onPress={() => openCameraToUpload()}>
+                            <Image source={{ uri: screenShotImg ? screenShotImg : 'https://cdn.vectorstock.com/i/preview-1x/65/30/default-image-icon-missing-picture-page-vector-40546530.jpg' }} style={{ width: 100, height: 100, resizeMode: 'contain', borderRadius: 50, justifyContent: 'center' }} />
                             <Image source={require('../../assets/images/camera.png')} style={{ position: 'absolute', bottom: 10, left: 95, width: 25, height: 25, resizeMode: 'contain' }} />
                             {/* {screenShotImg ? (
                                 <Image source={{ uri: screenShotImg }} style={{ width: 100, height: 100 }} />

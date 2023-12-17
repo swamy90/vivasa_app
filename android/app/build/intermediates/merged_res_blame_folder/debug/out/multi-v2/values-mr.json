@@ -55,24 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/pooja/.gradle/caches/transforms-3/ac89b3767dd88025be597518b0cf6f43/transformed/jetified-extension-mediasession-2.18.1/res/values-mr/values-mr.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,138,220",
-                        "endColumns": "82,81,80",
-                        "endOffsets": "133,215,296"
-                    },
-                    "to": {
-                        "startLines": "107,108,109",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "8826,8909,8991",
-                        "endColumns": "82,81,80",
-                        "endOffsets": "8904,8986,9067"
-                    }
-                },
-                {
-                    "source": "/Users/pooja/.gradle/caches/transforms-3/ec6d5966875cab23dd32651b986b554e/transformed/jetified-exoplayer-ui-2.18.1/res/values-mr/values-mr.xml",
+                    "source": "/Users/pooja/.gradle/caches/transforms-3/7b96da856b9f3a78a972820ed31dcb89/transformed/jetified-exoplayer-ui-2.18.1/res/values-mr/values-mr.xml",
                     "from": {
                         "startLines": "2,11,15,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -88,6 +71,23 @@
                         "endLines": "10,14,18,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,106,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126",
                         "endColumns": "17,12,12,81,79,82,86,93,67,63,89,90,64,67,59,67,112,118,110,71,78,70,69,81,79,63,62,52,57,47,60,60,66,61,65,58,64,64,64,67,52,59,73,73,52",
                         "endOffsets": "331,532,716,6250,6330,6413,6500,6594,6662,6726,6816,6907,6972,7040,7100,7168,7281,7400,7511,7583,7662,7733,7803,7885,7965,8029,8092,8821,9125,9173,9234,9295,9362,9424,9490,9549,9614,9679,9744,9812,9865,9925,9999,10073,10126"
+                    }
+                },
+                {
+                    "source": "/Users/pooja/.gradle/caches/transforms-3/ac89b3767dd88025be597518b0cf6f43/transformed/jetified-extension-mediasession-2.18.1/res/values-mr/values-mr.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,138,220",
+                        "endColumns": "82,81,80",
+                        "endOffsets": "133,215,296"
+                    },
+                    "to": {
+                        "startLines": "107,108,109",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "8826,8909,8991",
+                        "endColumns": "82,81,80",
+                        "endOffsets": "8904,8986,9067"
                     }
                 },
                 {

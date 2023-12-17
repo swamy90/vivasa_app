@@ -31,6 +31,7 @@ const ContactUs = () => {
         setIsLoading(true);
         const formData = new FormData();
         const URLs = MY_BASE_URL + "api/my-favorite-list";
+        console.log(URLs)
         formData.append("user_id", user?.user?.id);
         const response = await fetch(URLs, {
             method: 'POST',
@@ -69,8 +70,10 @@ const ContactUs = () => {
                 type: "success",
 
             });
+            getFavouriteList();
         } else {
             console.log("insuide else")
+            getFavouriteList();
             showMessage({
                 message: "Already added",
                 description: submitCustomer?.message,
@@ -116,15 +119,16 @@ const ContactUs = () => {
                                             <Image style={{ height: 120, width: 120 }} source={{ uri: Image_Files_URL + items?.item?.product_image }} />
                                         </View>
                                         <View style={{ flex: 1, padding: 5 }}>
-                                            <Text style={{ fontWeight: 'bold', color: '#000000' }}>MRP ₹{items?.item?.sale_price}</Text>
+                                            <Text style={{ fontWeight: 'bold', color: '#000000' }}>MRP ₹{items?.item?.price}</Text>
                                             <Text style={{ marginRight: 10, textDecorationLine: 'line-through', textDecorationStyle: 'solid', }}>₹ {items?.item?.market_price}</Text>
                                             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                                                 <Text style={{ fontWeight: 'bold', fontSize: 15 }}>{items?.item?.product_name}</Text>
                                             </View>
                                             {/* <Text numberOfLines={3}>{items?.item?.specifications}</Text> */}
-                                            <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                                            {items?.item?.size && <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                                                 <Text style={{ fontSize: 10, paddingLeft: 4, paddingRight: 4, color: '#ffffff', backgroundColor: 'red', marginTop: 3 }}>{items?.item?.size}</Text>
-                                            </View>
+                                            </View>}
+
                                         </View>
                                     </TouchableOpacity>
                                 </View>

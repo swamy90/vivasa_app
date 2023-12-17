@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/pooja/Documents/Vivasa/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-be/values-be.xml",
+            "outputFile": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-be/values-be.xml",
             "map": [
                 {
                     "source": "/Users/pooja/.gradle/caches/transforms-3/91e5ae0e30bfc9e5e66a0fa550b98906/transformed/core-1.9.0/res/values-be/values-be.xml",
@@ -55,7 +55,24 @@
                     }
                 },
                 {
-                    "source": "/Users/pooja/.gradle/caches/transforms-3/8ffd1cd2262d6d07e1f02e33c6168b04/transformed/jetified-exoplayer-ui-2.18.1/res/values-be/values-be.xml",
+                    "source": "/Users/pooja/.gradle/caches/transforms-3/c57bbb0c90c3cb460f503655cde2d0b0/transformed/jetified-exoplayer-core-2.18.1/res/values-be/values-be.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,126,190,257,320,397,465,564,660",
+                        "endColumns": "70,63,66,62,76,67,98,95,69",
+                        "endOffsets": "121,185,252,315,392,460,559,655,725"
+                    },
+                    "to": {
+                        "startLines": "103,104,105,106,107,108,109,110,111",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "8665,8736,8800,8867,8930,9007,9075,9174,9270",
+                        "endColumns": "70,63,66,62,76,67,98,95,69",
+                        "endOffsets": "8731,8795,8862,8925,9002,9070,9169,9265,9335"
+                    }
+                },
+                {
+                    "source": "/Users/pooja/.gradle/caches/transforms-3/7b96da856b9f3a78a972820ed31dcb89/transformed/jetified-exoplayer-ui-2.18.1/res/values-be/values-be.xml",
                     "from": {
                         "startLines": "2,11,17,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -71,23 +88,6 @@
                         "endLines": "10,16,22,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,112,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132",
                         "endColumns": "17,12,12,82,82,82,97,97,88,63,92,93,64,64,64,67,94,93,99,76,78,68,89,92,92,65,64,52,59,47,60,72,67,64,72,64,57,65,64,65,51,59,73,73,54",
                         "endOffsets": "333,672,1002,6774,6857,6940,7038,7136,7225,7289,7382,7476,7541,7606,7671,7739,7834,7928,8028,8105,8184,8253,8343,8436,8529,8595,8660,9388,9710,9758,9819,9892,9960,10025,10098,10163,10221,10287,10352,10418,10470,10530,10604,10678,10733"
-                    }
-                },
-                {
-                    "source": "/Users/pooja/.gradle/caches/transforms-3/c57bbb0c90c3cb460f503655cde2d0b0/transformed/jetified-exoplayer-core-2.18.1/res/values-be/values-be.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,126,190,257,320,397,465,564,660",
-                        "endColumns": "70,63,66,62,76,67,98,95,69",
-                        "endOffsets": "121,185,252,315,392,460,559,655,725"
-                    },
-                    "to": {
-                        "startLines": "103,104,105,106,107,108,109,110,111",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "8665,8736,8800,8867,8930,9007,9075,9174,9270",
-                        "endColumns": "70,63,66,62,76,67,98,95,69",
-                        "endOffsets": "8731,8795,8862,8925,9002,9070,9169,9265,9335"
                     }
                 },
                 {

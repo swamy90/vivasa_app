@@ -1,9 +1,9 @@
 <libraries>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-firebase_analytics::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/.transforms/719c88f080ac95e5652a2b06f457dc7b/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-firebase_analytics::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/.transforms/f9de67f636ce8e7ec75d0c107e60c4ae/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-firebase_analytics:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/analytics/android/build/.transforms/719c88f080ac95e5652a2b06f457dc7b/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/analytics/android/build/.transforms/f9de67f636ce8e7ec75d0c107e60c4ae/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -13,10 +13,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-firebase_crashlytics::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/.transforms/23f8ecd3978d1197e9c158abd2a48d6f/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-firebase_crashlytics::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/.transforms/6291aa775aa29a144da5c13f050d491a/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-firebase_crashlytics:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/crashlytics/android/build/.transforms/23f8ecd3978d1197e9c158abd2a48d6f/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/crashlytics/android/build/.transforms/6291aa775aa29a144da5c13f050d491a/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -26,10 +26,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-firebase_database::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/database/android/build/.transforms/6a9560145fd5ba345687087d9281f099/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-firebase_database::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/database/android/build/.transforms/26f1a6b73e1f99a30fbcfdc535630aea/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-firebase_database:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/database/android/build/.transforms/6a9560145fd5ba345687087d9281f099/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/database/android/build/.transforms/26f1a6b73e1f99a30fbcfdc535630aea/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -39,10 +39,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-firebase_dynamic-links::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/dynamic-links/android/build/.transforms/05372cdf70d8dd18e7c1140758810647/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-firebase_dynamic-links::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/dynamic-links/android/build/.transforms/483c2b08312688c08e9cf64dc0a51091/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-firebase_dynamic-links:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/dynamic-links/android/build/.transforms/05372cdf70d8dd18e7c1140758810647/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/dynamic-links/android/build/.transforms/483c2b08312688c08e9cf64dc0a51091/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -52,10 +52,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-firebase_messaging::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/.transforms/67f644ba1d6ed88c5053b3b252682a21/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-firebase_messaging::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/.transforms/5aee5e0337ef9358c8331684a258965a/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-firebase_messaging:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/messaging/android/build/.transforms/67f644ba1d6ed88c5053b3b252682a21/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/messaging/android/build/.transforms/5aee5e0337ef9358c8331684a258965a/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -65,10 +65,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-firebase_app::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/.transforms/1d501db4140584e4e4423225270dc35f/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-firebase_app::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/.transforms/799bbe42f55f4dfe093ab81f4b96f014/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-firebase_app:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/@react-native-firebase/app/android/build/.transforms/1d501db4140584e4e4423225270dc35f/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-firebase/app/android/build/.transforms/799bbe42f55f4dfe093ab81f4b96f014/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -91,10 +91,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-kommunicate-chat::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-kommunicate-chat/android/build/.transforms/be8ad6f3b12ff705bee8f7265cd4ccad/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-kommunicate-chat::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-kommunicate-chat/android/build/.transforms/aa71e5377fad47ac4fa755a8bc196aca/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-kommunicate-chat:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-kommunicate-chat/android/build/.transforms/be8ad6f3b12ff705bee8f7265cd4ccad/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-kommunicate-chat/android/build/.transforms/aa71e5377fad47ac4fa755a8bc196aca/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -130,10 +130,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-scan-barcode::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/.transforms/f25f76b7d9ec1fdb18eb7f74d921c649/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-scan-barcode::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-scan-barcode/android/build/.transforms/ba922b80ea61dfa4fabe2ba100f07bf2/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-scan-barcode:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-scan-barcode/android/build/.transforms/f25f76b7d9ec1fdb18eb7f74d921c649/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-scan-barcode/android/build/.transforms/ba922b80ea61dfa4fabe2ba100f07bf2/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -143,10 +143,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-google-pay::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-google-pay/android/build/.transforms/2397b643433b6e23c9c03f3b3b0e76b8/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-google-pay::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-google-pay/android/build/.transforms/48c17558d9295e5cb83fde6bc61fff02/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-google-pay:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-google-pay/android/build/.transforms/2397b643433b6e23c9c03f3b3b0e76b8/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-google-pay/android/build/.transforms/48c17558d9295e5cb83fde6bc61fff02/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -156,10 +156,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-exit-app::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-exit-app/android/build/.transforms/c4d3735db7b17cf51d477e77c72d0db8/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-exit-app::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-exit-app/android/build/.transforms/938b1d6f9ea282fb66fde5b278c8d858/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-exit-app:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-exit-app/android/build/.transforms/c4d3735db7b17cf51d477e77c72d0db8/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-exit-app/android/build/.transforms/938b1d6f9ea282fb66fde5b278c8d858/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -182,10 +182,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-async-storage_async-storage::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/@react-native-async-storage/async-storage/android/build/.transforms/fb5b9c9dedac38a9762534d2aa5e63f8/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-async-storage_async-storage::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-async-storage/async-storage/android/build/.transforms/358bdf99853053c68c7b903c9384744f/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-async-storage_async-storage:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/@react-native-async-storage/async-storage/android/build/.transforms/fb5b9c9dedac38a9762534d2aa5e63f8/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-async-storage/async-storage/android/build/.transforms/358bdf99853053c68c7b903c9384744f/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -195,10 +195,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-community_checkbox::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/@react-native-community/checkbox/android/build/.transforms/ac23e9bafe0052ab5dc7a021f72e99ad/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-community_checkbox::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/checkbox/android/build/.transforms/8e5d04aa4a6159cb1f8c987c36c80373/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-community_checkbox:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/@react-native-community/checkbox/android/build/.transforms/ac23e9bafe0052ab5dc7a021f72e99ad/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/checkbox/android/build/.transforms/8e5d04aa4a6159cb1f8c987c36c80373/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -208,10 +208,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-community_datetimepicker::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/@react-native-community/datetimepicker/android/build/.transforms/740f242090c12ca507b231fcb206d68d/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-community_datetimepicker::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/datetimepicker/android/build/.transforms/1bb87ad215f5595c1c6096ee1d5ff363/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-community_datetimepicker:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/@react-native-community/datetimepicker/android/build/.transforms/740f242090c12ca507b231fcb206d68d/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/datetimepicker/android/build/.transforms/1bb87ad215f5595c1c6096ee1d5ff363/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -221,10 +221,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-community_masked-view::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/@react-native-community/masked-view/android/build/.transforms/aac98d05c8624f2fdf17a53635d93fa8/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-community_masked-view::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/masked-view/android/build/.transforms/4feafc7b0ea77cc213343fd80597769f/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-community_masked-view:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/@react-native-community/masked-view/android/build/.transforms/aac98d05c8624f2fdf17a53635d93fa8/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/@react-native-community/masked-view/android/build/.transforms/4feafc7b0ea77cc213343fd80597769f/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -234,10 +234,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-device-info::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-device-info/android/build/.transforms/d46d5adce277a5ddbf38048a5bca4553/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-device-info::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-device-info/android/build/.transforms/3e1ecab1d8e8df228c7147226df497a1/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-device-info:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-device-info/android/build/.transforms/d46d5adce277a5ddbf38048a5bca4553/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-device-info/android/build/.transforms/3e1ecab1d8e8df228c7147226df497a1/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -247,10 +247,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-full-screen-notification-incoming-call::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-full-screen-notification-incoming-call/android/build/.transforms/957cbbb3db422e28f804fe8aa50b3ac1/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-full-screen-notification-incoming-call::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-full-screen-notification-incoming-call/android/build/.transforms/2e000a226b04530fd49d9f3bbd0e1809/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-full-screen-notification-incoming-call:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-full-screen-notification-incoming-call/android/build/.transforms/957cbbb3db422e28f804fe8aa50b3ac1/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-full-screen-notification-incoming-call/android/build/.transforms/2e000a226b04530fd49d9f3bbd0e1809/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -260,10 +260,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-gesture-handler::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-gesture-handler/android/build/.transforms/9fa9a58ff5e4345d88ceefabee001ded/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-gesture-handler::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-gesture-handler/android/build/.transforms/9936026db5aa771323d1e7013e0a36d2/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-gesture-handler:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-gesture-handler/android/build/.transforms/9fa9a58ff5e4345d88ceefabee001ded/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-gesture-handler/android/build/.transforms/9936026db5aa771323d1e7013e0a36d2/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -273,10 +273,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-get-location::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-get-location/android/build/.transforms/e9cdce70a17d413d93deacd5fc11ee19/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-get-location::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-get-location/android/build/.transforms/4db679f28bf48f7c9a96330b39b23ec6/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-get-location:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-get-location/android/build/.transforms/e9cdce70a17d413d93deacd5fc11ee19/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-get-location/android/build/.transforms/4db679f28bf48f7c9a96330b39b23ec6/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -286,10 +286,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-id-qrcodeview::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-id-qrcodeview/android/build/.transforms/b2a05c6b985b3ebe0f5f8b89590b333b/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-id-qrcodeview::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-id-qrcodeview/android/build/.transforms/2c1cd1308330124666565b997d7a9142/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-id-qrcodeview:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-id-qrcodeview/android/build/.transforms/b2a05c6b985b3ebe0f5f8b89590b333b/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-id-qrcodeview/android/build/.transforms/2c1cd1308330124666565b997d7a9142/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -299,10 +299,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-image-crop-picker::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/.transforms/4efa051f99790a2f0253d0196a3a48a2/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-image-crop-picker::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/.transforms/4042afac55918304d23d2b7b8f1cf49b/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-image-crop-picker:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-image-crop-picker/android/build/.transforms/4efa051f99790a2f0253d0196a3a48a2/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-image-crop-picker/android/build/.transforms/4042afac55918304d23d2b7b8f1cf49b/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -312,10 +312,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-linear-gradient::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-linear-gradient/android/build/.transforms/d7352bc7b7ede725d634131a6cd97d70/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-linear-gradient::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-linear-gradient/android/build/.transforms/7ffab24dc1821161cd140f3616a5bf7a/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-linear-gradient:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-linear-gradient/android/build/.transforms/d7352bc7b7ede725d634131a6cd97d70/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-linear-gradient/android/build/.transforms/7ffab24dc1821161cd140f3616a5bf7a/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -325,10 +325,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-otp-auto-fill::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/.transforms/59c22393710659e8457fc491a8a4d982/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-otp-auto-fill::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/.transforms/66437284a96467c24de530c9bdf0fbfb/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-otp-auto-fill:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-otp-auto-fill/android/build/.transforms/59c22393710659e8457fc491a8a4d982/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-otp-auto-fill/android/build/.transforms/66437284a96467c24de530c9bdf0fbfb/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -338,10 +338,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-push-notification::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-push-notification/android/build/.transforms/9daedd9106b1921ee9798c34d6ac44bb/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-push-notification::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-push-notification/android/build/.transforms/926694658a63bc3b81aa8250d21bafc7/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-push-notification:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-push-notification/android/build/.transforms/9daedd9106b1921ee9798c34d6ac44bb/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-push-notification/android/build/.transforms/926694658a63bc3b81aa8250d21bafc7/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -351,10 +351,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-razorpay::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-razorpay/android/build/.transforms/5640c78f8536727efa50fe43f2fb61a2/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-razorpay::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-razorpay/android/build/.transforms/24c698bc29a6ed8e6c136ed9a985d583/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-razorpay:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-razorpay/android/build/.transforms/5640c78f8536727efa50fe43f2fb61a2/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-razorpay/android/build/.transforms/24c698bc29a6ed8e6c136ed9a985d583/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -364,10 +364,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-reanimated"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-reanimated/android/build/.transforms/0366faf75ecf1ad92c7efcc454c1e717/transformed/jetified-react-native-reanimated-69-jsc/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-reanimated"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-reanimated/android/build/.transforms/414e4a68fe664ff8a497bdf23bb597f0/transformed/jetified-react-native-reanimated-69-jsc/jars/classes.jar"
       resolved="artifacts::react-native-reanimated:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-reanimated/android/build/.transforms/0366faf75ecf1ad92c7efcc454c1e717/transformed/jetified-react-native-reanimated-69-jsc"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-reanimated/android/build/.transforms/414e4a68fe664ff8a497bdf23bb597f0/transformed/jetified-react-native-reanimated-69-jsc"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -377,10 +377,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-safe-area-context::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-safe-area-context/android/build/.transforms/eed432a8525fee5af42c2dbc90b2489e/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-safe-area-context::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-safe-area-context/android/build/.transforms/6233c256a554e40793f21809c56f55f3/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-safe-area-context:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-safe-area-context/android/build/.transforms/eed432a8525fee5af42c2dbc90b2489e/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-safe-area-context/android/build/.transforms/6233c256a554e40793f21809c56f55f3/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -390,10 +390,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-screens::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-screens/android/build/.transforms/a1dd80305caa4c59dfc0797263f03fb0/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-screens::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-screens/android/build/.transforms/3b53db75f8bac4afa007b5a64fd1101d/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-screens:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-screens/android/build/.transforms/a1dd80305caa4c59dfc0797263f03fb0/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-screens/android/build/.transforms/3b53db75f8bac4afa007b5a64fd1101d/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -403,10 +403,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-sound::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-sound/android/build/.transforms/598aaf83009faaef18e954896eeb9b66/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-sound::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-sound/android/build/.transforms/6adde35eb27afeefd5328a702202f175/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-sound:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-sound/android/build/.transforms/598aaf83009faaef18e954896eeb9b66/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-sound/android/build/.transforms/6adde35eb27afeefd5328a702202f175/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -416,10 +416,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-track-player::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/.transforms/bacb044be79a9d279809d6a6edd11b2e/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-track-player::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/.transforms/05d8d47926a12f476e85ad6e7c71e211/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-track-player:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-track-player/android/build/.transforms/bacb044be79a9d279809d6a6edd11b2e/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-track-player/android/build/.transforms/05d8d47926a12f476e85ad6e7c71e211/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -429,10 +429,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-version-check::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-version-check/android/build/.transforms/73c6367096791153d9693acf7de2847f/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-version-check::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-version-check/android/build/.transforms/89ceedf713037bdca2d716f61e3e7f8b/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-version-check:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-version-check/android/build/.transforms/73c6367096791153d9693acf7de2847f/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-version-check/android/build/.transforms/89ceedf713037bdca2d716f61e3e7f8b/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -442,10 +442,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-voice::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-voice/android/build/.transforms/383564c49c0e6a462db2e495136b1f30/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-voice::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-voice/android/build/.transforms/6f8ee0fede24b8f7f83d544b5b325001/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-voice:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-voice/android/build/.transforms/383564c49c0e6a462db2e495136b1f30/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-voice/android/build/.transforms/6f8ee0fede24b8f7f83d544b5b325001/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -455,10 +455,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/pooja/Documents/Vivasa/android@@:react-native-webview::release"
-      jars="/Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/.transforms/d5fc16790dc6734140ca83f1967b5617/transformed/out/jars/classes.jar"
+      name="/Users/pooja/Documents/vivasa_app/android@@:react-native-webview::release"
+      jars="/Users/pooja/Documents/vivasa_app/node_modules/react-native-webview/android/build/.transforms/7acb40fd9cd9cd80cbd23ff251069ff4/transformed/out/jars/classes.jar"
       resolved="Vivasa:react-native-webview:unspecified"
-      folder="/Users/pooja/Documents/Vivasa/node_modules/react-native-webview/android/build/.transforms/d5fc16790dc6734140ca83f1967b5617/transformed/out"
+      folder="/Users/pooja/Documents/vivasa_app/node_modules/react-native-webview/android/build/.transforms/7acb40fd9cd9cd80cbd23ff251069ff4/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -688,9 +688,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="com.github.bumptech.glide:glide:4.9.0@aar"
-      jars="/Users/pooja/.gradle/caches/transforms-3/a541218515d4de393e7b05452cbb5357/transformed/jetified-glide-4.9.0/jars/classes.jar"
+      jars="/Users/pooja/.gradle/caches/transforms-3/92d566157d44da56077a1b084a53ae8b/transformed/jetified-glide-4.9.0/jars/classes.jar"
       resolved="com.github.bumptech.glide:glide:4.9.0"
-      folder="/Users/pooja/.gradle/caches/transforms-3/a541218515d4de393e7b05452cbb5357/transformed/jetified-glide-4.9.0"
+      folder="/Users/pooja/.gradle/caches/transforms-3/92d566157d44da56077a1b084a53ae8b/transformed/jetified-glide-4.9.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -1202,9 +1202,9 @@
       resolved="com.google.firebase:firebase-encoders:17.0.0"/>
   <library
       name="com.github.bumptech.glide:gifdecoder:4.9.0@aar"
-      jars="/Users/pooja/.gradle/caches/transforms-3/55c70565c4d225fbedcd210e46b9ff58/transformed/jetified-gifdecoder-4.9.0/jars/classes.jar"
+      jars="/Users/pooja/.gradle/caches/transforms-3/1f23dd5c9b931081672c47a613188953/transformed/jetified-gifdecoder-4.9.0/jars/classes.jar"
       resolved="com.github.bumptech.glide:gifdecoder:4.9.0"
-      folder="/Users/pooja/.gradle/caches/transforms-3/55c70565c4d225fbedcd210e46b9ff58/transformed/jetified-gifdecoder-4.9.0"
+      folder="/Users/pooja/.gradle/caches/transforms-3/1f23dd5c9b931081672c47a613188953/transformed/jetified-gifdecoder-4.9.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -1530,9 +1530,9 @@
       resolved="com.google.code.gson:gson:2.8.6"/>
   <library
       name="de.hdodenhof:circleimageview:2.2.0@aar"
-      jars="/Users/pooja/.gradle/caches/transforms-3/1047d3af863d672aac16dba01eec01c5/transformed/jetified-circleimageview-2.2.0/jars/classes.jar"
+      jars="/Users/pooja/.gradle/caches/transforms-3/aa2e998f8c4fd78b3d545345b12a0f7e/transformed/jetified-circleimageview-2.2.0/jars/classes.jar"
       resolved="de.hdodenhof:circleimageview:2.2.0"
-      folder="/Users/pooja/.gradle/caches/transforms-3/1047d3af863d672aac16dba01eec01c5/transformed/jetified-circleimageview-2.2.0"
+      folder="/Users/pooja/.gradle/caches/transforms-3/aa2e998f8c4fd78b3d545345b12a0f7e/transformed/jetified-circleimageview-2.2.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -1789,9 +1789,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="com.squareup.picasso:picasso:2.71828@aar"
-      jars="/Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828/jars/classes.jar"
+      jars="/Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828/jars/classes.jar"
       resolved="com.squareup.picasso:picasso:2.71828"
-      folder="/Users/pooja/.gradle/caches/transforms-3/be108984b2b396a822812bf3e8d1f151/transformed/jetified-picasso-2.71828"
+      folder="/Users/pooja/.gradle/caches/transforms-3/dbeef97fc995b98d08316ff84bca473a/transformed/jetified-picasso-2.71828"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -1835,10 +1835,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="com.razorpay:checkout:1.6.34@aar"
-      jars="/Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34/jars/classes.jar"
-      resolved="com.razorpay:checkout:1.6.34"
-      folder="/Users/pooja/.gradle/caches/transforms-3/5520f3b7c3efab1b3320ab4be78e3568/transformed/jetified-checkout-1.6.34"
+      name="com.razorpay:checkout:1.6.36@aar"
+      jars="/Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/jars/classes.jar"
+      resolved="com.razorpay:checkout:1.6.36"
+      folder="/Users/pooja/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -2044,9 +2044,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="com.google.android.exoplayer:exoplayer-ui:2.18.1@aar"
-      jars="/Users/pooja/.gradle/caches/transforms-3/8ffd1cd2262d6d07e1f02e33c6168b04/transformed/jetified-exoplayer-ui-2.18.1/jars/classes.jar"
+      jars="/Users/pooja/.gradle/caches/transforms-3/7b96da856b9f3a78a972820ed31dcb89/transformed/jetified-exoplayer-ui-2.18.1/jars/classes.jar"
       resolved="com.google.android.exoplayer:exoplayer-ui:2.18.1"
-      folder="/Users/pooja/.gradle/caches/transforms-3/8ffd1cd2262d6d07e1f02e33c6168b04/transformed/jetified-exoplayer-ui-2.18.1"
+      folder="/Users/pooja/.gradle/caches/transforms-3/7b96da856b9f3a78a972820ed31dcb89/transformed/jetified-exoplayer-ui-2.18.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -2161,9 +2161,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="com.orhanobut:logger:2.2.0@aar"
-      jars="/Users/pooja/.gradle/caches/transforms-3/4d31e03fb80e52a865756601614c1e55/transformed/jetified-logger-2.2.0/jars/classes.jar"
+      jars="/Users/pooja/.gradle/caches/transforms-3/894d011d5903d0db24ee9a483c23a1f0/transformed/jetified-logger-2.2.0/jars/classes.jar"
       resolved="com.orhanobut:logger:2.2.0"
-      folder="/Users/pooja/.gradle/caches/transforms-3/4d31e03fb80e52a865756601614c1e55/transformed/jetified-logger-2.2.0"
+      folder="/Users/pooja/.gradle/caches/transforms-3/894d011d5903d0db24ee9a483c23a1f0/transformed/jetified-logger-2.2.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
