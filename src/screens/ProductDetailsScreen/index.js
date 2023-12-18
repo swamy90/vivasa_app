@@ -225,9 +225,9 @@ const ProductDetailsScreen = () => {
                             />
                         </View>
                         <View style={{ padding: 10, marginBottom: 40 }}>
-                            <View style={{ borderWidth: 1, paddingVertical: 2, paddingHorizontal: 7, borderRadius: 2, borderColor: 'orange', width: '50%' }}>
+                            {/* <View style={{ borderWidth: 1, paddingVertical: 2, paddingHorizontal: 7, borderRadius: 2, borderColor: 'orange', width: '50%' }}>
                                 <Text style={{ fontWeight: 'bold', textTransform: 'capitalize', color: 'orange', textAlign: 'center' }}>Exclusive {percentage}% Discount</Text>
-                            </View>
+                            </View> */}
                             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                                 <Text style={{ fontWeight: 'bold', color: '#222222', fontSize: 18, flex: 1 }}>{productDetails?.product_name}</Text>
                             </View>
@@ -248,20 +248,20 @@ const ProductDetailsScreen = () => {
                     </View>
                 }
             </ScrollView>
-            <View style={{ position: 'absolute', bottom: 10, paddingVertical: 15, paddingHorizontal: 15, zIndex: 999, backgroundColor: '#222222', alignSelf: 'center', borderRadius: 10, flexDirection: 'row', alignItems: 'center', elevation: 5 }}>
+            <View style={{ position: 'absolute', bottom: 30, paddingVertical: 15, paddingHorizontal: 15, zIndex: 999, backgroundColor: '#222222', alignSelf: 'center', borderRadius: 10, flexDirection: 'row', alignItems: 'center', elevation: 5 }}>
                 <View>
                     {favouriteStatus === 'Yes' ? <TouchableOpacity onPress={() => console.log("inside")} style={{ flex: 1, alignItems: 'flex-end', marginRight: 5 }}>
-                        <Image style={{ width: 20, height: 20, resizeMode: 'contain', tintColor: '#ffffff' }} source={require('../../assets/images/add_favorite.png')} />
+                        <Image style={{ width: 30, height: 30, resizeMode: 'contain', tintColor: '#ffffff' }} source={require('../../assets/images/add_favorite.png')} />
                     </TouchableOpacity>
                         : <TouchableOpacity onPress={() => { console.log("inside 250"); addProductInFavList(productDetails) }} style={{ flex: 1, alignItems: 'flex-end', marginRight: 5 }}>
-                            <Image style={{ width: 20, height: 20, resizeMode: 'contain', tintColor: '#ffffff' }} source={require('../../assets/images/fill_favorite.png')} />
+                            <Image style={{ width: 30, height: 30, resizeMode: 'contain', tintColor: '#ffffff' }} source={require('../../assets/images/fill_favorite.png')} />
                         </TouchableOpacity>
                     }
                 </View>
                 <View style={{ height: 10, width: .5, backgroundColor: '#fff', marginHorizontal: 10 }} />
                 <View>
                     <TouchableOpacity onPress={() => addProductInCart()} style={{ flex: 1, alignItems: 'flex-end', }}>
-                        <Image style={{ width: 20, height: 20, resizeMode: 'contain', tintColor: '#ffffff' }} source={require('../../assets/images/shopping_cart.png')} />
+                        <Image style={{ width: 30, height: 30, resizeMode: 'contain', tintColor: '#ffffff' }} source={require('../../assets/images/shopping_cart.png')} />
                     </TouchableOpacity>
                 </View>
             </View>

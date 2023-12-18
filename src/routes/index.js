@@ -37,6 +37,7 @@ import BrandScreen from '../screens/BrandScreen';
 import ProductSearch from '../screens/ProductSearch';
 import PayScreen from '../screens/PayScreen';
 import OrderDetails from '../screens/OrderDetails';
+import SubmitForgetPasswordScreen from '../screens/ForgotPasswordScreen';
 // Theme.
 const MyTheme = {
     dark: false,
@@ -502,10 +503,23 @@ function StackNavigation() {
                             fontWeight: 'bold',
                         },
                     }} />
+                <Stack.Screen
+                    name="SubmitForgetPasswordScreen"
+                    component={SubmitForgetPasswordScreen}
+                    options={{
+                        title: 'SubmitForgetPasswordScreen',
+                        headerStyle: {
+                            backgroundColor: 'black',
+                        },
+                        headerTintColor: '#fff',
+                        headerTitleStyle: {
+                            fontWeight: 'bold',
+                        },
+                    }} />
             </Stack.Navigator>
         </NavigationContainer>
     );
 }
-// Export NotificationAlertScreen.
+// Export SubmitForgetPasswordScreen.
 export default StackNavigation;
 

@@ -1,50 +1,50 @@
 [
     {
-        "merged": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/pooja/Documents/vivasa_app/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/apple/Documents/MyApps/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/apple/Documents/MyApps/vivasa_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/pooja/Documents/vivasa_app/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/apple/Documents/MyApps/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/apple/Documents/MyApps/vivasa_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/pooja/Documents/vivasa_app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/apple/Documents/MyApps/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/apple/Documents/MyApps/vivasa_app/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/pooja/Documents/vivasa_app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/apple/Documents/MyApps/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/apple/Documents/MyApps/vivasa_app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/pooja/Documents/vivasa_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/apple/Documents/MyApps/vivasa_app/android/app/build/intermediates/merged_res/debug/drawable_rn_edit_text_material.xml.flat",
+        "source": "/Users/apple/Documents/MyApps/vivasa_app/android/app/src/main/res/drawable/rn_edit_text_material.xml"
     },
     {
-        "merged": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/merged_res/debug/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/pooja/Documents/vivasa_app/android/app/src/main/res/xml/data_extraction_rules.xml"
+        "merged": "/Users/apple/Documents/MyApps/vivasa_app/android/app/build/intermediates/merged_res/debug/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/apple/Documents/MyApps/vivasa_app/android/app/src/main/res/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/pooja/Documents/vivasa_app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/apple/Documents/MyApps/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/apple/Documents/MyApps/vivasa_app/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/merged_res/debug/drawable_rn_edit_text_material.xml.flat",
-        "source": "/Users/pooja/Documents/vivasa_app/android/app/src/main/res/drawable/rn_edit_text_material.xml"
+        "merged": "/Users/apple/Documents/MyApps/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/apple/Documents/MyApps/vivasa_app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/pooja/Documents/vivasa_app/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/apple/Documents/MyApps/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/apple/Documents/MyApps/vivasa_app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/pooja/Documents/vivasa_app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/apple/Documents/MyApps/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/apple/Documents/MyApps/vivasa_app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/pooja/Documents/vivasa_app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/apple/Documents/MyApps/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/apple/Documents/MyApps/vivasa_app/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/pooja/Documents/vivasa_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/apple/Documents/MyApps/vivasa_app/android/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/apple/Documents/MyApps/vivasa_app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     }
 ]

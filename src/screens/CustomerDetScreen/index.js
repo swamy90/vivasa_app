@@ -104,16 +104,17 @@ const CustomerDetailsScreen = () => {
     }
 
     const restorePassword = () => {
-        showMessage({
-            message: "Password Recover Successfully!",
-            description: "Check your registered email!",
-            type: "success",
-        });
-        Toast.show({
-            type: 'success',
-            text1: 'Password Recover Successfully',
-            text2: 'Check your registered email!',
-        });
+        // showMessage({
+        //     message: "Password Recover Successfully!",
+        //     description: "Check your registered email!",
+        //     type: "success",
+        // });
+        // Toast.show({
+        //     type: 'success',
+        //     text1: 'Password Recover Successfully',
+        //     text2: 'Check your registered email!',
+        // });
+        navigation.navigate('ForgetPasswordScreen');
     }
 
     return (
@@ -182,7 +183,7 @@ const CustomerDetailsScreen = () => {
                                     <Text style={{ textTransform: 'capitalize', fontSize: 18, fontWeight: 'bold' }}>Signup Here</Text>
                                 </TouchableOpacity>
                             </View>
-                            <TouchableOpacity onPress={() => restorePassword()} style={{ flexDirection: 'row', alignItems: 'center', borderBottomColor: 'red', borderBottomWidth: 1 }}>
+                            <TouchableOpacity onPress={() => navigation.replace('ForgetPasswordScreen')} style={{ flexDirection: 'row', alignItems: 'center', borderBottomColor: 'red', borderBottomWidth: 1 }}>
                                 <Text style={{ textTransform: 'capitalize', fontSize: 13, fontWeight: 'bold', color: 'red' }}>forgot password</Text>
                             </TouchableOpacity>
                         </View>

@@ -270,7 +270,7 @@ const HomeScreen = () => {
     }
 
     const addProductInFavList = async (data) => {
-        console.log("data", data)
+        console.log("data", JSON.stringify(data))
         const value = await AsyncStorage.getItem('@storage_Key');
         const user = JSON.parse(value);
         console.log('addProductInCart', user?.user?.id);
@@ -282,8 +282,9 @@ const HomeScreen = () => {
             method: 'POST',
             body: formData
         });
+        console.log("data", JSON.stringify(response))
         const submitCustomer = await response.json();
-        // console.log('submitCustomer', JSON.stringify(submitCustomer) + JSON.stringify(formData));
+        console.log('submitCustomer', JSON.stringify(submitCustomer) + JSON.stringify(formData));
         getCategoryData();
         if (submitCustomer.status) {
             Toast.show({
@@ -339,7 +340,6 @@ const HomeScreen = () => {
     }
 
     const FruitsItems = (items) => {
-        console.log("ite,s>>>", items)
         return (
             <View style={{
                 padding: 0, backgroundColor: '#ffffff', shadowColor: '#b4b4b4',
