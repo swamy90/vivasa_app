@@ -275,7 +275,7 @@ const HomeScreen = () => {
         const user = JSON.parse(value);
         console.log('addProductInCart', user?.user?.id);
         const formData = new FormData();
-        const URLs = MY_BASE_URL + "api/add-to-favourite";
+        const URLs = MY_BASE_URL + "api/add-to-favorite";
         formData.append("user_id", user?.user?.id);
         formData.append("product_id", data?.id);
         const response = await fetch(URLs, {

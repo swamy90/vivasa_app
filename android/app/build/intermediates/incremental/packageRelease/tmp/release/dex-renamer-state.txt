@@ -1,12 +1,12 @@
-#Sun Dec 03 15:23:00 IST 2023
+#Tue Dec 19 07:32:15 IST 2023
 path.3=classes4.dex
 path.2=classes3.dex
 path.1=classes2.dex
 path.0=classes.dex
-base.3=/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/dex/release/mergeDexRelease/classes4.dex
-base.2=/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/dex/release/mergeDexRelease/classes3.dex
-base.1=/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
-base.0=/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+base.3=/Users/apple/Documents/MyApps/vivasa_app/android/app/build/intermediates/dex/release/mergeDexRelease/classes4.dex
+base.2=/Users/apple/Documents/MyApps/vivasa_app/android/app/build/intermediates/dex/release/mergeDexRelease/classes3.dex
+base.1=/Users/apple/Documents/MyApps/vivasa_app/android/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+base.0=/Users/apple/Documents/MyApps/vivasa_app/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

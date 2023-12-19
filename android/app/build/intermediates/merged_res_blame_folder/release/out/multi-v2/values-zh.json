@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/pooja/Documents/vivasa_app/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zh/values-zh.xml",
+            "outputFile": "/Users/apple/Documents/MyApps/vivasa_app/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zh/values-zh.xml",
             "map": [
                 {
-                    "source": "/Users/pooja/.gradle/caches/transforms-3/0cd70a094126c6b236f0d2a9a89c312e/transformed/jetified-ucrop-2.2.6-native/res/values-zh/values-zh.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/0cd70a094126c6b236f0d2a9a89c312e/transformed/jetified-ucrop-2.2.6-native/res/values-zh/values-zh.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
