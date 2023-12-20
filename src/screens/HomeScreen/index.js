@@ -6,6 +6,8 @@ import Spinner from 'react-native-loading-spinner-overlay';
 import LinearGradient from 'react-native-linear-gradient';
 import RBSheet from "react-native-raw-bottom-sheet";
 import MarqueeText from 'react-native-marquee';
+import { showMessage } from "react-native-flash-message";
+import Toast from 'react-native-toast-message';
 import { useNavigation } from '@react-navigation/native';
 import dynamicLinks from '@react-native-firebase/dynamic-links';
 import { GooglePay } from 'react-native-google-pay';
@@ -226,7 +228,7 @@ const HomeScreen = () => {
         });
         const submitCustomer = await response.json();
         setIsLoading(false);
-        console.log('submitCustomer', JSON.stringify(submitCustomer));
+        // console.log('submitCustomer', JSON.stringify(submitCustomer));
         if (submitCustomer.status) {
             setSlider(submitCustomer?.slider);
             setCategory(submitCustomer?.category);
@@ -282,31 +284,33 @@ const HomeScreen = () => {
             method: 'POST',
             body: formData
         });
-        console.log("data", JSON.stringify(response))
+        console.log("addProductInFavList", JSON.stringify(response))
         const submitCustomer = await response.json();
-        console.log('submitCustomer', JSON.stringify(submitCustomer) + JSON.stringify(formData));
+        console.log('addProductInFavList', JSON.stringify(submitCustomer) + JSON.stringify(formData));
         getCategoryData();
         if (submitCustomer.status) {
-            Toast.show({
-                type: 'success',
-                text1: 'Congratulations',
-                text2: submitCustomer?.message
+            showMessage({
+                message: submitCustomer?.message,
+                description: submitCustomer?.message,
+                type: "success",
             });
         } else {
-            Toast.show({
-                type: 'success',
-                text2: submitCustomer?.message
+            showMessage({
+                message: submitCustomer?.message,
+                description: submitCustomer?.message,
+                type: "danger",
             });
         }
     }
 
     const removeProductInFavList = async (data) => {
+        console.warn('removeProductInFavList', JSON.stringify(data))
         const value = await AsyncStorage.getItem('@storage_Key');
         const user = JSON.parse(value);
         console.log('addProductInCart', user?.user?.id);
         setIsLoading(true);
         const formData = new FormData();
-        const URLs = MY_BASE_URL + "api/remove-favourite";
+        const URLs = MY_BASE_URL + "api/remove-from-favorite";
         formData.append("user_id", user?.user?.id);
         formData.append("product_id", data?.id);
         const response = await fetch(URLs, {
@@ -314,19 +318,20 @@ const HomeScreen = () => {
             body: formData
         });
         const submitCustomer = await response.json();
-        // console.log('submitCustomer', JSON.stringify(submitCustomer) + JSON.stringify(formData));
+        console.log('removeProductInFavList', JSON.stringify(submitCustomer) + JSON.stringify(formData));
         setIsLoading(false);
-        getCategoryData();
         if (submitCustomer.status) {
-            Toast.show({
-                type: 'success',
-                text1: 'Congratulations',
-                text2: submitCustomer?.message
+            showMessage({
+                message: submitCustomer?.message,
+                description: submitCustomer?.message,
+                type: "success",
             });
+            getCategoryData();
         } else {
-            Toast.show({
-                type: 'success',
-                text2: submitCustomer?.message
+            showMessage({
+                message: submitCustomer?.message,
+                description: submitCustomer?.message,
+                type: "danger",
             });
         }
     }
@@ -363,7 +368,7 @@ const HomeScreen = () => {
                     <Image style={{ height: 200, width: '100%', resizeMode: 'cover' }} source={{ uri: MY_BASE_URL + 'storage/' + items?.item?.image }} />
                 </TouchableOpacity>
                 <View style={{ marginTop: 10, marginLeft: 10, marginRight: 10 }}>
-                    <Text numberOfLines={1} style={{ fontSize: 12, fontWeight: '600' }}>{items.item.product_name}</Text>
+                    <Text numberOfLines={1} style={{ fontSize: 12, fontWeight: '600' }}>{items.item.product_name} {items.item.wishlist_status}</Text>
                 </View>
                 <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 5, marginLeft: 10, marginRight: 10, marginBottom: 0 }}>
                     <Text style={{ fontSize: 8, marginBottom: 5 }} numberOfLines={2}>{items.item.slug}</Text>
@@ -492,7 +497,7 @@ const HomeScreen = () => {
                     <View style={{ flex: 1 }}>
                         <Image style={{ width: '100%', height: '100%', resizeMode: 'center' }} source={require('../../assets/images/no_product.png')} />
                     </View> :
-                    <ScrollView showsVerticalScrollIndicator={false} style={{ height: Dimensions.get('screen').height - MAX_HEIGHT, marginTop: 15 }}>
+                    <ScrollView showsVerticalScrollIndicator={false} nestedScrollEnabled={true} style={{ height: Dimensions.get('screen').height - MAX_HEIGHT, marginTop: 15 }}>
                         <View style={{}}>
                             <View style={{ alignSelf: 'center', }}>
                                 <Carousel

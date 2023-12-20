@@ -6,6 +6,7 @@ import Spinner from 'react-native-loading-spinner-overlay';
 import LinearGradient from 'react-native-linear-gradient';
 import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import Toast from 'react-native-toast-message';
+import { showMessage } from "react-native-flash-message";
 // network 
 import FormData from 'form-data';
 import { Image_Files_URL, MY_BASE_URL, MY_STORAGE_URL } from '../../global/index';
@@ -54,7 +55,7 @@ const ContactUs = () => {
         const formData = new FormData();
         const URLs = MY_BASE_URL + "api/remove-from-favorite";
         formData.append("user_id", user?.user?.id);
-        formData.append("product_id", data?.id);
+        formData.append("product_id", data?.product_id);
         const response = await fetch(URLs, {
             method: 'POST',
             body: formData
@@ -75,7 +76,7 @@ const ContactUs = () => {
             console.log("insuide else")
             getFavouriteList();
             showMessage({
-                message: "Already added",
+                message: submitCustomer?.message,
                 description: submitCustomer?.message,
                 type: "danger",
 
