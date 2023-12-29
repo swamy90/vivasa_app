@@ -77,7 +77,7 @@ const OrderHistoryScreen = () => {
                                     <View style={{flex:1}}>
                                         <View style={{ flexDirection: 'row', alignItems: 'center', marginVertical: 2 }}>
                                             <Text style={{ flex: 1, fontWeight: 'bold', fontSize: 15, color: '#000000', }}>{items?.item?.first_name} {items?.item?.last_name}</Text>
-                                            <Text style={{ fontWeight: 'bold', fontSize: 14, color: '#000000', textTransform: 'uppercase' }}>OID_{items?.item?.order_number}</Text>
+                                            <Text style={{ fontWeight: 'bold', fontSize: 14, color: '#000000', textTransform: 'uppercase' }}>#{items?.item?.order_number}</Text>
                                         </View>
                                         <Text numberOfLines={2} style={{ width:'100%',fontWeight: '600', fontSize: 14, color: '#b4b4b4', textTransform: 'capitalize',flexWrap:'wrap' }}>Delivery Address: {items?.item?.address}, {items?.item?.state}, {items?.item?.city}, {items?.item?.pincode}</Text>
                                         <View style={{ marginVertical: 2 }}>

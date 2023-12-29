@@ -88,6 +88,7 @@ const CategoryScreen = () => {
     //         });
     //     }
     // }
+
     const getProductData = async () => {
         const value = await AsyncStorage.getItem('@storage_Key')
         const user = JSON.parse(value);
@@ -105,7 +106,6 @@ const CategoryScreen = () => {
         console.log('ProductData', JSON.stringify(formData));
         const submitCustomer = await response.json();
         setIsLoading(false);
-        console.log('in submitCustomerrrr', JSON.stringify(submitCustomer));
         if (submitCustomer.status) {
             setProductImage(submitCustomer?.image_list);
             setProductDetails(submitCustomer?.product_details);
@@ -173,17 +173,18 @@ const CategoryScreen = () => {
         const submitCustomer = await response.json();
         console.log('res', JSON.stringify(formData));
         setIsLoading(false);
-        // getCategoryByProductData();
         if (submitCustomer.status) {
-            Toast.show({
-                type: 'success',
-                text1: 'Congratulations',
-                text2: submitCustomer?.message
+            showMessage({
+                message: submitCustomer?.message,
+                description: submitCustomer?.message,
+                type: "success",
             });
+            getCategoryListByProduct();
         } else {
-            Toast.show({
-                type: 'success',
-                text2: submitCustomer?.message
+            showMessage({
+                message: submitCustomer?.message,
+                description: submitCustomer?.message,
+                type: "danger",
             });
         }
     }
@@ -194,7 +195,7 @@ const CategoryScreen = () => {
         console.log('addProductInCart', user?.user?.id);
         setIsLoading(true);
         const formData = new FormData();
-        const URLs = MY_BASE_URL + "api/remove-favourite";
+        const URLs = MY_BASE_URL + "api/remove-from-favorite";
         formData.append("user_id", user?.user?.id);
         formData.append("product_id", data?.id);
         const response = await fetch(URLs, {
@@ -204,17 +205,18 @@ const CategoryScreen = () => {
         const submitCustomer = await response.json();
         // console.log('submitCustomer', JSON.stringify(submitCustomer) + JSON.stringify(formData));
         setIsLoading(false);
-        getCategoryByProductData();
         if (submitCustomer.status) {
-            Toast.show({
-                type: 'success',
-                text1: 'Congratulations',
-                text2: submitCustomer?.message
+            showMessage({
+                message: submitCustomer?.message,
+                description: submitCustomer?.message,
+                type: "success",
             });
+            getCategoryListByProduct();
         } else {
-            Toast.show({
-                type: 'success',
-                text2: submitCustomer?.message
+            showMessage({
+                message: submitCustomer?.message,
+                description: submitCustomer?.message,
+                type: "danger",
             });
         }
     }
@@ -256,55 +258,54 @@ const CategoryScreen = () => {
             .catch(error => console.log('error', error));
     }
 
-   const renderItem = (items) => {
-    console.log("item ", items)
-    return (
-        <View style={{
-            padding: 0, backgroundColor: '#ffffff', shadowColor: '#b4b4b4',
-            shadowOffset: { width: 0, height: 3 },
-            shadowOpacity: 0.8,
-            shadowRadius: 2,
-            elevation: 5,
-            margin: 1,
-            width: Dimensions.get('screen').width / 2.1
-        }}>
-            <View style={{ flexDirection: 'row', alignItems: 'center', position: 'absolute', marginTop: 5, zIndex: 999, padding: 10, paddingTop: -5 }}>
-                <Text style={{ fontSize: 10, fontWeight: '800', backgroundColor: 'rgb(92,150,65)', paddingLeft: 4, paddingRight: 4, color: '#ffffff', borderRadius: 12, paddingTop: 2, paddingBottom: 2, display: 'none' }}>* {items.item.rating}</Text>
-                {items.item.wishlist_status !== "Yes" ? <TouchableOpacity onPress={() => addProductInFavList(items.item)} style={{ flex: 1, alignItems: 'flex-end', marginRight: 5 }}>
-                    <Image style={{ width: 15, height: 15, resizeMode: 'contain', tintColor: 'orange' }} source={require('../../assets/images/add_favorite.png')} />
-                </TouchableOpacity> : <TouchableOpacity onPress={() => removeProductInFavList(items.item)} style={{ flex: 1, alignItems: 'flex-end', marginRight: 5 }}>
-                    <Image style={{ width: 15, height: 15, resizeMode: 'contain', tintColor: 'orange' }} source={require('../../assets/images/fill_favorite.png')} />
-                </TouchableOpacity>
-                }
-            </View>
-            <TouchableOpacity style={{ padding: 0 }} onPress={() => navigation.navigate('ProductDetailsScreen', items?.item)}>
-                <Image style={{ height: 200, width: '100%', resizeMode: 'cover' }} source={{ uri: Image_Files_URL + items?.item?.product_image }} />
-            </TouchableOpacity>
-            <View style={{ marginTop: 10, marginLeft: 10, marginRight: 10 }}>
-                <Text numberOfLines={1} style={{ fontSize: 12, fontWeight: '600' }}>{items.item.product_name}</Text>
-            </View>
-            {/* <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 5, marginLeft: 10, marginRight: 10, marginBottom: 5 }}>
-                <Text style={{ fontSize: 10, marginBottom: 5 }} numberOfLines={2}>{items.item.specifications}/-</Text>
-            </View> */}
-            <View style={{ flexDirection: 'row', alignItems: 'center', marginLeft: 10, marginRight: 10 }}>
-                <View style={{ flex: 1, marginRight: 5, flexDirection: 'row', alignItems: 'center' }}>
-                    <Text style={{ fontSize: 10, textDecorationLine: 'line-through', textDecorationStyle: 'solid', marginRight: 5 }}>₹ {items.item.market_price}/-</Text>
-                    <Text style={{ fontSize: 11, fontWeight: 'bold', }}>₹ {items.item.price}</Text>
-                </View>
-                <View style={{ marginBottom: 10 }}>
-                    {items.item.cart_status === "Yes" ?
-                        <TouchableOpacity onPress={() => showCartScreen()} style={{ backgroundColor: '#222222', padding: 2, borderRadius: 5, paddingLeft: 10, paddingRight: 10 }}>
-                            <Text style={{ color: '#FFFFFF', fontSize: 12 }}>View Cart</Text>
-                        </TouchableOpacity> :
-                        <TouchableOpacity onPress={() => addProductInCart(items.item)} style={{ backgroundColor: '#222222', padding: 2, borderRadius: 5, paddingLeft: 10, paddingRight: 10 }}>
-                            <Text style={{ color: '#FFFFFF', fontSize: 12 }}>ADD</Text>
-                        </TouchableOpacity>
+    const renderItem = (items) => {
+        return (
+            <View style={{
+                padding: 0, backgroundColor: '#ffffff', shadowColor: '#b4b4b4',
+                shadowOffset: { width: 0, height: 3 },
+                shadowOpacity: 0.8,
+                shadowRadius: 2,
+                elevation: 5,
+                margin: 1,
+                width: Dimensions.get('screen').width / 2.1
+            }}>
+                <View style={{ flexDirection: 'row', alignItems: 'center', position: 'absolute', marginTop: 5, zIndex: 999, padding: 10, paddingTop: -5 }}>
+                    <Text style={{ fontSize: 10, fontWeight: '800', backgroundColor: 'rgb(92,150,65)', paddingLeft: 4, paddingRight: 4, color: '#ffffff', borderRadius: 12, paddingTop: 2, paddingBottom: 2, display: 'none' }}>* {items.item.rating}</Text>
+                    {items.item.favstatus !== "Yes" ? <TouchableOpacity onPress={() => addProductInFavList(items.item)} style={{ flex: 1, alignItems: 'flex-end', marginRight: 5 }}>
+                        <Image style={{ width: 15, height: 15, resizeMode: 'contain', tintColor: 'orange' }} source={require('../../assets/images/add_favorite.png')} />
+                    </TouchableOpacity> : <TouchableOpacity onPress={() => removeProductInFavList(items.item)} style={{ flex: 1, alignItems: 'flex-end', marginRight: 5 }}>
+                        <Image style={{ width: 15, height: 15, resizeMode: 'contain', tintColor: 'orange' }} source={require('../../assets/images/fill_favorite.png')} />
+                    </TouchableOpacity>
                     }
                 </View>
+                <TouchableOpacity style={{ padding: 0 }} onPress={() => navigation.navigate('ProductDetailsScreen', items?.item)}>
+                    <Image style={{ height: 200, width: '100%', resizeMode: 'cover' }} source={{ uri: Image_Files_URL + items?.item?.product_image }} />
+                </TouchableOpacity>
+                <View style={{ marginTop: 10, marginLeft: 10, marginRight: 10 }}>
+                    <Text numberOfLines={1} style={{ fontSize: 12, fontWeight: '600' }}>{items.item.product_name}</Text>
+                </View>
+                {/* <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 5, marginLeft: 10, marginRight: 10, marginBottom: 5 }}>
+                <Text style={{ fontSize: 10, marginBottom: 5 }} numberOfLines={2}>{items.item.specifications}/-</Text>
+            </View> */}
+                <View style={{ flexDirection: 'row', alignItems: 'center', marginLeft: 10, marginRight: 10 }}>
+                    <View style={{ flex: 1, marginRight: 5, flexDirection: 'row', alignItems: 'center' }}>
+                        <Text style={{ fontSize: 10, textDecorationLine: 'line-through', textDecorationStyle: 'solid', marginRight: 5 }}>₹ {items.item.market_price}/-</Text>
+                        <Text style={{ fontSize: 11, fontWeight: 'bold', }}>₹ {items.item.price}</Text>
+                    </View>
+                    <View style={{ marginBottom: 10 }}>
+                        {items.item.cart_status === "Yes" ?
+                            <TouchableOpacity onPress={() => showCartScreen()} style={{ backgroundColor: '#222222', padding: 2, borderRadius: 5, paddingLeft: 10, paddingRight: 10 }}>
+                                <Text style={{ color: '#FFFFFF', fontSize: 12 }}>View Cart</Text>
+                            </TouchableOpacity> :
+                            <TouchableOpacity onPress={() => addProductInCart(items.item)} style={{ backgroundColor: '#222222', padding: 2, borderRadius: 5, paddingLeft: 10, paddingRight: 10 }}>
+                                <Text style={{ color: '#FFFFFF', fontSize: 12 }}>ADD</Text>
+                            </TouchableOpacity>
+                        }
+                    </View>
+                </View>
             </View>
-        </View>
-    )
-   }
+        )
+    }
 
     const showCartScreen = () => {
         navigation.navigate('CartScreen');
@@ -349,7 +350,7 @@ const CategoryScreen = () => {
                                 data={CategoryProduct}
                                 numColumns={2}
                                 keyExtractor={(items) => items.id}
-                                renderItem={(item)=> renderItem(item)}
+                                renderItem={(item) => renderItem(item)}
                             />
                         </View>}
                     </>}

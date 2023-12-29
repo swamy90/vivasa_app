@@ -52,12 +52,12 @@ const ProductDetailsScreen = () => {
         console.log('ProductData', JSON.stringify(formData));
         const submitCustomer = await response.json();
         setIsLoading(false);
-        console.log('in submitCustomerrrr', JSON.stringify(submitCustomer));
+        console.log('in submitCustomerrrr', JSON.stringify(submitCustomer?.product_details));
         if (submitCustomer.status) {
             setProductImage(submitCustomer?.image_list);
             setProductDetails(submitCustomer?.product_details);
             calcPercentage(submitCustomer?.product_details);
-            setFavouriteStatus(submitCustomer?.product_favourite_status);
+            setFavouriteStatus(submitCustomer?.product_details?.product_favourite_status);
         }
     }
 
@@ -101,8 +101,8 @@ const ProductDetailsScreen = () => {
                 message: "Congratulations",
                 description: submitCustomer?.message,
                 type: "success",
-
             });
+            getProductData();
         } else {
             console.log("inside else")
             showMessage({
@@ -116,34 +116,37 @@ const ProductDetailsScreen = () => {
     }
 
     const removeProductInFavList = async (data) => {
-        // const value = await AsyncStorage.getItem('@storage_Key');
-        // const user = JSON.parse(value);
-        // setIsLoading(true);
-        // const formData = new FormData();
-        // const URLs = MY_BASE_URL + "api/remove-favourite";
-        // formData.append("user_id", user?.user?.id);
-        // formData.append("product_id", data?.id);
-        // const response = await fetch(URLs, {
-        //     method: 'POST',
-        //     body: formData
-        // });
-        // const submitCustomer = await response.json();
-        // // console.log('submitCustomer', JSON.stringify(submitCustomer) + JSON.stringify(formData));
-        // setIsLoading(false);
-        // getProductData();
-        // if (submitCustomer.status) {
-        //     Toast.show({
-        //         type: 'success',
-        //         text1: 'Congratulations',
-        //         text2: submitCustomer?.message
-        //     });
-        // } else {
-        //     Toast.show({
-        //         type: 'success',
-        //         text2: submitCustomer?.message
-        //     });
-        // }
-        navigation.navigate('CartScreen');
+        const value = await AsyncStorage.getItem('@storage_Key');
+        const user = JSON.parse(value);
+        setIsLoading(true);
+        const formData = new FormData();
+        const URLs = MY_BASE_URL + "api/remove-from-favorite";
+        formData.append("user_id", user?.user?.id);
+        formData.append("product_id", data?.id);
+        const response = await fetch(URLs, {
+            method: 'POST',
+            body: formData
+        });
+        const submitCustomer = await response.json();
+        // console.log('submitCustomer', JSON.stringify(submitCustomer) + JSON.stringify(formData));
+        setIsLoading(false);
+        getProductData();
+        if (submitCustomer.status) {
+            showMessage({
+                message: "Congratulations",
+                description: submitCustomer?.message,
+                type: "success",
+            });
+            getProductData();
+        } else {
+            showMessage({
+                message: "Already added",
+                description: submitCustomer?.message,
+                type: "danger",
+
+            });
+        }
+        // navigation.navigate('CartScreen');
     }
 
     const addProductInCart = async () => {
@@ -241,30 +244,30 @@ const ProductDetailsScreen = () => {
                                     <Text style={{ color: '#fff', fontWeight: 'bold' }}>{productDetails?.size}</Text>
                                 </View> */}
                             </View>
+                            <View style={{flexDirection:'row',alignItems:'center'}}>
+                                <View style={{backgroundColor:'#000',borderRadius:15,marginRight:5}}>
+                                    {favouriteStatus === 'yes' ? <TouchableOpacity onPress={() => removeProductInFavList(productDetails)} style={{ flex: 1, alignItems: 'flex-end', paddingVertical:10,paddingHorizontal:10 }}>
+                                        <Image style={{ width: 30, height: 30, resizeMode: 'contain', tintColor: '#ffffff' }} source={require('../../assets/images/fill_favorite.png')} />
+                                    </TouchableOpacity>
+                                        : <TouchableOpacity onPress={() => addProductInFavList(productDetails)} style={{ flex: 1, alignItems: 'flex-end', marginRight: 5, paddingVertical:10,paddingHorizontal:10 }}>
+                                            <Image style={{ width: 30, height: 30, resizeMode: 'contain', tintColor: '#ffffff' }} source={require('../../assets/images/add_favorite.png')} />
+                                        </TouchableOpacity>
+                                    }
+                                </View>
+                                <View>
+                                    <TouchableOpacity onPress={() => addProductInCart()} style={{ alignItems: 'flex-start', flexDirection: 'row', alignSelf: 'flex-start', backgroundColor: '#000', paddingVertical: 15, paddingHorizontal: 25, borderRadius: 15 }}>
+                                        <Image style={{ width: 20, height: 20, resizeMode: 'contain', tintColor: '#fff' }} source={require('../../assets/images/shopping_cart.png')} />
+                                        <Text style={{ color: '#fff' }}>Add To Cart</Text>
+                                    </TouchableOpacity>
+                                </View>
+                            </View>
                             <Text style={{ fontWeight: 'bold', fontSize: 22, color: '#b4b4b4', marginTop: 10 }}>Product Description</Text>
                             <HTML source={{ html: productDetails?.long_description }} />
                             {/* <Text>{productDetails?.long_description}</Text> */}
                         </View>
                     </View>
                 }
-            </ScrollView>
-            <View style={{ position: 'absolute', bottom: 30, paddingVertical: 15, paddingHorizontal: 15, zIndex: 999, backgroundColor: '#222222', alignSelf: 'center', borderRadius: 10, flexDirection: 'row', alignItems: 'center', elevation: 5 }}>
-                <View>
-                    {favouriteStatus === 'Yes' ? <TouchableOpacity onPress={() => console.log("inside")} style={{ flex: 1, alignItems: 'flex-end', marginRight: 5 }}>
-                        <Image style={{ width: 30, height: 30, resizeMode: 'contain', tintColor: '#ffffff' }} source={require('../../assets/images/add_favorite.png')} />
-                    </TouchableOpacity>
-                        : <TouchableOpacity onPress={() => { console.log("inside 250"); addProductInFavList(productDetails) }} style={{ flex: 1, alignItems: 'flex-end', marginRight: 5 }}>
-                            <Image style={{ width: 30, height: 30, resizeMode: 'contain', tintColor: '#ffffff' }} source={require('../../assets/images/fill_favorite.png')} />
-                        </TouchableOpacity>
-                    }
-                </View>
-                <View style={{ height: 10, width: .5, backgroundColor: '#fff', marginHorizontal: 10 }} />
-                <View>
-                    <TouchableOpacity onPress={() => addProductInCart()} style={{ flex: 1, alignItems: 'flex-end', }}>
-                        <Image style={{ width: 30, height: 30, resizeMode: 'contain', tintColor: '#ffffff' }} source={require('../../assets/images/shopping_cart.png')} />
-                    </TouchableOpacity>
-                </View>
-            </View>
+            </ScrollView> 
         </View>
     )
 }

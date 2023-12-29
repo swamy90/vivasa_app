@@ -368,7 +368,7 @@ const HomeScreen = () => {
                     <Image style={{ height: 200, width: '100%', resizeMode: 'cover' }} source={{ uri: MY_BASE_URL + 'storage/' + items?.item?.image }} />
                 </TouchableOpacity>
                 <View style={{ marginTop: 10, marginLeft: 10, marginRight: 10 }}>
-                    <Text numberOfLines={1} style={{ fontSize: 12, fontWeight: '600' }}>{items.item.product_name} {items.item.wishlist_status}</Text>
+                    <Text numberOfLines={1} style={{ fontSize: 12, fontWeight: '600' }}>{items.item.product_name}</Text>
                 </View>
                 <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 5, marginLeft: 10, marginRight: 10, marginBottom: 0 }}>
                     <Text style={{ fontSize: 8, marginBottom: 5 }} numberOfLines={2}>{items.item.slug}</Text>

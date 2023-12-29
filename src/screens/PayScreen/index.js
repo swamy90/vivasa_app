@@ -1,4 +1,4 @@
-import { View, Text, SafeAreaView, Image, Dimensions, TextInput, TouchableOpacity } from 'react-native'
+import { View, Text, SafeAreaView, Image, Dimensions, TextInput, TouchableOpacity, Alert } from 'react-native'
 import React from 'react'
 import ImagePicker from 'react-native-image-crop-picker';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -27,6 +27,40 @@ export default function PayScreen({ route }) {
             SubmitScreenshot(image?.path);
         });
     }
+
+    const openGalleryToUpload = async () => {
+        console.log("inside")
+        ImagePicker.openPicker({
+            compressImageMaxWidth: 300,
+            compressImageMaxHeight: 400,
+            cropping: true,
+            compressImageQuality: 0.8,
+            useFrontCamera: true
+        }).then(image => {
+            console.log(image?.path);
+            setScreenShoImage(image?.path)
+            SubmitScreenshot(image?.path);
+        });
+    }
+
+    const choosePaymentType = () => {
+        Alert.alert(
+            'Select Screenshot for Payment',
+            'Upload Payment Slip',
+            [
+                {
+                    text: 'Open Camera',
+                    onPress: () => openCameraToUpload(),
+                },
+                {
+                    text: 'Open Gallery',
+                    onPress: () => openGalleryToUpload(),
+                }
+            ],
+            { cancelable: false },
+        );
+    }
+
     const SubmitScreenshot = async (image) => {
         const value = await AsyncStorage.getItem('@storage_Key')
         const user = JSON.parse(value);
@@ -51,7 +85,7 @@ export default function PayScreen({ route }) {
                         description: result?.msg,
                         type: "success",
                     });
-                    
+
                     navigation.navigate("HomeBottomNavigation")
                 } else {
                     showMessage({
@@ -88,7 +122,7 @@ export default function PayScreen({ route }) {
                         <Text>Upload Screenshot here</Text>
                     </View>
                     <TouchableOpacity>
-                        <TouchableOpacity style={{ paddingLeft: 20, backgroundColor: 'white', alignSelf: 'center', justifyContent: 'center' }} onPress={() => openCameraToUpload()}>
+                        <TouchableOpacity style={{ paddingLeft: 20, backgroundColor: 'white', alignSelf: 'center', justifyContent: 'center' }} onPress={() => choosePaymentType()}>
                             <Image source={{ uri: screenShotImg ? screenShotImg : 'https://cdn.vectorstock.com/i/preview-1x/65/30/default-image-icon-missing-picture-page-vector-40546530.jpg' }} style={{ width: 100, height: 100, resizeMode: 'contain', borderRadius: 50, justifyContent: 'center' }} />
                             <Image source={require('../../assets/images/camera.png')} style={{ position: 'absolute', bottom: 10, left: 95, width: 25, height: 25, resizeMode: 'contain' }} />
                             {/* {screenShotImg ? (
