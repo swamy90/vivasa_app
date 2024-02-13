@@ -14,7 +14,6 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
-                <arg>$MODULE_DIR$/../../../../node_modules/react-native-track-player/android/build/intermediates/compile_r_class_jar/debug/R.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/1ebcedd50d3594640326259361dcd490/transformed/jetified-KotlinAudio-v1.2.4-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c71c9e164fa8cdbbbe89e7db4db980ab/transformed/jetified-react-native-0.69.3-debug-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/99e5436077dad1f864c2fe6603a98e41/transformed/jetified-okhttp-urlconnection-4.9.2.jar</arg>
@@ -31,7 +30,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8f29b5a1c75f6101cd6b182031011565/transformed/swiperefreshlayout-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/e75fa14fe581e7459c30f56f4ec51d8c/transformed/jetified-extension-mediasession-2.18.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/61e0a4b1a168edb03608daee7a26cd61/transformed/jetified-exoplayer-2.18.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/71d0b8839f8fddff086c9dd8f797c01a/transformed/jetified-exoplayer-ui-2.18.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/cd8a0deded8a7606a7f90810931ea923/transformed/jetified-exoplayer-ui-2.18.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/d476e809829217678f345ba9bf8ed925/transformed/media-1.6.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/e56bdb39d356094315644733c4ae5047/transformed/fragment-1.3.6-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/ab238fa41bd617462f91a1f099ad1340/transformed/jetified-activity-1.2.4-api.jar</arg>
@@ -49,7 +48,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c8e4cba05fddb835b800a7ffc838a71f/transformed/jetified-exoplayer-core-2.18.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/f07c95f263ee14662aad98d939165c75/transformed/jetified-exoplayer-common-2.18.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/e8600d88d26c3f4ba38278ee3f821c0e/transformed/localbroadcastmanager-1.1.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/861fa76a9ba8056d69056cac5d358f43/transformed/jetified-logger-2.2.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/f04a4b1e65819c076974758eee60fd42/transformed/jetified-logger-2.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/3c0e8f2a4e815dd9e6680f7af4e05aaa/transformed/cursoradapter-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/2de5ef1ca581b11383d67b23136aa718/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c9b41ef14f73b67e21e6e2e64413ed14/transformed/jetified-savedstate-1.1.0-api.jar</arg>

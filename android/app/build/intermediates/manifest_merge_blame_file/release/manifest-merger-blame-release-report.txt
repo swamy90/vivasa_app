@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.createdinam.vivasa"
-4    android:versionCode="13"
-5    android:versionName="1.2.3" >
+4    android:versionCode="14"
+5    android:versionName="1.2.4" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
@@ -1023,13 +1023,13 @@
 534-->[io.kommunicate.sdk:kommunicate:2.7.0] /Users/apple/.gradle/caches/transforms-3/22854ff9f73d574e120de37167d55521/transformed/jetified-kommunicate-2.7.0/AndroidManifest.xml:95:13-39
 535
 536        <provider
-536-->[com.squareup.picasso:picasso:2.71828] /Users/apple/.gradle/caches/transforms-3/2905dba305b0f494abd1be2fab1769f0/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+536-->[com.squareup.picasso:picasso:2.71828] /Users/apple/.gradle/caches/transforms-3/03ed1239fec72b3607a298ed0f959326/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
 537            android:name="com.squareup.picasso.PicassoProvider"
-537-->[com.squareup.picasso:picasso:2.71828] /Users/apple/.gradle/caches/transforms-3/2905dba305b0f494abd1be2fab1769f0/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+537-->[com.squareup.picasso:picasso:2.71828] /Users/apple/.gradle/caches/transforms-3/03ed1239fec72b3607a298ed0f959326/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
 538            android:authorities="com.createdinam.vivasa.com.squareup.picasso"
-538-->[com.squareup.picasso:picasso:2.71828] /Users/apple/.gradle/caches/transforms-3/2905dba305b0f494abd1be2fab1769f0/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+538-->[com.squareup.picasso:picasso:2.71828] /Users/apple/.gradle/caches/transforms-3/03ed1239fec72b3607a298ed0f959326/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
 539            android:exported="false" />
-539-->[com.squareup.picasso:picasso:2.71828] /Users/apple/.gradle/caches/transforms-3/2905dba305b0f494abd1be2fab1769f0/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+539-->[com.squareup.picasso:picasso:2.71828] /Users/apple/.gradle/caches/transforms-3/03ed1239fec72b3607a298ed0f959326/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
 540
 541        <receiver
 541-->[com.razorpay:checkout:1.6.36] /Users/apple/.gradle/caches/transforms-3/780cb7bafdb677ff21e5c220708d3a2a/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:42:9-49:20

@@ -25,7 +25,6 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
-                <arg>$MODULE_DIR$/../../../../node_modules/react-native-webview/android/build/intermediates/compile_r_class_jar/debug/R.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c71c9e164fa8cdbbbe89e7db4db980ab/transformed/jetified-react-native-0.69.3-debug-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/636713a80998c50c028337499c782553/transformed/jetified-infer-annotation-0.18.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/ecea31f9df73e54089f4bc2d4e8ff035/transformed/jetified-jsr305-3.0.2.jar</arg>
