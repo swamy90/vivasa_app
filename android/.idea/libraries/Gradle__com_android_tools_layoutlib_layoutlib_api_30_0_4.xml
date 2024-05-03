@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.android.tools.layoutlib:layoutlib-api:30.0.4">
+  <library name="Gradle: com.android.tools.layoutlib:layoutlib-api:30.0.4" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/30.0.4/5a7d5ff9ba2185bda1b10294e96945f3da79889d/layoutlib-api-30.0.4.jar!/" />
     </CLASSES>

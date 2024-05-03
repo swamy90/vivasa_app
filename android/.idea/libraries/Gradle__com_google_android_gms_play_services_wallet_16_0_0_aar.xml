@@ -1,9 +1,9 @@
 <component name="libraryTable">
-  <library name="Gradle: com.google.android.gms:play-services-wallet:16.0.0@aar">
+  <library name="Gradle: com.google.android.gms:play-services-wallet:16.0.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aec7d3aa780d34c85b31b821f4072c4a/transformed/jetified-play-services-wallet-16.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/aec7d3aa780d34c85b31b821f4072c4a/transformed/jetified-play-services-wallet-16.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aec7d3aa780d34c85b31b821f4072c4a/transformed/jetified-play-services-wallet-16.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/aa7d51e4bc8e15a0544bade57451a454/transformed/jetified-play-services-wallet-16.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aa7d51e4bc8e15a0544bade57451a454/transformed/jetified-play-services-wallet-16.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aa7d51e4bc8e15a0544bade57451a454/transformed/jetified-play-services-wallet-16.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -1,26 +1,30 @@
 import React from 'react';
-import { SafeAreaView, View, Text, TextInput, TouchableOpacity, Image, StyleSheet, ActivityIndicator } from 'react-native';
+import { SafeAreaView, View, Text, TextInput, TouchableOpacity, Image, StyleSheet } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Spinner from 'react-native-loading-spinner-overlay';
-import { useNavigation } from '@react-navigation/native';
+import { useNavigation, useRoute } from '@react-navigation/native';
 import GetLocation from 'react-native-get-location';
 import { showMessage, hideMessage } from "react-native-flash-message";
 import { requestLocationPermission, MY_BASE_URL } from '../../global/index';
-import CommonButton from '../../assets/common/index'; 
-import FormData from 'form-data'; 
+import RazorpayCheckout from 'react-native-razorpay';
+import CommonButton from '../../assets/common/index';
+import FormData from 'form-data';
 
 var data = new FormData();
 
 const NewAddressScreen = () => {
 
     const navigation = useNavigation();
+    const routes = useRoute();
     const [isSearching, setLoading] = React.useState(false)
     const [isLoading, setIsLoading] = React.useState(false)
     const [isLocation, setLocation] = React.useState(false);
     const [FirstName, setFirstName] = React.useState('')
     const [LastName, setLastName] = React.useState('')
     const [MobileNumber, setMobileNumber] = React.useState('')
+    const [AmountPaymnet, setAmountPaymnet] = React.useState(0)
     const [FullAddress, setFullAddress] = React.useState('')
+    const [isOrderLoading, setOrderIsLoading] = React.useState(false);
     const [State, setState] = React.useState('')
     const [City, setCity] = React.useState('')
     const [Pincode, setPincode] = React.useState('')
@@ -31,6 +35,8 @@ const NewAddressScreen = () => {
     React.useEffect(async () => {
         navigation.addListener('focus', async () => {
             // call function
+            console.log('NewAddressScreen', JSON.stringify(routes.params));
+            setAmountPaymnet(routes?.params?.amount);
             // getCurrentLication();
         });
     }, [false]);
@@ -53,7 +59,6 @@ const NewAddressScreen = () => {
                 setLocation(message)
                 setLoading(false);
             })
-
     }
 
     const onPress = () => {
@@ -113,10 +118,9 @@ const NewAddressScreen = () => {
 
 
     const createAddress = async () => {
-
         const value = await AsyncStorage.getItem('@storage_Key');
         const user = JSON.parse(value);
-        console.log('addProductInCart', user?.user?.id);
+        console.log('AddProductInCart', user?.user?.id);
         setIsLoading(true);
         const formData = new FormData();
         const URLs = MY_BASE_URL + "api/place_order";
@@ -144,13 +148,122 @@ const NewAddressScreen = () => {
                 description: address?.msg,
                 type: "success",
             });
-            navigation.navigate('PayScreen',{address});
+            payMeMoney(address?.razorpayOrderId);
+            // navigation.navigate('PayScreen', { address });
         } else {
             showMessage({
                 message: 'Something went wrong!',
                 description: address?.msg,
                 type: "error",
             });
+        }
+    }
+
+    const placeOrder = async (data) => {
+        console.log(data?.id);
+        const value = await AsyncStorage.getItem('@storage_Key');
+        const user = JSON.parse(value);
+        console.log('placeOrder', user?.user?.id);
+        setOrderIsLoading(true);
+        const formData = new FormData();
+        const URLs = MY_BASE_URL + "api/order-place";
+        formData.append("user_id", user?.user?.id);
+        formData.append("address_id", data?.id);
+        formData.append("promocode", promoCode);
+        const response = await fetch(URLs, {
+            method: 'POST',
+            body: formData,
+        });
+        const submitCustomer = await response.json();
+        // console.log('submitCustomer', JSON.stringify(submitCustomer));
+        if (submitCustomer?.error) {
+            Toast.show({
+                type: 'error',
+                text1: 'Please select Delivery Address!',
+                text2: submitCustomer?.error?.address_id[0]
+            });
+            setOrderIsLoading(false);
+        } else {
+            payMeMoney(submitCustomer);
+        }
+    }
+
+    const payMeMoney = async (params) => {
+        var finalAmt = Number(AmountPaymnet) * 100;
+        const value = await AsyncStorage.getItem('@storage_Key')
+        const user = JSON.parse(value);
+        console.log('addProductInCart', user?.user?.name);
+        console.log('payMeMoney:::->' + finalAmt);
+        var options = {
+            description: 'Credits towards consultation',
+            image: 'https://i.imgur.com/3g7nmJC.png',
+            currency: 'INR',
+            key: 'rzp_live_hMXyVpRSAwlLgg', // Your api key // rzp_test_x8WTYeDwK81gYf  | rzp_test_dNseEkGtpk4abg
+            amount: finalAmt,
+            order_id: params,
+            name: user?.user?.name,
+            prefill: {
+                email: 'void@razorpay.com',
+                contact: '9999999999',
+                name: 'Razorpay Software',
+            },
+            theme: { color: '#222222' },
+        };
+        console.log('options:::->', JSON.stringify(options));
+        RazorpayCheckout.open(options)
+            .then(data => {
+                // handle success
+                // alert(`Success: ` + JSON.stringify(data));
+                setOrderIsLoading(false);
+                console.log('RazorpayCheckout', 'Success ' + JSON.stringify(data));
+                finalPaymentStatusCalls(data, params?.order_number);
+            })
+            .catch(error => {
+                // handle failure
+                if (error !== undefined) {
+                    console.log('RazorpayCheckout',error?.description);
+                    showMessage({
+                        message: 'Payment Failure',
+                        description: "You may have cancelled the payment or there was a delay in response from the UPI app",
+                        type: "error",
+                    });
+                    setOrderIsLoading(false);
+                    // this.props.navigation.replace('FullScreenAlert', 'Error');
+                }
+                // alert(`Error: ${JSON.stringify(error)}`);
+            });
+    }
+
+    const finalPaymentStatusCalls = async (params, orderNumber) => {
+        setOrderIsLoading(true);
+        const formData = new FormData();
+        const URLs = MY_BASE_URL + "api/make-payment-success";
+        formData.append("rzp_signature", params?.razorpay_signature);
+        formData.append("rzp_paymentid", params?.razorpay_payment_id);
+        formData.append("rzp_orderid", params?.razorpay_order_id);
+        formData.append("order_number", orderNumber);
+        const response = await fetch(URLs, {
+            method: 'POST',
+            body: formData,
+        });
+        const submitCustomer = await response.json();
+        // console.log('submitCustomer', JSON.stringify(submitCustomer));
+        if (submitCustomer?.error) {
+            Toast.show({
+                type: 'error',
+                text1: 'Payment Failed!',
+                text2: '' + submitCustomer
+            });
+            setOrderIsLoading(false);
+        } else {
+            setOrderIsLoading(false);
+            navigation.navigate('HomeBottomNavigation');
+            Toast.show({
+                type: 'success',
+                text1: 'Payment Successful!',
+                text2: '' + submitCustomer?.message
+            });
+            // payMeMoney(submitCustomer);
         }
     }
 
@@ -177,7 +290,7 @@ const NewAddressScreen = () => {
                             shadowRadius: 2,
                             height: 55,
                         }}>
-                            <TextInput onChangeText={(text) => setFirstName(text)} style={{ flex: 1 / 2, paddingLeft: 20, backgroundColor: 'white', marginRight: 10, elevation: 5, borderRadius: 10, }} placeholder='First Name *'value={FirstName} />
+                            <TextInput onChangeText={(text) => setFirstName(text)} style={{ flex: 1 / 2, paddingLeft: 20, backgroundColor: 'white', marginRight: 10, elevation: 5, borderRadius: 10, }} placeholder='First Name *' value={FirstName} />
                             <TextInput onChangeText={(text) => setLastName(text)} style={{ flex: 1 / 2, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='Last Name *' value={LastName} />
                         </View>
                     </View>
@@ -222,7 +335,7 @@ const NewAddressScreen = () => {
                             shadowRadius: 2,
                             height: 55,
                         }}>
-                            <TextInput onChangeText={(text) => setState(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='State *'  value={State}/>
+                            <TextInput onChangeText={(text) => setState(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='State *' value={State} />
                         </View>
                     </View>
                     <View style={{ marginTop: 10 }}>
@@ -244,7 +357,7 @@ const NewAddressScreen = () => {
                             shadowRadius: 2,
                             height: 55,
                         }}>
-                            <TextInput maxLength={6} keyboardType="numeric" onChangeText={(text) => setPincode(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='Pincode *'  value={Pincode}/>
+                            <TextInput maxLength={6} keyboardType="numeric" onChangeText={(text) => setPincode(text)} style={{ flex: 1, paddingLeft: 20, backgroundColor: 'white', elevation: 5, borderRadius: 10, }} placeholder='Pincode *' value={Pincode} />
                         </View>
                     </View>
                     {/* <View style={{ marginTop: 10 }}>

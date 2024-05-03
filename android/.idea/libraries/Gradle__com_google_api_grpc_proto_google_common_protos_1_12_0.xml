@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.google.api.grpc:proto-google-common-protos:1.12.0">
+  <library name="Gradle: com.google.api.grpc:proto-google-common-protos:1.12.0" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-common-protos/1.12.0/1140cc74df039deb044ed0e320035e674dc13062/proto-google-common-protos-1.12.0.jar!/" />
     </CLASSES>

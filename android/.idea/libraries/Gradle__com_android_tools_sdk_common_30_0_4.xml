@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.android.tools:sdk-common:30.0.4">
+  <library name="Gradle: com.android.tools:sdk-common:30.0.4" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/30.0.4/181552edd229caa539812529d58b596db1d427f3/sdk-common-30.0.4.jar!/" />
     </CLASSES>

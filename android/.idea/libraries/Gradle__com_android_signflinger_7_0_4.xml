@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.android:signflinger:7.0.4">
+  <library name="Gradle: com.android:signflinger:7.0.4" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android/signflinger/7.0.4/b45f0abc92a5c66a4543077491793e116f6d8fa9/signflinger-7.0.4.jar!/" />
     </CLASSES>

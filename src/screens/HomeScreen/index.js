@@ -464,10 +464,7 @@ const HomeScreen = () => {
                             {status === true ? <ActivityIndicator color={'#ffffff'} /> :
                                 <MarqueeText speed={1} loop={true} delay={10000} marqueeOnStart={true} numberOfLines={1} style={{ textAlign: 'center', color: 'white', lineHeight: 20, width: Dimensions.get('screen').width / 2, }}>{defaultAddress !== null ? defaultAddress : 'Please Select Default Address!'}</MarqueeText>}
                         </TouchableOpacity>
-                    </View>
-                    <TouchableOpacity onPress={() => goToBarcodeScanner()} style={{ marginRight: 10 }}>
-                        <Image style={{ width: 25, height: 25, resizeMode: 'contain', tintColor: '#ffffff' }} source={require('../../assets/images/qr_code.png')} />
-                    </TouchableOpacity>
+                    </View> 
                     <TouchableOpacity onPress={() => playRingtone()} style={{}}>
                         <Image style={{ width: 25, height: 25, resizeMode: 'contain', tintColor: '#ffffff' }} source={require('../../assets/images/notification.png')} />
                         <View style={{ position: 'absolute', right: 1, top: 5, backgroundColor: 'white', borderRadius: 100, height: 15, width: 15 }}>

@@ -30,6 +30,7 @@ const SalesScreen = () => {
     React.useEffect(() => {
         navigation.addListener('focus', () => {
             getCategoryData();
+            // getAddressList();
         });
     }, [false]);
 
@@ -175,7 +176,7 @@ const SalesScreen = () => {
     }
 
     const currencyFormat = (num) => {
-        console.log("currencyFormat", num)
+        console.log("currencyFormat", num);
         return '₹ ' + parseInt(num).toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,');
     }
 
@@ -247,7 +248,7 @@ const SalesScreen = () => {
             description: 'Credits towards consultation',
             image: 'https://i.imgur.com/3g7nmJC.png',
             currency: 'INR',
-            key: 'rzp_test_x8WTYeDwK81gYf', // Your api key // rzp_test_x8WTYeDwK81gYf 
+            key: 'rzp_test_dNseEkGtpk4abg', // Your api key // rzp_test_x8WTYeDwK81gYf  | rzp_test_dNseEkGtpk4abg
             amount: finalAmt,
             order_id: params?.razorpayOrderId,
             name: user?.user?.name,
@@ -476,11 +477,14 @@ const SalesScreen = () => {
                                 </View>
                                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                                     <View style={{ flex: 1, marginLeft: 2, marginRight: 2, marginBottom: 2 }}>
-                                        <TouchableOpacity onPress={() => navigation.navigate('NewAddressScreen')} style={{ alignItems: 'center', backgroundColor: 'green', paddingHorizontal: 15, paddingVertical: 16, borderRadius: 5, elevation: 5 }}>
+                                        <TouchableOpacity
+                                            onPress={() => navigation.navigate('NewAddressScreen', { amount: totalPrice })}
+                                            // onPress={() => handleModal()}
+                                            style={{ alignItems: 'center', backgroundColor: 'green', paddingHorizontal: 15, paddingVertical: 16, borderRadius: 5, elevation: 5 }}>
                                             {isOrderLoading === true ?
                                                 <ActivityIndicator color={'#ffffff'} style={{ alignSelf: 'center' }} />
                                                 :
-                                                <Text style={{ color: '#FFFFFF', textTransform: 'uppercase', fontWeight: 'bold', fontSize: 15 }} >Pay Now</Text>
+                                                <Text style={{ color: '#FFFFFF', textTransform: 'uppercase', fontWeight: 'bold', fontSize: 15 }} >Pay Now XX</Text>
                                             }
                                         </TouchableOpacity>
                                     </View>

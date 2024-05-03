@@ -71,8 +71,6 @@ import com.zmxv.RNSound.RNSoundPackage;
 import com.doublesymmetry.trackplayer.TrackPlayer;
 // react-native-version-check
 import io.xogus.reactnative.versioncheck.RNVersionCheckPackage;
-// react-native-voice
-import com.wenkesj.voice.VoicePackage;
 // react-native-webview
 import com.reactnativecommunity.webview.RNCWebViewPackage;
 
@@ -150,7 +148,6 @@ public class PackageList {
       new RNSoundPackage(),
       new TrackPlayer(),
       new RNVersionCheckPackage(),
-      new VoicePackage(),
       new RNCWebViewPackage()
     ));
   }

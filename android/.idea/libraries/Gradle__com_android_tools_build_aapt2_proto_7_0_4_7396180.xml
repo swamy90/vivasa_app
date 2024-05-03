@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.android.tools.build:aapt2-proto:7.0.4-7396180">
+  <library name="Gradle: com.android.tools.build:aapt2-proto:7.0.4-7396180" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/aapt2-proto/7.0.4-7396180/d309db52c6cec920b5360caa3444b8719aba26aa/aapt2-proto-7.0.4-7396180.jar!/" />
     </CLASSES>
